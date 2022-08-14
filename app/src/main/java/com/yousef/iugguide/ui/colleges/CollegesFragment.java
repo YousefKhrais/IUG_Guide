@@ -1,10 +1,11 @@
 package com.yousef.iugguide.ui.colleges;
 
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -19,8 +20,11 @@ public class CollegesFragment extends Fragment {
         binding = FragmentCollegesBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.titleView;
-        textView.setText("CollegesFragment");
+        final ImageView imageView = binding.titleView;
+        Resources resources = getActivity().getResources();
+        final int resourceId = resources.getIdentifier("mid_img", "drawable", getActivity().getPackageName());
+
+        imageView.setImageDrawable(resources.getDrawable(resourceId));
 
         return root;
     }
