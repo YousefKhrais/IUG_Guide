@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">IUG Guide</string>
+<!--    <string name="title_home">Home</string>-->
+<!--    <string name="title_dashboard">Dashboard</string>-->
+<!--    <string name="title_notifications">Notifications</string>-->
+
+    <string name="title_buildings">Buildings</string>
+    <string name="title_colleges">Colleges</string>
+    <string name="title_guide">Student Guide</string>
+
+</resources>

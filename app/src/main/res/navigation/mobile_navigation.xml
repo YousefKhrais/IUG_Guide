@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_guide">
+
+    <fragment
+        android:id="@+id/navigation_buildings"
+        android:name="com.yousef.iugguide.ui.buildings.BuildingsFragment"
+        android:label="@string/title_buildings"
+        tools:layout="@layout/fragment_buildings" />
+
+    <fragment
+        android:id="@+id/navigation_colleges"
+        android:name="com.yousef.iugguide.ui.colleges.CollegesFragment"
+        android:label="@string/title_colleges"
+        tools:layout="@layout/fragment_colleges" />
+
+    <fragment
+        android:id="@+id/navigation_guide"
+        android:name="com.yousef.iugguide.ui.guide.GuideFragment"
+        android:label="@string/title_guide"
+        tools:layout="@layout/fragment_guide" />
+</navigation>
