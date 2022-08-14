@@ -12,12 +12,12 @@ public class Department {
     private String description;
     private String formatKey;
     private DepartmentType departmentType;
-    private College college;
+    private int collegeId;
 
     public Department() {
     }
 
-    public Department(int id, int studentsCount, String name, String section, String planUrl, String description, String formatKey, DepartmentType departmentType, College college) {
+    public Department(int id, int studentsCount, String name, String section, String planUrl, String description, String formatKey, DepartmentType departmentType, int collegeId) {
         this.id = id;
         this.studentsCount = studentsCount;
         this.name = name;
@@ -26,7 +26,7 @@ public class Department {
         this.description = description;
         this.formatKey = formatKey;
         this.departmentType = departmentType;
-        this.college = college;
+        this.collegeId = collegeId;
     }
 
     public int getId() {
@@ -93,12 +93,12 @@ public class Department {
         this.departmentType = departmentType;
     }
 
-    public College getCollege() {
-        return college;
+    public int getCollegeId() {
+        return collegeId;
     }
 
-    public void setCollege(College college) {
-        this.college = college;
+    public void setCollegeId(int collegeId) {
+        this.collegeId = collegeId;
     }
 
     @Override
@@ -112,7 +112,7 @@ public class Department {
                 ", description='" + description + '\'' +
                 ", formatKey='" + formatKey + '\'' +
                 ", departmentType=" + departmentType +
-                ", college=" + college +
+                ", collegeId=" + collegeId +
                 '}';
     }
 }

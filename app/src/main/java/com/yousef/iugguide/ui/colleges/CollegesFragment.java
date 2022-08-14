@@ -19,7 +19,7 @@ public class CollegesFragment extends Fragment {
         binding = FragmentCollegesBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textDashboard;
+        final TextView textView = binding.titleView;
         textView.setText("CollegesFragment");
 
         return root;

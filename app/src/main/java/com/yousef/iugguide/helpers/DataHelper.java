@@ -2,7 +2,7 @@ package com.yousef.iugguide.helpers;
 
 import android.content.Context;
 
-import com.yousef.iugguide.MainActivity;
+import com.yousef.iugguide.AppClass;
 import com.yousef.iugguide.R;
 import com.yousef.iugguide.models.College;
 import com.yousef.iugguide.models.Department;
@@ -12,6 +12,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class DataHelper {
@@ -48,6 +49,11 @@ public class DataHelper {
                 college.setDescription(object.getString("basic_info"));
                 college.setName(object.getString("name"));
 
+                college.setBachelorDepartments(new ArrayList<>());
+                college.setMasterDepartments(new ArrayList<>());
+                college.setDoctorateDepartments(new ArrayList<>());
+
+                AppClass.collegesArrayList.add(college);
                 System.out.println("College: " + college);
             }
         } catch (Exception e) {
@@ -75,21 +81,28 @@ public class DataHelper {
                 department.setFormatKey(object.getString("Format_key"));
                 department.setSection(object.getString("section"));
                 department.setStudentsCount(object.getInt("num_of_student"));
+                department.setCollegeId(object.getInt("college_Id"));
 
-                department.setCollege(getCollegeById(object.getInt("college_Id")));
-
-                switch (object.getString("Type")) {
-                    case "بكالوريوس":
-                        department.setDepartmentType(DepartmentType.BACHELOR);
-                        break;
-                    case "ماجستير":
-                        department.setDepartmentType(DepartmentType.MASTER);
-                        break;
-                    case "دكتوراة":
-                        department.setDepartmentType(DepartmentType.DOCTORATE);
-                        break;
+                for (int j = 0; j < AppClass.collegesArrayList.size(); j++) {
+                    if (AppClass.collegesArrayList.get(j).getId() == department.getCollegeId()) {
+                        switch (object.getString("Type")) {
+                            case "بكالوريوس":
+                                department.setDepartmentType(DepartmentType.BACHELOR);
+                                AppClass.collegesArrayList.get(j).getBachelorDepartments().add(department);
+                                break;
+                            case "ماجستير":
+                                department.setDepartmentType(DepartmentType.MASTER);
+                                AppClass.collegesArrayList.get(j).getMasterDepartments().add(department);
+                                break;
+                            case "دكتوراة":
+                                department.setDepartmentType(DepartmentType.DOCTORATE);
+                                AppClass.collegesArrayList.get(j).getDoctorateDepartments().add(department);
+                                break;
+                        }
+                    }
                 }
 
+                AppClass.departmentsArrayList.add(department);
                 System.out.println("Department: " + department);
             }
         } catch (Exception e) {
@@ -101,9 +114,9 @@ public class DataHelper {
     }
 
     public College getCollegeById(int id) {
-        for (int i = 0; i < MainActivity.collegesArrayList.size(); i++) {
-            if (MainActivity.collegesArrayList.get(i).getId() == id)
-                return MainActivity.collegesArrayList.get(i);
+        for (int i = 0; i < AppClass.collegesArrayList.size(); i++) {
+            if (AppClass.collegesArrayList.get(i).getId() == id)
+                return AppClass.collegesArrayList.get(i);
         }
         return null;
     }
