@@ -23,26 +23,26 @@ public class CollegeDetails extends AppCompatActivity {
         binding.collegeNameTextview.setText(AppClass.chosen_college.getName());
         binding.collegeInfoTextview.setText(AppClass.chosen_college.getDescription());
         binding.collegeLocationTextview.setText(AppClass.chosen_college.getLocation());
-        binding.departmentRv.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
-        departmentAdapter = new DepartmentAdapter(getApplicationContext(), AppClass.chosen_college.getBachelorDepartments());
+        binding.departmentRv.setLayoutManager(new LinearLayoutManager(this));
+        departmentAdapter = new DepartmentAdapter(this, AppClass.chosen_college.getBachelorDepartments());
         binding.departmentRv.setAdapter(departmentAdapter);
 
 
         binding.departmentNavView.setOnItemSelectedListener(item -> {
             switch (item.getItemId()) {
                 case R.id.nav_bachelor:
-                    binding.departmentRv.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
-                    departmentAdapter = new DepartmentAdapter(getApplicationContext(), AppClass.chosen_college.getBachelorDepartments());
+                    binding.departmentRv.setLayoutManager(new LinearLayoutManager(this));
+                    departmentAdapter = new DepartmentAdapter(this, AppClass.chosen_college.getBachelorDepartments());
                     binding.departmentRv.setAdapter(departmentAdapter);
                     break;
                 case R.id.nav_master:
-                    binding.departmentRv.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
-                    departmentAdapter = new DepartmentAdapter(getApplicationContext(), AppClass.chosen_college.getMasterDepartments());
+                    binding.departmentRv.setLayoutManager(new LinearLayoutManager(this));
+                    departmentAdapter = new DepartmentAdapter(this, AppClass.chosen_college.getMasterDepartments());
                     binding.departmentRv.setAdapter(departmentAdapter);
                     break;
                 case R.id.nav_phd:
-                    binding.departmentRv.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
-                    departmentAdapter = new DepartmentAdapter(getApplicationContext(), AppClass.chosen_college.getDoctorateDepartments());
+                    binding.departmentRv.setLayoutManager(new LinearLayoutManager(this));
+                    departmentAdapter = new DepartmentAdapter(this, AppClass.chosen_college.getDoctorateDepartments());
                     binding.departmentRv.setAdapter(departmentAdapter);
                     break;
 
