@@ -18,12 +18,13 @@ import com.yousef.iugguide.databinding.FragmentCollegesBinding;
 
 public class CollegesFragment extends Fragment {
 CollegeAdapter collegeAdapter;
+
     private FragmentCollegesBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         binding = FragmentCollegesBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-        GridLayoutManager gridLayoutManager = new GridLayoutManager(this.getContext(),2,GridLayoutManager.VERTICAL,false);
+      //  GridLayoutManager gridLayoutManager = new GridLayoutManager(this.getContext(),2,GridLayoutManager.VERTICAL,false);
         binding.collegeRv.setLayoutManager(new LinearLayoutManager(this.getContext()));
         collegeAdapter = new CollegeAdapter(this.getContext(), AppClass.collegesArrayList);
         binding.collegeRv.setAdapter(collegeAdapter);

@@ -15,6 +15,9 @@
         android:theme="@style/Theme.IUGGuide"
         tools:targetApi="31">
         <activity
+            android:name=".DepartmentDetails"
+            android:exported="false" />
+        <activity
             android:name=".ui.colleges.CollegeDetails"
             android:exported="false" />
         <activity
