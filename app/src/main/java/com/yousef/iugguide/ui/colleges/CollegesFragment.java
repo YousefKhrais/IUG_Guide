@@ -9,23 +9,24 @@ import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
 
+import com.yousef.iugguide.AppClass;
+import com.yousef.iugguide.adapters.CollegeAdapter;
 import com.yousef.iugguide.databinding.FragmentCollegesBinding;
 
 public class CollegesFragment extends Fragment {
-
+CollegeAdapter collegeAdapter;
     private FragmentCollegesBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         binding = FragmentCollegesBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-
-        final ImageView imageView = binding.titleView;
-        Resources resources = getActivity().getResources();
-        final int resourceId = resources.getIdentifier("mid_img", "drawable", getActivity().getPackageName());
-
-        imageView.setImageDrawable(resources.getDrawable(resourceId));
-
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(this.getContext(),2,GridLayoutManager.VERTICAL,false);
+        binding.collegeRv.setLayoutManager(new LinearLayoutManager(this.getContext()));
+        collegeAdapter = new CollegeAdapter(this.getContext(), AppClass.collegesArrayList);
+        binding.collegeRv.setAdapter(collegeAdapter);
         return root;
     }
 
