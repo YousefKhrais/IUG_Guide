@@ -13,8 +13,6 @@ public class Department {
     private String formatKey;
     private DepartmentType departmentType;
     private College college;
-    //    private int collegeId;
-//    private String type;
 
     public Department() {
     }
