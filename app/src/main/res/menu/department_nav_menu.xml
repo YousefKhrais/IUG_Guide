@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_guide"
+        android:icon="@drawable/ic_bachelor_icon"
+        android:title="@string/title_bachelor" />
+
+    <item
+        android:id="@+id/navigation_colleges"
+        android:icon="@drawable/ic_master_degree_icon"
+        android:title="@string/title_master" />
+
+    <item
+        android:id="@+id/navigation_buildings"
+        android:icon="@drawable/bachelor"
+        android:title="@string/title_phd" />
+</menu>
