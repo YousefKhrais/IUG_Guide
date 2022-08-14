@@ -7,5 +7,8 @@
     <string name="title_buildings">Buildings</string>
     <string name="title_colleges">Colleges</string>
     <string name="title_guide">Student Guide</string>
+    <string name="title_bachelor">Bachelor </string>
+    <string name="title_master">Master</string>
+    <string name="title_phd">PHD</string>
 
 </resources>
