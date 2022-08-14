@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.yousef.iugguide.AppClass;
 import com.yousef.iugguide.databinding.CollegeItemBinding;
 import com.yousef.iugguide.models.College;
 import com.yousef.iugguide.ui.colleges.CollegeDetails;
@@ -40,6 +41,7 @@ public class CollegeAdapter extends RecyclerView.Adapter<CollegeAdapter.MyViewHo
         final int resourceId = resources.getIdentifier(data.get(position).getImageUrl(), "drawable", context.getPackageName());
         imageView.setImageDrawable(resources.getDrawable(resourceId));
         imageView.setOnClickListener(v->{
+            AppClass.chosen_college = data.get(position);
             Intent intent = new Intent(context, CollegeDetails.class);
             context.startActivity(intent);
         });
