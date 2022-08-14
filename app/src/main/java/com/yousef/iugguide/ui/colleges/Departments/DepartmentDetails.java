@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.yousef.iugguide.AppClass;
 import com.yousef.iugguide.databinding.ActivityDepartmentDetailsBinding;
 
 public class DepartmentDetails extends AppCompatActivity {
@@ -13,5 +14,6 @@ ActivityDepartmentDetailsBinding binding;
         binding = ActivityDepartmentDetailsBinding.inflate(getLayoutInflater());
         super.onCreate(savedInstanceState);
         setContentView(binding.getRoot());
+        binding.collegeInfoTextview.setText(AppClass.chosen_Department.getName());
     }
 }
