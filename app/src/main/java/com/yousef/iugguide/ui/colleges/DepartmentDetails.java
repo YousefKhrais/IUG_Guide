@@ -1,4 +1,4 @@
-package com.yousef.iugguide.ui.colleges.Departments;
+package com.yousef.iugguide.ui.colleges;
 
 import androidx.appcompat.app.AppCompatActivity;
 

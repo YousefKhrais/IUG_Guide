@@ -2,10 +2,8 @@ package com.yousef.iugguide.adapters;
 
 import android.content.Context;
 import android.content.Intent;
-import android.content.res.Resources;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -14,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.yousef.iugguide.AppClass;
 import com.yousef.iugguide.databinding.DepartmentItemBinding;
 import com.yousef.iugguide.models.Department;
-import com.yousef.iugguide.ui.colleges.Departments.DepartmentDetails;
+import com.yousef.iugguide.ui.colleges.DepartmentDetails;
 
 import java.util.ArrayList;
 
@@ -39,7 +37,7 @@ public class DepartmentAdapter extends RecyclerView.Adapter<DepartmentAdapter.My
     public void onBindViewHolder(@NonNull DepartmentAdapter.MyViewHolder holder, int position) {
         final TextView textView = holder.binding.departmentName;
         textView.setText(data.get(position).getName());
-        textView.setOnClickListener(v->{
+        holder.binding.departmentCardItem.setOnClickListener(v->{
             AppClass.chosen_Department = data.get(position);
             Intent intent = new Intent(context, DepartmentDetails.class);
             context.startActivity(intent);
