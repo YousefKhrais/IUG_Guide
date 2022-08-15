@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".ui.colleges.CollegesFragment">
 
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/college_rv"
         android:background="@color/black"

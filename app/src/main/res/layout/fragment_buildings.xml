@@ -4,30 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.buildings.BuildingsFragment">
+    tools:context=".ui.colleges.BuildingsFragment">
 
-    <androidx.cardview.widget.CardView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/college_rv"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        >
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <com.denzcoskun.imageslider.ImageSlider
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                app:iss_period="1000"
-                app:iss_auto_cycle="true"
-                app:iss_delay="1000"
-                app:iss_corner_radius="10"
-                app:iss_title_background="@drawable/bachelor"
-               android:id="@+id/imageslider"
-                />
-
-        </LinearLayout>
-    </androidx.cardview.widget.CardView>
-
+        android:layout_height="match_parent"
+        tools:itemCount="10"
+        tools:listitem="@layout/building_item" />
 </RelativeLayout>

@@ -4,6 +4,7 @@ import android.content.Context;
 
 import com.yousef.iugguide.AppClass;
 import com.yousef.iugguide.R;
+import com.yousef.iugguide.models.Building;
 import com.yousef.iugguide.models.College;
 import com.yousef.iugguide.models.Department;
 import com.yousef.iugguide.models.enums.DepartmentType;
@@ -111,6 +112,11 @@ public class DataHelper {
     }
 
     public void readBuildingsData(Context context) {
+        AppClass.buildingArrayList.add(new Building());
+        AppClass.buildingArrayList.add(new Building());
+        AppClass.buildingArrayList.add(new Building());
+        AppClass.buildingArrayList.add(new Building());
+        AppClass.buildingArrayList.add(new Building());
     }
 
     public College getCollegeById(int id) {
