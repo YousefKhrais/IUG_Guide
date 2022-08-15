@@ -17,6 +17,8 @@ public class AppClass extends Application {
     public static  College chosen_college;
     public static  Department chosen_Department;
     public static  Building chosenBuilding;
+//    public static  Building chosenBuilding;
+
 
     @Override
     public void onCreate() {
