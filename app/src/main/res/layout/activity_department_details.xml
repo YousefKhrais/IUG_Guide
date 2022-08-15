@@ -6,13 +6,69 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.colleges.DepartmentDetails">
-    <TextView
-        android:id="@+id/college_info_textview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="كلية تكنلوجيا المعلومات"
-        android:textColor="@color/black"
-        android:textDirection="rtl"
-        android:textSize="25dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layoutDirection="rtl">
+        <TextView
+            android:id="@+id/college_info_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="كلية تكنلوجيا المعلومات"
+            android:textColor="@color/black"
+            android:textDirection="rtl"
+            android:textSize="25dp" />
+        <TextView
+            android:id="@+id/college_info_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="كلية تكنلوجيا المعلومات"
+            android:textColor="@color/black"
+            android:textDirection="rtl"
+            android:textSize="25dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/college_info_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="كلية تكنلوجيا المعلومات"
+                android:textColor="@color/black"
+                android:textDirection="rtl"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/college_info_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="كلية تكنلوجيا المعلومات"
+                android:textColor="@color/black"
+                android:textDirection="rtl"
+                android:textSize="25dp" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/college_info_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="كلية تكنلوجيا المعلومات"
+            android:textColor="@color/black"
+            android:textDirection="rtl"
+            android:textSize="25dp" />
+        <TextView
+            android:id="@+id/college_info_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="كلية تكنلوجيا المعلومات"
+            android:textColor="@color/black"
+            android:textDirection="rtl"
+            android:textSize="25dp" />
+    </LinearLayout>
 </RelativeLayout>

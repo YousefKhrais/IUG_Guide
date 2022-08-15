@@ -1,13 +1,12 @@
 package com.yousef.iugguide.ui.colleges;
 
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
-import android.os.Bundle;
-
 import com.yousef.iugguide.AppClass;
 import com.yousef.iugguide.R;
-import com.yousef.iugguide.adapters.CollegeAdapter;
 import com.yousef.iugguide.adapters.DepartmentAdapter;
 import com.yousef.iugguide.databinding.ActivityCollegeDetailsBinding;
 
