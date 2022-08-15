@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.colleges.Departments.DepartmentDetails">
+    tools:context=".ui.colleges.DepartmentDetails">
     <TextView
         android:id="@+id/college_info_textview"
         android:layout_width="wrap_content"
