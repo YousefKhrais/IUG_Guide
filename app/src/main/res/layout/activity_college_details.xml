@@ -74,7 +74,7 @@
             app:menu="@menu/department_nav_menu" />
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
-            android:layout_height="500dp"
+            android:layout_height="1200px"
             android:id="@+id/department_rv"/>
         <LinearLayout
             android:layout_width="match_parent"

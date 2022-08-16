@@ -39,7 +39,7 @@ public class CollegeDetails extends AppCompatActivity {
                         binding.departmentRv.setVisibility(View.INVISIBLE);
                         binding.infoText.setVisibility(View.VISIBLE);
                     }else{
-                        params.height=500;
+                        params.height=1200;
                         binding.departmentRv.setLayoutParams(params);
                         binding.departmentRv.setVisibility(View.VISIBLE);
                         binding.infoText.setVisibility(View.INVISIBLE);
@@ -54,7 +54,7 @@ public class CollegeDetails extends AppCompatActivity {
                         binding.departmentRv.setVisibility(View.INVISIBLE);
                         binding.infoText.setVisibility(View.VISIBLE);
                     }else{
-                        params.height=500;
+                        params.height=1200;
                         binding.departmentRv.setLayoutParams(params);
                         binding.departmentRv.setVisibility(View.VISIBLE);
                         binding.infoText.setVisibility(View.INVISIBLE);
@@ -69,7 +69,7 @@ public class CollegeDetails extends AppCompatActivity {
                         binding.departmentRv.setVisibility(View.INVISIBLE);
                         binding.infoText.setVisibility(View.VISIBLE);
                     }else{
-                        params.height=500;
+                        params.height=1200;
                         binding.departmentRv.setLayoutParams(params);
                         binding.departmentRv.setVisibility(View.VISIBLE);
                         binding.infoText.setVisibility(View.INVISIBLE);
