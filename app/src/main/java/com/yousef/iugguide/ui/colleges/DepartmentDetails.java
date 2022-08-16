@@ -14,6 +14,6 @@ ActivityDepartmentDetailsBinding binding;
         binding = ActivityDepartmentDetailsBinding.inflate(getLayoutInflater());
         super.onCreate(savedInstanceState);
         setContentView(binding.getRoot());
-        binding.collegeInfoTextview.setText(AppClass.chosen_Department.getName());
+     //   binding.collegeInfoTextview.setText(AppClass.chosen_Department.getName());
     }
 }

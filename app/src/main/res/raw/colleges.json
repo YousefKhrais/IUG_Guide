@@ -3,7 +3,7 @@
         {
             "num_of_student": "55",
             "location": "الموقع",
-            "image": "mid_img",
+            "image": "mid",
             "PHD_programs": "دكتوراة",
             "Masters_programs": "ماجستير",
             "Bachelor_programs": "بكالوريوس",
@@ -15,7 +15,7 @@
         {
             "num_of_student": "55",
             "location": "الموقع",
-            "image": "eng_img",
+            "image": "eng",
             "PHD_programs": "دكتوراة",
             "Masters_programs": "ماجستير",
             "Bachelor_programs": "بكالوريوس",
@@ -27,7 +27,7 @@
         {
             "num_of_student": "55",
             "location": "الموقع",
-            "image": "it_img",
+            "image": "it",
             "PHD_programs": "دكتوراة",
             "Masters_programs": "ماجستير",
             "Bachelor_programs": "بكالوريوس",
@@ -39,7 +39,7 @@
         {
             "num_of_student": "55",
             "location": "الموقع",
-            "image": "nurce_img",
+            "image": "nurce",
             "PHD_programs": "دكتوراة",
             "Masters_programs": "ماجستير",
             "Bachelor_programs": "بكالوريوس",
@@ -51,7 +51,7 @@
         {
             "num_of_student": "55",
             "location": "الموقع",
-            "image": "scince_helth_img",
+            "image": "health_science",
             "PHD_programs": "دكتوراة",
             "Masters_programs": "ماجستير",
             "Bachelor_programs": "بكالوريوس",
@@ -63,7 +63,7 @@
         {
             "num_of_student": "55",
             "location": "الموقع",
-            "image": "sciences_img",
+            "image": "science",
             "PHD_programs": "دكتوراة",
             "Masters_programs": "ماجستير",
             "Bachelor_programs": "بكالوريوس",
@@ -75,7 +75,7 @@
         {
             "num_of_student": "55",
             "location": "الموقع",
-            "image": "art_img",
+            "image": "art",
             "PHD_programs": "دكتوراة",
             "Masters_programs": "ماجستير",
             "Bachelor_programs": "بكالوريوس",
@@ -87,7 +87,7 @@
         {
             "num_of_student": "55",
             "location": "الموقع",
-            "image": "shareaa_law_img",
+            "image": "shareaa",
             "PHD_programs": "دكتوراة",
             "Masters_programs": "ماجستير",
             "Bachelor_programs": "بكالوريوس",
@@ -99,7 +99,7 @@
         {
             "num_of_student": "55",
             "location": "الموقع",
-            "image": "osool_aldeen_img",
+            "image": "osool",
             "PHD_programs": "دكتوراة",
             "Masters_programs": "ماجستير",
             "Bachelor_programs": "بكالوريوس",
@@ -111,7 +111,7 @@
         {
             "num_of_student": "55",
             "location": "الموقع",
-            "image": "tarbeaa_img",
+            "image": "tarbeea",
             "PHD_programs": "دكتوراة",
             "Masters_programs": "ماجستير",
             "Bachelor_programs": "بكالوريوس",
@@ -123,7 +123,7 @@
         {
             "num_of_student": "55",
             "location": "الموقع",
-            "image": "iktesadimg",
+            "image": "economics",
             "PHD_programs": "دكتوراة",
             "Masters_programs": "ماجستير",
             "Bachelor_programs": "بكالوريوس",
