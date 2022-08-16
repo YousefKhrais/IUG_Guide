@@ -35,8 +35,8 @@ ActivityBuildingDetailsBinding binding;
         }
         imageSlider.setImageList(slideModels,ScaleTypes.FIT);
         binding.buildingName.setText(AppClass.chosenBuilding.getName());
-        binding.buildingInfo.setText(AppClass.chosenBuilding.getDescription());
-        binding.buildingLocation.setText(AppClass.chosenBuilding.getLocation());
+        binding.buildingInfo.setText("تاريخ المبنى : "+AppClass.chosenBuilding.getDescription());
+        binding.buildingLocation.setText("مكان المبنى : "+AppClass.chosenBuilding.getLocation());
         binding.buildingKey.setText(AppClass.chosenBuilding.getKey());
 
     }
