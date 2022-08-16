@@ -5,28 +5,100 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.buildings.BuildingDetails">
-    <androidx.cardview.widget.CardView
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-    <com.denzcoskun.imageslider.ImageSlider
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        app:iss_period="1000"
-        app:iss_auto_cycle="true"
-        app:iss_delay="1000"
-        app:iss_corner_radius="10"
-        app:iss_title_background="@drawable/bachelor"
-        android:id="@+id/imageslider"
-        />
-</androidx.cardview.widget.CardView>
+        android:layout_height="match_parent"
+        android:layoutDirection="rtl"
+        android:orientation="vertical"
+
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            >
+
+            <TextView
+                android:id="@+id/building_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="مبنى القدس"
+                android:textColor="@color/black"
+                android:textDirection="rtl"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/building_info"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="اشبشبشصثب"
+            android:textColor="@color/black"
+            android:textDirection="rtl"
+            android:layout_marginBottom="20dp"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/building_location"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="مقابل المقابل"
+            android:textColor="@color/black"
+            android:textDirection="rtl"
+            android:layout_marginBottom="20dp"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:padding="5dp"
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="رمز المبنى :"
+                android:textColor="@color/black"
+                android:textDirection="rtl"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/building_key"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/black"
+                android:textDirection="rtl"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+          android:layout_marginBottom="12dp"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            android:textSize="20sp">
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/imageslider"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:iss_auto_cycle="true"
+                app:iss_corner_radius="10"
+                app:iss_delay="1000"
+                app:iss_period="1000"
+
+                app:iss_title_background="@drawable/bachelor" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
 
 </RelativeLayout>

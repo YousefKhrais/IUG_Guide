@@ -112,11 +112,21 @@ public class DataHelper {
     }
 
     public void readBuildingsData(Context context) {
-        AppClass.buildingArrayList.add(new Building("health_science"));
-        AppClass.buildingArrayList.add(new Building("mid"));
-        AppClass.buildingArrayList.add(new Building("it"));
-        AppClass.buildingArrayList.add(new Building("osool"));
-        AppClass.buildingArrayList.add(new Building("tarbeea"));
+     ArrayList<String> images = new ArrayList<String>();
+     images.add("art");
+     images.add("eng");
+     images.add("mid");
+     images.add("it");
+     images.add("nurce");
+     images.add("osool");
+     images.add("tarbeea");
+        AppClass.buildingArrayList.add(new Building(1, "مبنى القدس", "art", "مقابل الساحة الرئيسية التي تحتوي على النافورة", "أسس هذا المبنى عام 2007 وقد كان محط الأنظار في ألعلم والتعليم", "K",images));
+        AppClass.buildingArrayList.add(new Building(1, "مبنى القدس", "mid", "مقابل الساحة الرئيسية التي تحتوي على النافورة", "أسس هذا المبنى عام 2007 وقد كان محط الأنظار في ألعلم والتعليم", "K",images));
+        AppClass.buildingArrayList.add(new Building(1, "مبنى القدس", "eng", "مقابل الساحة الرئيسية التي تحتوي على النافورة", "أسس هذا المبنى عام 2007 وقد كان محط الأنظار في ألعلم والتعليم", "K",images));
+        AppClass.buildingArrayList.add(new Building(1, "مبنى القدس", "it", "مقابل الساحة الرئيسية التي تحتوي على النافورة", "أسس هذا المبنى عام 2007 وقد كان محط الأنظار في ألعلم والتعليم", "K",images));
+        AppClass.buildingArrayList.add(new Building(1, "مبنى القدس", "tarbeea", "مقابل الساحة الرئيسية التي تحتوي على النافورة", "أسس هذا المبنى عام 2007 وقد كان محط الأنظار في ألعلم والتعليم", "K",images));
+        AppClass.buildingArrayList.add(new Building(1, "مبنى القدس", "osool", "مقابل الساحة الرئيسية التي تحتوي على النافورة", "أسس هذا المبنى عام 2007 وقد كان محط الأنظار في ألعلم والتعليم", "K",images));
+        AppClass.buildingArrayList.add(new Building(1, "مبنى القدس", "shareaa", "مقابل الساحة الرئيسية التي تحتوي على النافورة", "أسس هذا المبنى عام 2007 وقد كان محط الأنظار في ألعلم والتعليم", "K",images));
     }
 
     public College getCollegeById(int id) {
