@@ -112,11 +112,11 @@ public class DataHelper {
     }
 
     public void readBuildingsData(Context context) {
-        AppClass.buildingArrayList.add(new Building());
-        AppClass.buildingArrayList.add(new Building());
-        AppClass.buildingArrayList.add(new Building());
-        AppClass.buildingArrayList.add(new Building());
-        AppClass.buildingArrayList.add(new Building());
+        AppClass.buildingArrayList.add(new Building("health_science"));
+        AppClass.buildingArrayList.add(new Building("mid"));
+        AppClass.buildingArrayList.add(new Building("it"));
+        AppClass.buildingArrayList.add(new Building("osool"));
+        AppClass.buildingArrayList.add(new Building("tarbeea"));
     }
 
     public College getCollegeById(int id) {
