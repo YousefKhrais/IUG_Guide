@@ -10,7 +10,8 @@
         android:id="@+id/registration_guide_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Registration Guide"
+        android:layout_margin="16dp"
+        android:text="دليل الالتحاق للطلبة الجدد"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -19,7 +20,8 @@
         android:id="@+id/acceptance_key_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Acceptance Key"
+        android:layout_margin="16dp"
+        android:text="مفتاح التنسيق"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/registration_guide_button" />
@@ -28,7 +30,8 @@
         android:id="@+id/moodle_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Moodle"
+        android:layout_margin="16dp"
+        android:text="مودل"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/acceptance_key_button" />
@@ -37,7 +40,8 @@
         android:id="@+id/university_website_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="University website"
+        android:layout_margin="16dp"
+        android:text="موقع الجامعة"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/moodle_button" />

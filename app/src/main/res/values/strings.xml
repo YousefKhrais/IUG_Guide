@@ -4,12 +4,18 @@
     <!--    <string name="title_dashboard">Dashboard</string>-->
     <!--    <string name="title_notifications">Notifications</string>-->
 
-    <string name="title_buildings">Buildings</string>
-    <string name="title_colleges">Colleges</string>
-    <string name="title_guide">Student Guide</string>
-    <string name="title_bachelor">Bachelor </string>
-    <string name="title_master">Master</string>
-    <string name="title_phd">PHD</string>
+<!--    <string name="title_buildings">Buildings</string>-->
+    <string name="title_buildings">المباني</string>
+<!--    <string name="title_colleges">Colleges</string>-->
+    <string name="title_colleges">الكليات</string>
+<!--    <string name="title_guide">Student Guide</string>-->
+    <string name="title_guide">دليل الطلاب</string>
+<!--    <string name="title_bachelor">Bachelor </string>-->
+    <string name="title_bachelor">البكالوريوس </string>
+<!--    <string name="title_master">Master</string>-->
+    <string name="title_master">الماجستير</string>
+<!--    <string name="title_phd">PHD</string>-->
+    <string name="title_phd">الدكتوراة</string>
     <string name="title_activity_department_details">DepartmentDetails</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>

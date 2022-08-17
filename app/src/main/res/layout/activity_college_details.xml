@@ -8,9 +8,9 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="10dp">
+        android:padding="8dp">
 
         <TextView
             android:id="@+id/college_name_textview"
@@ -21,7 +21,7 @@
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textDirection="rtl"
-            android:textSize="40dp"
+            android:textSize="32sp"
             android:textStyle="bold" />
 
         <TextView
@@ -32,7 +32,7 @@
             android:text="كلية تكنلوجيا المعلومات"
             android:textColor="@color/black"
             android:textDirection="rtl"
-            android:textSize="25dp" />
+            android:textSize="24sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -40,58 +40,59 @@
             android:gravity="right"
             android:layoutDirection="rtl"
             android:orientation="horizontal"
-            android:padding="5dp">
+            android:padding="8dp">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
                 android:text="مقر الكلية: "
                 android:textColor="@color/black"
                 android:textDirection="rtl"
-                android:textSize="25dp" />
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/college_location_textview"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="8dp"
                 android:text="كلية تكنلوجيا المعلومات"
                 android:textColor="@color/black"
                 android:textDirection="rtl"
-                android:textSize="25dp" />
+                android:textSize="24sp" />
         </LinearLayout>
+
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/department_nav_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="0dp"
-            android:layout_marginEnd="0dp"
             android:background="?android:attr/windowBackground"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:menu="@menu/department_nav_menu" />
+
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/department_rv"
             android:layout_width="match_parent"
-            android:layout_height="1200px"
-            android:id="@+id/department_rv"/>
+            android:layout_height="wrap_content" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            >
+            android:gravity="center">
+
             <TextView
                 android:id="@+id/info_text"
                 android:layout_width="wrap_content"
-                android:layout_height="40dp"
+                android:layout_height="32dp"
                 android:gravity="center"
-                android:padding="5dp"
-                android:textSize="25dp"
-                android:visibility="invisible"
-                android:textColor="@color/black"
+                android:layout_margin="16dp"
                 android:text="لا يوجد أقسام هنا"
-             />
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:visibility="invisible" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

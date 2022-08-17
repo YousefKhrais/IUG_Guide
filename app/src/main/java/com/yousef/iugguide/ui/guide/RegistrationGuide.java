@@ -59,17 +59,19 @@ public class RegistrationGuide extends AppCompatActivity implements StepperFormL
                         goToAdmissionAndRegistrationStep
                 )
                 .includeConfirmationStep(false)
+                .stepNextButtonText("التالي")
+                .lastStepNextButtonText("تم")
                 .init();
     }
 
     @Override
     public void onCompletedForm() {
-
+        super.onBackPressed();
     }
 
     @Override
     public void onCancelledForm() {
-
+        super.onBackPressed();
     }
 
     @Override

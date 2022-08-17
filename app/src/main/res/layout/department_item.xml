@@ -5,19 +5,18 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:layoutDirection="rtl"
-    android:gravity="right"
-    android:padding="10dp"
-    android:layout_margin="10dp"
-    >
+    android:gravity="start"
+    android:padding="8dp"
+    android:layout_margin="8dp">
 
     <TextView
         android:id="@+id/department_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_margin="8dp"
         android:text="كلية تكنلوجيا المعلومات"
         android:textColor="@color/black"
         android:textDirection="rtl"
-        android:textSize="25dp" />
+        android:textSize="25sp" />
 
 </androidx.cardview.widget.CardView>

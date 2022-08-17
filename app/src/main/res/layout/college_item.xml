@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
-    app:cardCornerRadius="50dp"
+    app:cardCornerRadius="20dp"
     app:cardMaxElevation="50dp">
 
     <ImageView
@@ -13,4 +13,5 @@
         android:layout_height="250dp"
         android:scaleType="fitXY"
         android:src="@drawable/it_img" />
+
 </androidx.cardview.widget.CardView>
