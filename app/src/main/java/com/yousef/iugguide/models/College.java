@@ -13,6 +13,9 @@ public class College {
     private String facebookPageLink;
     private String description;
 
+    private String backGroundImageUrl;
+    private String iconUrl;
+
     private ArrayList<Department> BachelorDepartments;
     private ArrayList<Department> MasterDepartments;
     private ArrayList<Department> DoctorateDepartments;
@@ -30,7 +33,7 @@ public class College {
         this.description = description;
     }
 
-    public College(int id, int studentsCount, String name, String imageUrl, String location, String facebookPageLink, String description, ArrayList<Department> bachelorDepartments, ArrayList<Department> masterDepartments, ArrayList<Department> doctorateDepartments) {
+    public College(int id, int studentsCount, String name, String imageUrl, String location, String facebookPageLink, String description, String backGroundImageUrl, String iconUrl, ArrayList<Department> bachelorDepartments, ArrayList<Department> masterDepartments, ArrayList<Department> doctorateDepartments) {
         this.id = id;
         this.studentsCount = studentsCount;
         this.name = name;
@@ -38,6 +41,8 @@ public class College {
         this.location = location;
         this.facebookPageLink = facebookPageLink;
         this.description = description;
+        this.backGroundImageUrl = backGroundImageUrl;
+        this.iconUrl = iconUrl;
         BachelorDepartments = bachelorDepartments;
         MasterDepartments = masterDepartments;
         DoctorateDepartments = doctorateDepartments;
@@ -123,6 +128,22 @@ public class College {
         DoctorateDepartments = doctorateDepartments;
     }
 
+    public String getBackGroundImageUrl() {
+        return backGroundImageUrl;
+    }
+
+    public void setBackGroundImageUrl(String backGroundImageUrl) {
+        this.backGroundImageUrl = backGroundImageUrl;
+    }
+
+    public String getIconUrl() {
+        return iconUrl;
+    }
+
+    public void setIconUrl(String iconUrl) {
+        this.iconUrl = iconUrl;
+    }
+
     @Override
     public String toString() {
         return "College{" +
@@ -133,6 +154,8 @@ public class College {
                 ", location='" + location + '\'' +
                 ", facebookPageLink='" + facebookPageLink + '\'' +
                 ", description='" + description + '\'' +
+                ", backGroundImageUrl='" + backGroundImageUrl + '\'' +
+                ", iconUrl='" + iconUrl + '\'' +
                 ", BachelorDepartments=" + BachelorDepartments +
                 ", MasterDepartments=" + MasterDepartments +
                 ", DoctorateDepartments=" + DoctorateDepartments +

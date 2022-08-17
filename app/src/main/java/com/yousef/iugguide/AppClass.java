@@ -17,20 +17,13 @@ public class AppClass extends Application {
     public static  College chosen_college;
     public static  Department chosen_Department;
     public static  Building chosenBuilding;
-//    public static  Building chosenBuilding;
-
 
     @Override
     public void onCreate() {
         super.onCreate();
-        System.out.println("onCreate");
 
         DataHelper.getInstance().readCollegesData(this);
         DataHelper.getInstance().readDepartmentsData(this);
         DataHelper.getInstance().readBuildingsData(this);
-
-        for (int i = 0; i < collegesArrayList.size(); i++) {
-            System.out.println(collegesArrayList.get(i).toString());
-        }
     }
 }

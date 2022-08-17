@@ -101,28 +101,28 @@
             android:textColor="@color/black"
             android:textDirection="rtl"
             android:textSize="25dp" />
-       <LinearLayout
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           android:orientation="horizontal"
-           android:layoutDirection="rtl">
-           <TextView
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:layout_marginTop="10dp"
-               android:text="عدد الطلاب :"
-               android:textColor="@color/black"
-               android:textDirection="rtl"
-               android:textSize="25dp" />
-           <TextView
-               android:id="@+id/number_of_student"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:layout_marginTop="10dp"
-               android:text="60"
-               android:textColor="@color/black"
-               android:textDirection="rtl"
-               android:textSize="25dp" />
-       </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layoutDirection="rtl">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="عدد الطلاب :"
+                android:textColor="@color/black"
+                android:textDirection="rtl"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/number_of_student"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="60"
+                android:textColor="@color/black"
+                android:textDirection="rtl"
+                android:textSize="25dp" />
+        </LinearLayout>
     </LinearLayout>
 </androidx.cardview.widget.CardView>

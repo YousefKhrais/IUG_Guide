@@ -19,6 +19,7 @@ public class Building {
     public Building(String mainImageUrl) {
         this.mainImageUrl = mainImageUrl;
     }
+
     public Building(int id, String name, String mainImageUrl, String location, String description, String key) {
         this.id = id;
         this.name = name;
