@@ -6,8 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".ui.guide.RegistrationGuide">
 
-    <ImageView
+    <ernestoyaquello.com.verticalstepperform.VerticalStepperFormView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/stepper_form"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/acceptance_keys" />
+        app:form_circle_background_color="@color/design_default_color_primary"
+        app:form_next_button_background_color="@color/design_default_color_primary"
+        app:form_next_button_pressed_background_color="@color/design_default_color_primary_dark" />
+
 </RelativeLayout>
