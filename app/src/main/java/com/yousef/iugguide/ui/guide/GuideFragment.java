@@ -26,6 +26,7 @@ public class GuideFragment extends Fragment {
         final Button acceptanceKeyButton = binding.acceptanceKeyButton;
         final Button moodleButton = binding.moodleButton;
         final Button universityWebsiteButton = binding.universityWebsiteButton;
+        final Button admissionApplicationButton = binding.admissionApplicationButton;
 
         registrationGuideButton.setOnClickListener(v -> {
             Intent intent = new Intent(getActivity(), RegistrationGuide.class);
@@ -50,6 +51,14 @@ public class GuideFragment extends Fragment {
             i.setData(Uri.parse(url));
             startActivity(i);
         });
+
+        admissionApplicationButton.setOnClickListener(v -> {
+            String url = "https://eportal.iugaza.edu.ps/ords/f?p=142:LOGIN:12002841936534:::::";
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse(url));
+            startActivity(i);
+        });
+
         return root;
     }
 

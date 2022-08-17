@@ -60,6 +60,7 @@ public class RegistrationGuide extends AppCompatActivity implements StepperFormL
                 )
                 .includeConfirmationStep(false)
                 .stepNextButtonText("التالي")
+                .displayBottomNavigation(false)
                 .lastStepNextButtonText("تم")
                 .init();
     }
