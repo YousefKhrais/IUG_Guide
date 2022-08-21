@@ -1,29 +1,38 @@
 <resources>
-    <string name="app_name">IUG Guide</string>
     <!--    <string name="title_home">Home</string>-->
     <!--    <string name="title_dashboard">Dashboard</string>-->
     <!--    <string name="title_notifications">Notifications</string>-->
-
-<!--    <string name="title_buildings">Buildings</string>-->
-    <string name="title_buildings">المباني</string>
-<!--    <string name="title_colleges">Colleges</string>-->
-    <string name="title_colleges">الكليات</string>
-<!--    <string name="title_guide">Student Guide</string>-->
-    <string name="title_guide">دليل الطلاب</string>
-<!--    <string name="title_bachelor">Bachelor </string>-->
-    <string name="title_bachelor">البكالوريوس </string>
-<!--    <string name="title_master">Master</string>-->
-    <string name="title_master">الماجستير</string>
-<!--    <string name="title_phd">PHD</string>-->
-    <string name="title_phd">الدكتوراة</string>
-    <string name="title_activity_department_details">DepartmentDetails</string>
+    <!--    <string name="title_buildings">Buildings</string>-->
+    <!--    <string name="title_colleges">Colleges</string>-->
+    <!--    <string name="title_guide">Student Guide</string>-->
+    <!--    <string name="title_bachelor">Bachelor </string>-->
+    <!--    <string name="title_master">Master</string>-->
+    <!--    <string name="title_phd">PHD</string>-->
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="app_name">دليل الجامعة الاسلامية</string>
 
+    <string name="title_home">الرئيسية</string>
+    <string name="title_buildings">المباني</string>
+    <string name="title_colleges">الكليات</string>
+
+    <string name="title_bachelor">البكالوريوس </string>
+    <string name="title_master">الماجستير</string>
+    <string name="title_phd">الدكتوراة</string>
+
+    <string name="title_activity_department_details">تفاصيل القسم</string>
+
+    <string name="next">التالي</string>
+    <string name="previous">السابق</string>
+    <string name="temp_building_name">مبنى القدس</string>
+    <string name="temp_building_info">اشبشبشصثب</string>
+    <string name="temp_building_location">مقابل المقابل</string>
+    <string name="building_key">رمز المبنى :</string>
+    <string name="temp_building_key">Q</string>
+    <string name="temp_callege_title">كلية تكنلوجيا المعلومات</string>
+    <string name="temp_college_info">كلية تكنلوجيا المعلومات</string>
+    <string name="college_location">مقر الكلية:</string>
+    <string name="temp_college_location">كلية تكنلوجيا المعلومات</string>
+    <string name="empty_department_message">لا يوجد أقسام هنا</string>
+    <string name="temp_department_name">كلية تكنلوجيا المعلومات</string>
 </resources>

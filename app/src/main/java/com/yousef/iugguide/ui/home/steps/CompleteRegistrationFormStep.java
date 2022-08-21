@@ -1,24 +1,36 @@
-package com.yousef.iugguide.ui.guide.steps;
+package com.yousef.iugguide.ui.home.steps;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Button;
 
 import com.yousef.iugguide.R;
 
 import ernestoyaquello.com.verticalstepperform.Step;
 
-public class GoToAdmissionAndRegistrationStep extends Step<String> {
+public class CompleteRegistrationFormStep extends Step<String> {
 
     private View stepContent;
+    private Button admissionVideoButton;
 
-    public GoToAdmissionAndRegistrationStep(String stepTitle) {
+    public CompleteRegistrationFormStep(String stepTitle) {
         super(stepTitle);
     }
 
     @Override
     protected View createStepContentLayout() {
         LayoutInflater inflater = LayoutInflater.from(getContext());
-        stepContent = inflater.inflate(R.layout.step_7_admission_registration_layout, null, false);
+        stepContent = inflater.inflate(R.layout.step_5_complete_registration_form_layout, null, false);
+
+        admissionVideoButton = stepContent.findViewById(R.id.admissionVideoButton);
+        admissionVideoButton.setOnClickListener(v -> {
+            String url = "https://www.youtube.com/watch?v=KZBHwBP-Xv8&ab_channel=AdmissionIUG";
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse(url));
+            stepContent.getContext().startActivity(i);
+        });
 
         return stepContent;
     }

@@ -1,4 +1,4 @@
-package com.yousef.iugguide.ui.guide.steps;
+package com.yousef.iugguide.ui.home.steps;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,19 +7,18 @@ import com.yousef.iugguide.R;
 
 import ernestoyaquello.com.verticalstepperform.Step;
 
-public class RequiredPaperworkStep extends Step<String> {
-
+public class PayTuitionFeesStep extends Step<String> {
 
     private View stepContent;
 
-    public RequiredPaperworkStep(String stepTitle) {
+    public PayTuitionFeesStep(String stepTitle) {
         super(stepTitle);
     }
 
     @Override
     protected View createStepContentLayout() {
         LayoutInflater inflater = LayoutInflater.from(getContext());
-        stepContent = inflater.inflate(R.layout.step_3_required_paperwork_layout, null, false);
+        stepContent = inflater.inflate(R.layout.step_6_pay_tuition_fees_layout, null, false);
 
         return stepContent;
     }

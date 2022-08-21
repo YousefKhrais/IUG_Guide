@@ -20,7 +20,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-
         <TextView
             android:id="@+id/day2"
             android:layout_width="match_parent"
@@ -33,7 +32,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/day1" />
 
-
         <TextView
             android:id="@+id/day3"
             android:layout_width="match_parent"
@@ -45,7 +43,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/day2" />
-
 
         <TextView
             android:id="@+id/day4"
@@ -60,5 +57,4 @@
             app:layout_constraintTop_toBottomOf="@+id/day3" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 </ScrollView>

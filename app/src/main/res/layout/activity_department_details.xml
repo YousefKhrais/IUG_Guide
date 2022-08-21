@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.colleges.DepartmentDetails">
+
     <LinearLayout
         android:id="@+id/background_of_dep"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layoutDirection="rtl"
         android:orientation="vertical"
-        android:padding="10dp"
-        android:background="@drawable/economics_bg"
+        android:padding="10dp">
 
-        android:layoutDirection="rtl">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:gravity="center"
-            android:padding="5dp"
-            >
+            android:orientation="horizontal"
+            android:padding="5dp">
 
             <ImageView
                 android:id="@+id/university_icon"
@@ -29,10 +27,12 @@
                 android:layout_height="75dp"
                 android:layout_alignParentLeft="true"
                 android:src="@drawable/iug_logo" />
+
             <Space
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_weight="1" />
+
             <TextView
                 android:id="@+id/college_name"
                 android:layout_width="wrap_content"
@@ -41,16 +41,19 @@
                 android:textColor="@color/black"
                 android:textDirection="rtl"
                 android:textSize="25dp" />
+
             <Space
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_weight="1" />
+
             <ImageView
                 android:id="@+id/college_icon"
-                android:src="@drawable/art_logo"
                 android:layout_width="75dp"
-                android:layout_height="75dp"/>
+                android:layout_height="75dp"
+                android:src="@drawable/art_logo" />
         </LinearLayout>
+
         <TextView
             android:id="@+id/department_name"
             android:layout_width="wrap_content"
@@ -58,9 +61,9 @@
             android:layout_marginTop="10dp"
             android:text="كلية تكنلوجيا المعلومات"
             android:textColor="@color/black"
-
             android:textDirection="rtl"
             android:textSize="25dp" />
+
         <TextView
             android:id="@+id/department_info"
             android:layout_width="wrap_content"
@@ -70,10 +73,12 @@
             android:textColor="@color/black"
             android:textDirection="rtl"
             android:textSize="25dp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -82,6 +87,7 @@
                 android:textColor="@color/black"
                 android:textDirection="rtl"
                 android:textSize="25dp" />
+
             <TextView
                 android:id="@+id/department_key"
                 android:layout_width="wrap_content"
@@ -92,6 +98,7 @@
                 android:textDirection="rtl"
                 android:textSize="25dp" />
         </LinearLayout>
+
         <TextView
             android:id="@+id/department_study_link"
             android:layout_width="wrap_content"
@@ -101,11 +108,13 @@
             android:textColor="@color/black"
             android:textDirection="rtl"
             android:textSize="25dp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layoutDirection="rtl">
+            android:layoutDirection="rtl"
+            android:orientation="horizontal">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -114,6 +123,7 @@
                 android:textColor="@color/black"
                 android:textDirection="rtl"
                 android:textSize="25dp" />
+
             <TextView
                 android:id="@+id/number_of_student"
                 android:layout_width="wrap_content"

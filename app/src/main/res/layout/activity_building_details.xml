@@ -24,7 +24,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="مبنى القدس"
+                android:text="@string/temp_building_name"
                 android:textColor="@color/black"
                 android:textDirection="rtl"
                 android:textSize="24sp"
@@ -48,7 +48,6 @@
                 app:iss_delay="1000"
                 app:iss_period="1000"
                 app:iss_title_background="@drawable/bachelor" />
-
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -57,7 +56,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="24dp"
-            android:text="اشبشبشصثب"
+            android:text="@string/temp_building_info"
             android:textColor="@color/black"
             android:textDirection="rtl"
             android:textSize="16sp" />
@@ -67,7 +66,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="24dp"
-            android:text="مقابل المقابل"
+            android:text="@string/temp_building_location"
             android:textColor="@color/black"
             android:textDirection="rtl"
             android:textSize="16sp" />
@@ -83,7 +82,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="رمز المبنى :"
+                android:text="@string/building_key"
                 android:textColor="@color/black"
                 android:textDirection="rtl"
                 android:textSize="16sp"
@@ -94,12 +93,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
-                android:textStyle="bold"
-                android:text="Q"
+                android:text="@string/temp_building_key"
                 android:textColor="@color/black"
                 android:textDirection="rtl"
-                android:textSize="16sp" />
-
+                android:textSize="16sp"
+                android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

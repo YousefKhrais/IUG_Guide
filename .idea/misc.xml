@@ -20,22 +20,26 @@
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/activity_registration_guide.xml" value="0.23777173913043478" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/building_item.xml" value="0.33" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/college_item.xml" value="0.5" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/custom_grid_layout.xml" value="0.25" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/department_item.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/fragment_acceptance_keys.xml" value="0.3625" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/fragment_buildings.xml" value="0.25" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/fragment_colleges.xml" value="0.1648148148148148" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
-        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/fragment_guide.xml" value="0.3625" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/fragment_guide.xml" value="0.31179775280898875" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/fragment_registration_guide.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_1_go_to_university_layout.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_2_go_to_new_students_place_layout.xml" value="0.12158054711246201" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_2_go_to_university_layout.xml" value="0.1" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_3_go_to_new_students_place_layout.xml" value="0.1897644927536232" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_3_pay_application_fee_layout.xml" value="0.1" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_3_required_paperwork_layout.xml" value="0.1897644927536232" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_4_pay_application_fee_layout.xml" value="0.19202898550724637" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_5_complete_registration_form_layout.xml" value="0.33" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_6_complete_registration_form_layout.xml" value="0.3625" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_6_pay_tuition_fees_layout.xml" value="0.3625" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_7_admission_registration_layout.xml" value="0.12158054711246201" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_7_pay_tuition_fees_layout.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_days_of_week_layout.xml" value="0.23777173913043478" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />

@@ -1,4 +1,4 @@
-package com.yousef.iugguide.ui.guide;
+package com.yousef.iugguide.ui.home;
 
 import android.os.Bundle;
 

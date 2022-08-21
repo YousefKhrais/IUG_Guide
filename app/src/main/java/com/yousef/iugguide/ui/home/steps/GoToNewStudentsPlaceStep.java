@@ -1,4 +1,4 @@
-package com.yousef.iugguide.ui.guide.steps;
+package com.yousef.iugguide.ui.home.steps;
 
 import android.view.LayoutInflater;
 import android.view.View;

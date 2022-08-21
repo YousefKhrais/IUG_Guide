@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_guide">
+    app:startDestination="@+id/navigation_home">
 
     <fragment
         android:id="@+id/navigation_buildings"
@@ -18,8 +18,8 @@
         tools:layout="@layout/fragment_colleges" />
 
     <fragment
-        android:id="@+id/navigation_guide"
-        android:name="com.yousef.iugguide.ui.guide.GuideFragment"
-        android:label="@string/title_guide"
-        tools:layout="@layout/fragment_guide" />
+        android:id="@+id/navigation_home"
+        android:name="com.yousef.iugguide.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
 </navigation>
