@@ -12,6 +12,6 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:scaleType="fitXY"
-        android:src="@drawable/it_img" />
+        android:src="@drawable/img_it" />
 
 </androidx.cardview.widget.CardView>

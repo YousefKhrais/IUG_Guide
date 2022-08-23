@@ -29,12 +29,10 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     private List<HomeItem> homeItems;
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-
-        super.onCreate(savedInstanceState);
         dataList = binding.dataList;
-
         homeItems = new ArrayList<>();
 
         homeItems.add(new HomeItem("button_university_facilities", "مرافق الجامعة", R.drawable.ic_bachelor_icon));
