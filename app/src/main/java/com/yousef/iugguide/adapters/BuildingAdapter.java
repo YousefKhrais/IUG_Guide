@@ -38,7 +38,7 @@ public class BuildingAdapter extends RecyclerView.Adapter<BuildingAdapter.MyView
     public void onBindViewHolder(@NonNull BuildingAdapter.MyViewHolder holder, int position) {
         final ImageView imageView = holder.binding.buildingImage;
         Resources resources = context.getResources();
-       final int resourceId = resources.getIdentifier(data.get(position).getMainImageUrl()+"_bg", "drawable", context.getPackageName());
+       final int resourceId = resources.getIdentifier("bg_"+data.get(position).getMainImageUrl(), "drawable", context.getPackageName());
        imageView.setImageDrawable(resources.getDrawable(resourceId));
         imageView.setOnClickListener(v -> {
            AppClass.chosenBuilding = data.get(position);
