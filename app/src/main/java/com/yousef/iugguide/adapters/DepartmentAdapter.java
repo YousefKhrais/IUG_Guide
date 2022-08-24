@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.yousef.iugguide.AppClass;
-import com.yousef.iugguide.databinding.DepartmentItemBinding;
+import com.yousef.iugguide.databinding.ItemDepartmentBinding;
 import com.yousef.iugguide.models.Department;
 import com.yousef.iugguide.ui.colleges.DepartmentDetails;
 
@@ -29,7 +29,7 @@ public class DepartmentAdapter extends RecyclerView.Adapter<DepartmentAdapter.My
     @NonNull
     @Override
     public DepartmentAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        DepartmentItemBinding binding = DepartmentItemBinding.inflate(LayoutInflater.from(context), parent, false);
+        ItemDepartmentBinding binding = ItemDepartmentBinding.inflate(LayoutInflater.from(context), parent, false);
         return new DepartmentAdapter.MyViewHolder(binding);
     }
 
@@ -51,9 +51,9 @@ public class DepartmentAdapter extends RecyclerView.Adapter<DepartmentAdapter.My
 
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
-        DepartmentItemBinding binding;
+        ItemDepartmentBinding binding;
 
-        public MyViewHolder(@NonNull DepartmentItemBinding binding) {
+        public MyViewHolder(@NonNull ItemDepartmentBinding binding) {
             super(binding.getRoot());
             this.binding = binding;
         }

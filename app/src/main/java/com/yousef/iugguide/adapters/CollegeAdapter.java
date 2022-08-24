@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.yousef.iugguide.AppClass;
-import com.yousef.iugguide.databinding.CollegeItemBinding;
+import com.yousef.iugguide.databinding.ItemCollegeBinding;
 import com.yousef.iugguide.models.College;
 import com.yousef.iugguide.ui.colleges.CollegeDetails;
 
@@ -30,7 +30,7 @@ public class CollegeAdapter extends RecyclerView.Adapter<CollegeAdapter.MyViewHo
     @NonNull
     @Override
     public CollegeAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        CollegeItemBinding binding = CollegeItemBinding.inflate(LayoutInflater.from(context), parent, false);
+        ItemCollegeBinding binding = ItemCollegeBinding.inflate(LayoutInflater.from(context), parent, false);
         return new CollegeAdapter.MyViewHolder(binding);
     }
 
@@ -54,9 +54,9 @@ public class CollegeAdapter extends RecyclerView.Adapter<CollegeAdapter.MyViewHo
 
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
-        CollegeItemBinding binding;
+        ItemCollegeBinding binding;
 
-        public MyViewHolder(@NonNull CollegeItemBinding binding) {
+        public MyViewHolder(@NonNull ItemCollegeBinding binding) {
             super(binding.getRoot());
             this.binding = binding;
         }
