@@ -24,15 +24,17 @@
 
     <string name="next">التالي</string>
     <string name="previous">السابق</string>
+
     <string name="temp_building_name">مبنى القدس</string>
     <string name="temp_building_info">اشبشبشصثب</string>
     <string name="temp_building_location">مقابل المقابل</string>
-    <string name="building_key">رمز المبنى :</string>
-    <string name="temp_building_key">Q</string>
-    <string name="temp_callege_title">كلية تكنلوجيا المعلومات</string>
+    <string name="temp_building_key">K</string>
+    <string name="temp_college_title">كلية تكنلوجيا المعلومات</string>
     <string name="temp_college_info">كلية تكنلوجيا المعلومات</string>
-    <string name="college_location">مقر الكلية:</string>
     <string name="temp_college_location">كلية تكنلوجيا المعلومات</string>
-    <string name="empty_department_message">لا يوجد أقسام هنا</string>
     <string name="temp_department_name">كلية تكنلوجيا المعلومات</string>
+
+    <string name="building_key">رمز المبنى :</string>
+    <string name="college_location">مقر الكلية:</string>
+    <string name="empty_department_message">لا يوجد أقسام هنا</string>
 </resources>

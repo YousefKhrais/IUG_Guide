@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/temp_callege_title"
+            android:text="@string/temp_college_title"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textDirection="rtl"

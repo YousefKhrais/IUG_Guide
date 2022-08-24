@@ -35,16 +35,13 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         dataList = binding.dataList;
         homeItems = new ArrayList<>();
 
-        homeItems.add(new HomeItem("button_university_facilities", "مرافق الجامعة", R.drawable.ic_bachelor_icon));
-        homeItems.add(new HomeItem("button_complaints_box", "صندوق فضفضة", R.drawable.ic_bachelor_icon));
         homeItems.add(new HomeItem("button_student_services", "خدمات الطالب", R.drawable.ic_bachelor_icon));
-        homeItems.add(new HomeItem("button_business_incubator", "حاضنة الاعمال", R.drawable.ic_bachelor_icon));
-        homeItems.add(new HomeItem("button_library", "المكتبة", R.drawable.ic_bachelor_icon));
-        homeItems.add(new HomeItem("button_map", "تجول في الجامعة", R.drawable.ic_bachelor_icon));
-        homeItems.add(new HomeItem("button_events", "الفعاليات", R.drawable.ic_bachelor_icon));
-        homeItems.add(new HomeItem("button_registration_guide", "دليل التسجيل", R.drawable.ic_bachelor_icon));
 
         //Done
+        homeItems.add(new HomeItem("button_library", "المكتبة المركزية", R.drawable.ic_library2));
+//        homeItems.add(new HomeItem("button_library", "المكتبة المركزية", R.drawable.ic_library1));
+//        homeItems.add(new HomeItem("button_library", "المكتبة المركزية", R.drawable.ic_library3));
+
         homeItems.add(new HomeItem("button_alumni_affairs", "شؤون الخريجين", R.drawable.ic_graduate3));
 //        homeItems.add(new HomeItem("button_alumni_affairs", "شؤون الخريجين", R.drawable.ic_graduate1));
 //        homeItems.add(new HomeItem("button_alumni_affairs", "شؤون الخريجين", R.drawable.ic_graduate2));
@@ -57,6 +54,12 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         homeItems.add(new HomeItem("button_acceptance_key", "مفتاح القبول", R.drawable.ic_key));
 //        homeItems.add(new HomeItem("button_acceptance_key", "مفتاح القبول", R.drawable.ic_percentage));
 
+        homeItems.add(new HomeItem("button_registration_guide", "دليل التسجيل", R.drawable.ic_guide));
+        homeItems.add(new HomeItem("button_complaints_box", "صندوق فضفضة", R.drawable.ic_complaints_box));
+        homeItems.add(new HomeItem("button_university_facilities", "مرافق الجامعة", R.drawable.ic_facilities));
+        homeItems.add(new HomeItem("button_map", "تجول في الجامعة", R.drawable.ic_map));
+        homeItems.add(new HomeItem("button_business_incubator", "حاضنة الاعمال", R.drawable.ic_business_incubator));
+        homeItems.add(new HomeItem("button_events", "الفعاليات", R.drawable.ic_events));
         homeItems.add(new HomeItem("button_announcements", "الاعلانات", R.drawable.ic_announcement));
         homeItems.add(new HomeItem("button_moodle", "مودل", R.drawable.ic_moodle));
         homeItems.add(new HomeItem("button_scholarships", "المنح الدراسية", R.drawable.ic_scholarships));
