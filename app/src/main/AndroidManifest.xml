@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.yousef.iugguide">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:name=".AppClass"
         android:allowBackup="true"
