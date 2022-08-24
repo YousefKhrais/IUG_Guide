@@ -16,6 +16,7 @@ import com.yousef.iugguide.models.Building;
 import com.yousef.iugguide.ui.buildings.BuildingDetails;
 
 import java.util.ArrayList;
+import com.squareup.picasso.Picasso;
 
 public class BuildingAdapter extends RecyclerView.Adapter<BuildingAdapter.MyViewHolder> {
 
@@ -37,9 +38,10 @@ public class BuildingAdapter extends RecyclerView.Adapter<BuildingAdapter.MyView
     @Override
     public void onBindViewHolder(@NonNull BuildingAdapter.MyViewHolder holder, int position) {
         final ImageView imageView = holder.binding.buildingImage;
-        Resources resources = context.getResources();
-        final int resourceId = resources.getIdentifier("bg_" + data.get(position).getMainImageUrl(), "drawable", context.getPackageName());
-        imageView.setImageDrawable(resources.getDrawable(resourceId));
+        holder.binding.cardViewImageTitle.setText(data.get(position).getName());
+        holder.binding.cardViceTitle.setText(data.get(position).getKey());
+
+        Picasso.get().load(data.get(position).getMainImageUrl()).into(holder.binding.buildingImage);
         imageView.setOnClickListener(v -> {
             AppClass.chosenBuilding = data.get(position);
             Intent intent = new Intent(context, BuildingDetails.class);
