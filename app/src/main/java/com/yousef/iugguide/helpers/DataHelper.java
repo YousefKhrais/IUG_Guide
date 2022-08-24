@@ -112,21 +112,42 @@ public class DataHelper {
     }
 
     public void readBuildingsData(Context context) {
-     ArrayList<String> images = new ArrayList<String>();
-     images.add("art");
-     images.add("eng");
-     images.add("mid");
-     images.add("it");
-     images.add("nurce");
-     images.add("osool");
-     images.add("tarbeea");
-        AppClass.buildingArrayList.add(new Building(1, "مبنى القدس", "art", "مقابل الساحة الرئيسية التي تحتوي على النافورة", "أسس هذا المبنى عام 2007 وقد كان محط الأنظار في ألعلم والتعليم", "K",images));
-        AppClass.buildingArrayList.add(new Building(1, "مبنى القدس", "mid", "مقابل الساحة الرئيسية التي تحتوي على النافورة", "أسس هذا المبنى عام 2007 وقد كان محط الأنظار في ألعلم والتعليم", "K",images));
-        AppClass.buildingArrayList.add(new Building(1, "مبنى القدس", "eng", "مقابل الساحة الرئيسية التي تحتوي على النافورة", "أسس هذا المبنى عام 2007 وقد كان محط الأنظار في ألعلم والتعليم", "K",images));
-        AppClass.buildingArrayList.add(new Building(1, "مبنى القدس", "it", "مقابل الساحة الرئيسية التي تحتوي على النافورة", "أسس هذا المبنى عام 2007 وقد كان محط الأنظار في ألعلم والتعليم", "K",images));
-        AppClass.buildingArrayList.add(new Building(1, "مبنى القدس", "tarbeea", "مقابل الساحة الرئيسية التي تحتوي على النافورة", "أسس هذا المبنى عام 2007 وقد كان محط الأنظار في ألعلم والتعليم", "K",images));
-        AppClass.buildingArrayList.add(new Building(1, "مبنى القدس", "osool", "مقابل الساحة الرئيسية التي تحتوي على النافورة", "أسس هذا المبنى عام 2007 وقد كان محط الأنظار في ألعلم والتعليم", "K",images));
-        AppClass.buildingArrayList.add(new Building(1, "مبنى القدس", "shareaa", "مقابل الساحة الرئيسية التي تحتوي على النافورة", "أسس هذا المبنى عام 2007 وقد كان محط الأنظار في ألعلم والتعليم", "K",images));
+        try {
+            InputStream inputStream = context.getResources().openRawResource(R.raw.buildings);
+            String jsonString = new Scanner(inputStream).useDelimiter("\\A").next();
+
+            JSONObject root = new JSONObject(jsonString);
+
+            JSONArray array = root.getJSONArray("buildings");
+
+            for (int i = 0; i < array.length(); i++) {
+                JSONObject object = array.getJSONObject(i);
+
+                Building building = new Building();
+
+                building.setId(i);
+                building.setName(object.getString("building_name"));
+                building.setMainImageUrl(object.getString("main_image"));
+                building.setDescription(object.getString("main_info"));
+                building.setLocation(object.getString("location"));
+//                building.setKey(object.getString("building_keysss"));
+                building.setKey("K");
+
+                ArrayList<String> imagesArrayList = new ArrayList<>();
+                String[] other_images = object.getString("other_images").split("\r\n");
+
+                for (int j = 0; j < other_images.length; j++) {
+                    imagesArrayList.add(other_images[j]);
+                }
+
+                building.setImagesArrayList(imagesArrayList);
+
+                AppClass.buildingArrayList.add(building);
+                System.out.println("Building: " + building);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public College getCollegeById(int id) {
