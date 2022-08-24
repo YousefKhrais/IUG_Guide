@@ -21,8 +21,6 @@ public class DepartmentDetails extends AppCompatActivity {
         Resources resources = this.getResources();
         final int resourceId = resources.getIdentifier("logo_" + AppClass.chosen_college.getImageUrl(), "drawable", this.getPackageName());
         binding.collegeIcon.setImageDrawable(resources.getDrawable(resourceId));
-        final int resourceId1 = resources.getIdentifier("bg_" + AppClass.chosen_college.getImageUrl(), "drawable", this.getPackageName());
-        binding.backgroundOfDep.setBackground(resources.getDrawable(resourceId1));
 
         binding.collegeName.setText(AppClass.chosen_college.getName());
         binding.departmentName.setText(AppClass.chosen_Department.getName());

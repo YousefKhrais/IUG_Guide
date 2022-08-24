@@ -47,7 +47,7 @@
                 app:iss_corner_radius="10"
                 app:iss_delay="1000"
                 app:iss_period="1000"
-                app:iss_title_background="@drawable/ic_bachelor" />
+                app:iss_title_background="@drawable/ic_master_degree_icon" />
         </androidx.cardview.widget.CardView>
 
         <TextView
