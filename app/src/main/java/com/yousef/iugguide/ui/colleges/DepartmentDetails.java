@@ -19,20 +19,20 @@ public class DepartmentDetails extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(binding.getRoot());
         Resources resources = this.getResources();
-        final int resourceId = resources.getIdentifier("logo_" + AppClass.chosen_college.getImageUrl(), "drawable", this.getPackageName());
+        final int resourceId = resources.getIdentifier("logo_" + AppClass.chosenCollege.getImageUrl(), "drawable", this.getPackageName());
         binding.collegeIcon.setImageDrawable(resources.getDrawable(resourceId));
 
-        binding.collegeName.setText(AppClass.chosen_college.getName());
-        binding.departmentName.setText(AppClass.chosen_Department.getName());
-        binding.departmentInfo.setText(AppClass.chosen_Department.getDescription());
-        binding.departmentKey.setText(AppClass.chosen_Department.getFormatKey() + " " + AppClass.chosen_Department.getSection());
+        binding.collegeName.setText(AppClass.chosenCollege.getName());
+        binding.departmentName.setText(AppClass.chosenDepartment.getName());
+        binding.departmentInfo.setText(AppClass.chosenDepartment.getDescription());
+        binding.departmentKey.setText(AppClass.chosenDepartment.getFormatKey() + " " + AppClass.chosenDepartment.getSection());
         binding.departmentStudyLink.setOnClickListener(v -> {
             Intent i = new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse(AppClass.chosen_Department.getPlanUrl()));
+            i.setData(Uri.parse(AppClass.chosenDepartment.getPlanUrl()));
             startActivity(i);
         });
 
-        binding.numberOfStudent.setText(String.valueOf(AppClass.chosen_Department.getStudentsCount()));
+        binding.numberOfStudent.setText(String.valueOf(AppClass.chosenDepartment.getStudentsCount()));
 
     }
 }

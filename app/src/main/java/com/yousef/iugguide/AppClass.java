@@ -16,8 +16,9 @@ public class AppClass extends Application {
     public static ArrayList<Department> departmentsArrayList = new ArrayList<>();
     public static ArrayList<College> collegesArrayList = new ArrayList<>();
     public static ArrayList<Building> buildingArrayList = new ArrayList<>();
-    public static College chosen_college;
-    public static Department chosen_Department;
+
+    public static College chosenCollege;
+    public static Department chosenDepartment;
     public static Building chosenBuilding;
 
     @Override

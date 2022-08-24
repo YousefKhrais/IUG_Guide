@@ -41,7 +41,7 @@ public class CollegeAdapter extends RecyclerView.Adapter<CollegeAdapter.MyViewHo
         final int resourceId = resources.getIdentifier("img_"+data.get(position).getImageUrl(), "drawable", context.getPackageName());
         imageView.setImageDrawable(resources.getDrawable(resourceId));
         imageView.setOnClickListener(v->{
-            AppClass.chosen_college = data.get(position);
+            AppClass.chosenCollege = data.get(position);
             Intent intent = new Intent(context, CollegeDetails.class);
             context.startActivity(intent);
         });

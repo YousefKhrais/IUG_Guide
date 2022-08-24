@@ -2,110 +2,110 @@
   "buildings": [
     {
       "building_name": "القدس",
-      "main_image": "https://drive.google.com/file/d/12j6CwSmw48RopTdRSD1qvkgH6G4QC6QT/view?usp=sharing",
-      "other_images": "https://drive.google.com/file/d/1Vb4MDROP6yZ9DPAf2ytpvxd8pNrCHeP_/view?usp=sharing\r\nhttps://drive.google.com/file/d/1q2zDqyuxxXrJ7_onUE_a-DAivjnI8tPH/view?usp=sharing\r\nhttps://drive.google.com/file/d/12j6CwSmw48RopTdRSD1qvkgH6G4QC6QT/view?usp=sharing",
+      "main_image": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmT9RNZHncld_lYaBYsgxCDkeKPTtI_DGVgx8usT_KjdJ-EuI6rY9XGq4v4SvOLLdnLMt54YsgE=w1366-h697",
+      "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmT9RNZHncld_lYaBYsgxCDkeKPTtI_DGVgx8usT_KjdJ-EuI6rY9XGq4v4SvOLLdnLMt54YsgE=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmR52FIBE4wjckZabXDAX5ZnUq2K4nnxLmF9FFAh-g-PxTVSNZegSMxoyCwnSvjWjpr1d_9XLAM=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmR5fAhZJez48q07Fdvn7RJNkR8WoPp2xbuV0xV83ydsXpJ3YMaTnRtzMhYse-QQXJ_R9GtK2f8=w1366-h697",
       "main_info": "مبنى القدس",
-      "building_keysss": "K",
+      "key": "K",
       "location": "gaza"
     },
     {
       "building_name": "الإدارة",
-      "main_image": "https://drive.google.com/file/d/1N9xsVfhtPrcKmni7WdOca0UbBwAzHDiO/view?usp=sharing",
-      "other_images": "https://drive.google.com/file/d/1N9xsVfhtPrcKmni7WdOca0UbBwAzHDiO/view?usp=sharing\r\nhttps://drive.google.com/file/d/13nEEYHZfHpwQeFAKunHiWydZ_FVHbr_h/view?usp=sharing\r\nhttps://drive.google.com/file/d/1ToZptLUDuYAtYBwwzji_-4rX01tNPBX-/view?usp=sharing",
+      "main_image": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmR54oG6ABpq14p3L6uTiGn0PkL-lg6cJa5np0vqdQiSnNKGnfdkVrOfntWAIWuWZ0TQlcmIwyY=w1366-h697",
+      "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmR54oG6ABpq14p3L6uTiGn0PkL-lg6cJa5np0vqdQiSnNKGnfdkVrOfntWAIWuWZ0TQlcmIwyY=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmRyDj41BCzCyfNeZtnBqJtqivc6m_6Q4To3Jjgbnwl_lsG0VxVPIfn4F99LUZkjdVSIbnWKrAk=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmSZUB9_YST4_ve9mb5FAkSEVaGH5sk1SjCjTeMQl-tm2dqHO7EkmpWq22hdsYHEjjr_MzkbXyM=w1366-h697",
       "main_info": "الإدارة",
-      "building_keysss": "B",
+      "key": "B",
       "location": "gaza"
     },
     {
       "building_name": "التعليم المستمر",
-      "main_image": "https://drive.google.com/file/d/1qnHWhN20YNnDV2ogY1e7bno0BQlJRcpv/view?usp=sharing",
-      "other_images": "https://drive.google.com/file/d/1qnHWhN20YNnDV2ogY1e7bno0BQlJRcpv/view?usp=sharing\r\nhttps://drive.google.com/file/d/1YvrB4-ymx7FCw-GUnbFNejjuG8esMgeu/view?usp=sharing\r\nhttps://drive.google.com/file/d/1jQw1ba2WPrNggXFoqJ2qZ2XYxgBEXSeQ/view?usp=sharing",
+      "main_image": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmR9Ye6WJ16DS-9hJAXcvSR0sAFRnYAKvg-4mP-SkxHxQP_WZn-euBRkrhKC11bDPct-4DAc5qA=w1366-h697",
+      "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmR9Ye6WJ16DS-9hJAXcvSR0sAFRnYAKvg-4mP-SkxHxQP_WZn-euBRkrhKC11bDPct-4DAc5qA=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmT-JO1lLGb7RzRUvxyq3W7BKrAc9EZ-eNqbxesUiUWu4cH6FYHeqeBg--hnaIpNBQCdBnFVcHQ=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmTFaJFTk75wNN4P0_EwIUo62rsBVJ6rvIzpkouq56oYlyd5j9jFxLFQ3ThfPpYPjZLZwKjstEM=w1366-h697",
       "main_info": "التعليم المستمر",
-      "building_keysss": "!",
+      "key": "!",
       "location": "gaza"
     },
     {
       "building_name": "العلوم",
-      "main_image": "https://drive.google.com/file/d/1Fm9lOvVXOucekvGZdAFY9unvNWOiqPNN/view?usp=sharing",
-      "other_images": "https://drive.google.com/file/d/1Fm9lOvVXOucekvGZdAFY9unvNWOiqPNN/view?usp=sharing\r\nhttps://drive.google.com/file/d/1XxlVuO9ZChP0DFU4SmQQ4e3ZDBrH9sM2/view?usp=sharing\r\nhttps://drive.google.com/file/d/1HaUn1IgcXFxWpgLgeb0rdL8nwisYiwvD/view?usp=sharing",
+      "main_image": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmRPFkWvXgOlXx-L2yIH5wCQhLwyQSzfJ2Hk2FJXBhbcUWB9y5DezI1Oh90tFwnX748jblqOtNI=w1366-h697",
+      "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmRPFkWvXgOlXx-L2yIH5wCQhLwyQSzfJ2Hk2FJXBhbcUWB9y5DezI1Oh90tFwnX748jblqOtNI=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmSHAapvzQtA0djhJEGaQtZViFPuHkIe7WFKIjQt6gO9UzCJhNGhfXJ-47PDpa2h8kL8aB2SAc4=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmRQnBJ1nuYFmFp8QaRLlljDWRFuBNTLU4kYuHyeVlopYRsfjjFDfVwKf1DvNJhcSuT28RDhCzk=w1366-h697",
       "main_info": "العلوم",
-      "building_keysss": "C",
+      "key": "C",
       "location": "gaza"
     },
     {
       "building_name": "المؤتمرات",
-      "main_image": "https://drive.google.com/file/d/17PodogswanYtIzj19wMisVxxAsuinGua/view?usp=sharing",
-      "other_images": "https://drive.google.com/file/d/17PodogswanYtIzj19wMisVxxAsuinGua/view?usp=sharing\r\nhttps://drive.google.com/file/d/17PodogswanYtIzj19wMisVxxAsuinGua/view?usp=sharing\r\nhttps://drive.google.com/file/d/17PodogswanYtIzj19wMisVxxAsuinGua/view?usp=sharing",
+      "main_image": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmQ1gCGmsAVv8d8nqjChZhLtw43UetqVTPhvBwRf7KNaT_65BQxJ6WnNldAiHUqYWVZrXb20-VI=w1366-h697",
+      "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmQ1gCGmsAVv8d8nqjChZhLtw43UetqVTPhvBwRf7KNaT_65BQxJ6WnNldAiHUqYWVZrXb20-VI=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmQ1gCGmsAVv8d8nqjChZhLtw43UetqVTPhvBwRf7KNaT_65BQxJ6WnNldAiHUqYWVZrXb20-VI=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmQ1gCGmsAVv8d8nqjChZhLtw43UetqVTPhvBwRf7KNaT_65BQxJ6WnNldAiHUqYWVZrXb20-VI=w1366-h697",
       "main_info": "المؤتمرات",
-      "building_keysss": "!",
+      "key": "!",
       "location": "gaza"
     },
     {
       "building_name": "المسجد",
-      "main_image": "https://drive.google.com/file/d/1N7Roas4LtFnspUU_76EDeJCuwPDZtfWd/view?usp=sharing",
-      "other_images": "https://drive.google.com/file/d/1N7Roas4LtFnspUU_76EDeJCuwPDZtfWd/view?usp=sharing\r\nhttps://drive.google.com/file/d/1ibNFQ6lHcH1me-8htIX6jw0p_sI-OUjk/view?usp=sharing\r\nhttps://drive.google.com/file/d/1AAO9YwXGNcsEhh490iMXnyLy1GqrOZmC/view?usp=sharing\r\nhttps://drive.google.com/file/d/1u2tFzjbs9V6e_6p9zzpIJ0S4PsmbNUsh/view?usp=sharing",
+      "main_image": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmQGlvSh_QU428G6r7PIpuAM3U3i5l2W-QWvcke0QkI5savIZk1PrPgwvWGb8VN3fk4Ut-Pwgn8=w1366-h697",
+      "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmQGlvSh_QU428G6r7PIpuAM3U3i5l2W-QWvcke0QkI5savIZk1PrPgwvWGb8VN3fk4Ut-Pwgn8=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmSeG55y5KQukCh-MMfnuUUdKfUKSD-o1Y_2j-6B29q7-xnO5Meb8-GpAZAWmtB-E0aU1Dajd_8=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmRQyPTP7b3hrL3DRBrJg4edv4V6lkEzhac5hbWojFM-MVuDJZiRYCkOiBWWNyp-7oRiF-0gllo=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmR9z-PsnGZUGw7R55f7IsqOlrOe-CetVuREdVoHK09xC48WPnTJ_RxnqZl-6XWb0jFs44BkWqI=w1366-h697",
       "main_info": "المسجد",
-      "building_keysss": "!",
+      "key": "!",
       "location": "gaza"
     },
     {
       "building_name": "المكتبة المركزية",
-      "main_image": "https://drive.google.com/file/d/1zk4Dd0zeXSmIm2pyxqBRBSejHxYgXYxo/view?usp=sharing",
-      "other_images": "https://drive.google.com/file/d/1zk4Dd0zeXSmIm2pyxqBRBSejHxYgXYxo/view?usp=sharing\r\nhttps://drive.google.com/file/d/1_SIwzwAor0a-JtGNt90B2afT14O1Y4M4/view?usp=sharing\r\nhttps://drive.google.com/file/d/1TBCrDNBeLGcU-VO6flROCMoDzXsbXGH6/view?usp=sharing\r\nhttps://drive.google.com/file/d/1nJJYNVkmvQ0OIzSRnxEsCMcN0DHBSX4i/view?usp=sharing\r\nhttps://drive.google.com/file/d/1lArcEK_tkZrryQZBj1zHVFhizhSuHBWh/view?usp=sharing",
+      "main_image": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmRJ_MWIBXdcBRwxhHnGE2ElySqPKmeUb5-SDZ637q9x9fdjEMeD_Uz8q1NZoMo-6Rpleood2uc=w1366-h697",
+      "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmRJ_MWIBXdcBRwxhHnGE2ElySqPKmeUb5-SDZ637q9x9fdjEMeD_Uz8q1NZoMo-6Rpleood2uc=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmRaGKqT6XvMlSEIO1PCU6E4ovOu0pT5Rt3Gcjl2srOfvNEnWvl5dTmYJBABk2sR0M1yIGl8Hfg=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmSU2HdvJTinfJ6bzH_FQAq7Gjp5yoA1zGlU2nYjDE88gtryvqwxR9EjPRvqM-OBa3Y2Z8s_kGU=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmRZZi7c5UOfNabpOHyL7pMsRS8WhZ-K5VwmKknG1fbn7FjN68DfVhjZyKP3ril9pTEPKk-v-5g=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmT26RLhDTyO5PVuXh5YC7SYYVvIIubXzoNg4G1Yvd-ud0k89NPB2w9yB0P8YvTO7_u-GndEnbc=w1366-h697",
       "main_info": "المكتبة المركزية",
-      "building_keysss": "!",
+      "key": "!",
       "location": "gaza"
     },
     {
       "building_name": "إرادة",
-      "main_image": "https://drive.google.com/file/d/1hZSaAHZyZ8G13QmHWUsWtK7WYz8pUCe5/view?usp=sharing",
-      "other_images": "https://drive.google.com/file/d/1hZSaAHZyZ8G13QmHWUsWtK7WYz8pUCe5/view?usp=sharing\r\nhttps://drive.google.com/file/d/151a2mZfIXoCUUDwYW2UQ7_wLPKq0HGub/view?usp=sharing",
+      "main_image": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmTTARAP5uZuxYaOlSyU0XhzlMW7MGZ8CBigoiLYqzpQ2UPrCOoEamb-e9781UXMxaKm_TtuTds=w1366-h697",
+      "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmTTARAP5uZuxYaOlSyU0XhzlMW7MGZ8CBigoiLYqzpQ2UPrCOoEamb-e9781UXMxaKm_TtuTds=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmR4739P6q5Ql9pfCd0EyklqqeYMifz-s4BaldjbyiljflhUtf-LyVUndeDoGW6E8p7VrZ8iQVs=w1366-h697",
       "main_info": "إرادة",
-      "building_keysss": "!",
+      "key": "!",
       "location": "gaza"
     },
     {
       "building_name": "الأنشطة الطلابية",
-      "main_image": "https://drive.google.com/file/d/1g0WCJzV2jBlCh_qS7G2aPaIxLbQM6rTb/view?usp=sharing",
-      "other_images": "https://drive.google.com/file/d/1g0WCJzV2jBlCh_qS7G2aPaIxLbQM6rTb/view?usp=sharing\r\nhttps://drive.google.com/file/d/1GMR6E7ETSDJg2hFxaYeigeZdK0VBp8Sn/view?usp=sharing\r\nhttps://drive.google.com/file/d/1F0CSkqbiuasgXXDSBRAg2lBkdnl9dxeP/view?usp=sharing",
+      "main_image": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmSvSh4dJOeJ6mVd8dImXN-tznP8l-HWlk_gXvZZgor8itXdd76JQBV2VnEp4pfeCSLxZICx8Hw=w1366-h697",
+      "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmSvSh4dJOeJ6mVd8dImXN-tznP8l-HWlk_gXvZZgor8itXdd76JQBV2VnEp4pfeCSLxZICx8Hw=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmRDazl80FnCAD9sRrwvnNtvbovfTjHFcc-Kw-D1gfFVKYBtSv-WMlYbdwSYO1hSaEq2QpJzFAU=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmS9POB9McrkjKpEeG81LCpAeymTfiel6mAI73YNbJcMfD3G8UmHBXwsGh1P6WZOCwrf0fpV25M=w1366-h697",
       "main_info": "الأنشطة الطلابية",
-      "building_keysss": "Q",
+      "key": "Q",
       "location": "gaza"
     },
     {
       "building_name": "اللحيدان",
-      "main_image": "https://drive.google.com/file/d/1iWsJUViRvlapPW5Gea-9Cu9mwu6wVZxj/view?usp=sharing",
-      "other_images": "https://drive.google.com/file/d/1iWsJUViRvlapPW5Gea-9Cu9mwu6wVZxj/view?usp=sharing\r\nhttps://drive.google.com/file/d/1iWsJUViRvlapPW5Gea-9Cu9mwu6wVZxj/view?usp=sharing\r\nhttps://drive.google.com/file/d/1Wqjd7ceVR4fWRlcZ3GhTOzVtArMDWF-q/view?usp=sharing",
+      "main_image": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmTloANyCHLRPGcY0NacwxhC-AzH0ksRTkxMWJMDm1ZB4b7nGV9oVOlckR-HTMWoKUYCtTBy6Qg=w1366-h697",
+      "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmTloANyCHLRPGcY0NacwxhC-AzH0ksRTkxMWJMDm1ZB4b7nGV9oVOlckR-HTMWoKUYCtTBy6Qg=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmTloANyCHLRPGcY0NacwxhC-AzH0ksRTkxMWJMDm1ZB4b7nGV9oVOlckR-HTMWoKUYCtTBy6Qg=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmSBIg9BJk3_qBXOqFByUh9WF3-jxptuQkY6ezpfU--lJK3J4gTtgpyCQQCBcxHvCGjdskZdqZU=w1366-h697",
       "main_info": "اللحيدان",
-      "building_keysss": "!",
+      "key": "!",
       "location": "gaza"
     },
     {
       "building_name": "المدينة المنورة",
-      "main_image": "https://drive.google.com/file/d/1PN1hEAmMJ9k6cYbdRpxqlpN3V5xZrCif/view?usp=sharing",
-      "other_images": "https://drive.google.com/file/d/1PN1hEAmMJ9k6cYbdRpxqlpN3V5xZrCif/view?usp=sharing\r\nhttps://drive.google.com/file/d/1c8Qp23v-fC1ett6KfEqKk7Gj361yNJug/view?usp=sharing\r\nhttps://drive.google.com/file/d/10xYlY13vtxSa3neLqC53ZR--B6GYr3rZ/view?usp=sharing",
+      "main_image": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmTsgwo2Ts5FK0UKokeCGQPIFmNBxLdovdeDS26hNRlh8Vk2AdSmshTLfcWmsqbys4P6Srbvv90=w1366-h697",
+      "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmTsgwo2Ts5FK0UKokeCGQPIFmNBxLdovdeDS26hNRlh8Vk2AdSmshTLfcWmsqbys4P6Srbvv90=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmQ-9NitQR2tWvCmFcynH_u5-bzlMNCI0IXXAiYSqO6dhGdEL8uM9ON-ouRrg5Tkl69rVmzfrDo=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmSj0EJaT12PzSP_l1LM23KxuL23wkdiPorsKvSjFJ6G6EIM5rCIb3JdHVLd0LsJnjSIaiQpX-M=w1366-h697",
       "main_info": "المدينة المنورة",
-      "building_keysss": "!",
+      "key": "!",
       "location": "gaza"
     },
     {
       "building_name": "طيبة",
-      "main_image": "https://drive.google.com/file/d/1A_n2bNCV11C5GOU6gfs0ZZRS_zqR1GC0/view?usp=sharing",
-      "other_images": "https://drive.google.com/file/d/1A_n2bNCV11C5GOU6gfs0ZZRS_zqR1GC0/view?usp=sharing\r\nhttps://drive.google.com/file/d/1A_n2bNCV11C5GOU6gfs0ZZRS_zqR1GC0/view?usp=sharing\r\nhttps://drive.google.com/file/d/1A_n2bNCV11C5GOU6gfs0ZZRS_zqR1GC0/view?usp=sharing",
+      "main_image": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmQyNMGBXOuNBzZJtuon5G21r6EjWuT9tzkQk3j5fSo9MdPAdzjGVkip8dyDZ5n3hh83jls2IGE=w1366-h697",
+      "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmQyNMGBXOuNBzZJtuon5G21r6EjWuT9tzkQk3j5fSo9MdPAdzjGVkip8dyDZ5n3hh83jls2IGE=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmQyNMGBXOuNBzZJtuon5G21r6EjWuT9tzkQk3j5fSo9MdPAdzjGVkip8dyDZ5n3hh83jls2IGE=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmQyNMGBXOuNBzZJtuon5G21r6EjWuT9tzkQk3j5fSo9MdPAdzjGVkip8dyDZ5n3hh83jls2IGE=w1366-h697",
       "main_info": "طيبة",
       "location": "gaza"
     },
     {
       "building_name": "فلسطين",
-      "main_image": "https://drive.google.com/file/d/1RE2589_VfmIqAYjschUpJAiFremKvLQd/view?usp=sharing",
-      "other_images": "https://drive.google.com/file/d/1RE2589_VfmIqAYjschUpJAiFremKvLQd/view?usp=sharing\r\nhttps://drive.google.com/file/d/1ttYFOdQshKG5OjRoR2pesQrw6oqvl0IR/view?usp=sharing\r\nhttps://drive.google.com/file/d/1mW7qBwC0GlTXT0mCaspScqqu2BbTlCo4/view?usp=sharing",
+      "main_image": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmTpB8MZB0a3oZ_ThlbBE7hh0Gxy1IBgAafd4KZ83-T62gjJa3ISTv8_KUQ31WUlsGYNY3m-JKo=w1366-h697",
+      "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmTpB8MZB0a3oZ_ThlbBE7hh0Gxy1IBgAafd4KZ83-T62gjJa3ISTv8_KUQ31WUlsGYNY3m-JKo=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmSVgD0gTQDqdUP4GN7QbWFTErU2aLLDBU84MpUlm17mrBoARnxhctgx92ZXl0xAkbk10Vo5YyE=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmSBDx-NYzaBU7ZI3mGnXuWeBFU34jDnEjPsrFhL9HSe52Mks3I1lEBJ9ZtCJ8XPKoAkTp2UUR8=w1366-h697",
       "main_info": "فلسطين",
       "location": "gaza"
     },
     {
       "building_name": "الإدارة القديم",
-      "main_image": "https://drive.google.com/file/d/1Ri2XwmuzqRXSGU9kpEBKRRaJReFhJ-hq/view?usp=sharing",
-      "other_images": "https://drive.google.com/file/d/1Ri2XwmuzqRXSGU9kpEBKRRaJReFhJ-hq/view?usp=sharing\r\nhttps://drive.google.com/file/d/1lCNsIR-af9nyMyg3L1QkFYNYDB97Hnk0/view?usp=sharing",
+      "main_image": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmTht7WQfD9jFeO3XCMVhquOcYhOl-fGVhTLDsviOAt_kCqSrOh_SQzMLNCQcN157bgiu-DYCEo=w1366-h697",
+      "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmTht7WQfD9jFeO3XCMVhquOcYhOl-fGVhTLDsviOAt_kCqSrOh_SQzMLNCQcN157bgiu-DYCEo=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmQr6Ya1MmiSOGROQiHIRGJu5dn5VHVWuTFd2lygf_L8S2x0sCBGUQiykVjSNbZnA3Iow0gf2K4=w1366-h697",
       "main_info": "الإدارة القديم",
       "location": "gaza"
     }

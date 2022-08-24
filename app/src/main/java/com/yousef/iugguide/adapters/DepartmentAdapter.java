@@ -38,7 +38,7 @@ public class DepartmentAdapter extends RecyclerView.Adapter<DepartmentAdapter.My
         final TextView textView = holder.binding.departmentName;
         textView.setText(data.get(position).getName());
         holder.binding.departmentCardItem.setOnClickListener(v->{
-            AppClass.chosen_Department = data.get(position);
+            AppClass.chosenDepartment = data.get(position);
             Intent intent = new Intent(context, DepartmentDetails.class);
             context.startActivity(intent);
         });

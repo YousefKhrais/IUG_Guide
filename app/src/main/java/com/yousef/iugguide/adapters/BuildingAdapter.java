@@ -2,7 +2,6 @@ package com.yousef.iugguide.adapters;
 
 import android.content.Context;
 import android.content.Intent;
-import android.content.res.Resources;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -10,13 +9,13 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.squareup.picasso.Picasso;
 import com.yousef.iugguide.AppClass;
 import com.yousef.iugguide.databinding.ItemBuildingBinding;
 import com.yousef.iugguide.models.Building;
 import com.yousef.iugguide.ui.buildings.BuildingDetails;
 
 import java.util.ArrayList;
-import com.squareup.picasso.Picasso;
 
 public class BuildingAdapter extends RecyclerView.Adapter<BuildingAdapter.MyViewHolder> {
 
