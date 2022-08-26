@@ -17,6 +17,6 @@
         android:text="@string/temp_department_name"
         android:textColor="@color/black"
         android:textDirection="rtl"
-        android:textSize="25sp" />
+        android:textSize="20sp" />
 
 </androidx.cardview.widget.CardView>

@@ -14,6 +14,7 @@ public class CompleteRegistrationFormStep extends Step<String> {
 
     private View stepContent;
     private Button admissionVideoButton;
+    private Button admissionApplicationButton;
 
     public CompleteRegistrationFormStep(String stepTitle) {
         super(stepTitle);
@@ -27,6 +28,14 @@ public class CompleteRegistrationFormStep extends Step<String> {
         admissionVideoButton = stepContent.findViewById(R.id.admissionVideoButton);
         admissionVideoButton.setOnClickListener(v -> {
             String url = "https://www.youtube.com/watch?v=KZBHwBP-Xv8&ab_channel=AdmissionIUG";
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse(url));
+            stepContent.getContext().startActivity(i);
+        });
+
+        admissionApplicationButton = stepContent.findViewById(R.id.admissionApplicationButton);
+        admissionApplicationButton.setOnClickListener(v -> {
+            String url = "https://eportal.iugaza.edu.ps/ords/f?p=142:LOGIN:12002841936534:::::";
             Intent i = new Intent(Intent.ACTION_VIEW);
             i.setData(Uri.parse(url));
             stepContent.getContext().startActivity(i);

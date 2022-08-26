@@ -7,6 +7,7 @@ import com.yousef.iugguide.R;
 import com.yousef.iugguide.models.Building;
 import com.yousef.iugguide.models.College;
 import com.yousef.iugguide.models.Department;
+import com.yousef.iugguide.models.Professor;
 import com.yousef.iugguide.models.enums.DepartmentType;
 
 import org.json.JSONArray;
@@ -150,11 +151,11 @@ public class DataHelper {
         }
     }
 
-    public College getCollegeById(int id) {
-        for (int i = 0; i < AppClass.collegesArrayList.size(); i++) {
-            if (AppClass.collegesArrayList.get(i).getId() == id)
-                return AppClass.collegesArrayList.get(i);
-        }
-        return null;
+    public void readProfessorsData(Context context) {
+        AppClass.professorsArrayList.add(new Professor(0, "نبيل محمود عبدالله حويحي", 0, 0));
+        AppClass.professorsArrayList.add(new Professor(1, "نبيل محمود عبدالله حويحي", 0, 0));
+        AppClass.professorsArrayList.add(new Professor(2, "نبيل محمود عبدالله حويحي", 0, 0));
+        AppClass.professorsArrayList.add(new Professor(3, "نبيل محمود عبدالله حويحي", 0, 0));
+        AppClass.professorsArrayList.add(new Professor(4, "نبيل محمود عبدالله حويحي", 0, 0));
     }
 }
