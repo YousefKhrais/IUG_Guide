@@ -67,7 +67,7 @@ public class DoctorsAdapter extends RecyclerView.Adapter<DoctorsAdapter.MyViewHo
           break;
       }
         holder.binding.roomNumber.setText(data.get(position).getRoomNumber());
-        holder.binding.specialty.setText(data.get(position).getSpecialty());
+       // holder.binding.specialty.setText(data.get(position).getSpecialty());
 
     }
 
