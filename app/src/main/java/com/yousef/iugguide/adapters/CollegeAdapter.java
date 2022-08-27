@@ -22,9 +22,9 @@ public class CollegeAdapter extends RecyclerView.Adapter<CollegeAdapter.MyViewHo
     Context context;
     ArrayList<College> data;
 
-    public CollegeAdapter(Context context, ArrayList<College> clinics) {
+    public CollegeAdapter(Context context, ArrayList<College> colleges) {
         this.context = context;
-        this.data = clinics;
+        this.data = colleges;
     }
 
     @NonNull

@@ -10,11 +10,13 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import com.yousef.iugguide.AppClass;
 import com.yousef.iugguide.R;
 import com.yousef.iugguide.adapters.DepartmentAdapter;
+import com.yousef.iugguide.adapters.DoctorsAdapter;
 import com.yousef.iugguide.databinding.ActivityCollegeDetailsBinding;
 
 public class CollegeDetails extends AppCompatActivity {
     ActivityCollegeDetailsBinding binding;
     DepartmentAdapter departmentAdapter;
+    DoctorsAdapter doctorsAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,6 +77,11 @@ public class CollegeDetails extends AppCompatActivity {
                         binding.departmentRv.setLayoutManager(new LinearLayoutManager(this));
                         departmentAdapter = new DepartmentAdapter(this, AppClass.chosenCollege.getDoctorateDepartments());
                         binding.departmentRv.setAdapter(departmentAdapter);}
+                    break;
+                case R.id.nav_doctors:
+                    binding.departmentRv.setLayoutManager(new LinearLayoutManager(this));
+                    doctorsAdapter = new DoctorsAdapter(this, AppClass.doctorsArrayList);
+                    binding.departmentRv.setAdapter(doctorsAdapter);
                     break;
 
 

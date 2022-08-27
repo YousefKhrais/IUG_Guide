@@ -7,7 +7,7 @@ import com.yousef.iugguide.R;
 import com.yousef.iugguide.models.Building;
 import com.yousef.iugguide.models.College;
 import com.yousef.iugguide.models.Department;
-import com.yousef.iugguide.models.Professor;
+import com.yousef.iugguide.models.Doctor;
 import com.yousef.iugguide.models.enums.DepartmentType;
 
 import org.json.JSONArray;
@@ -152,10 +152,10 @@ public class DataHelper {
     }
 
     public void readProfessorsData(Context context) {
-        AppClass.professorsArrayList.add(new Professor(0, "نبيل محمود عبدالله حويحي", 0, 0));
-        AppClass.professorsArrayList.add(new Professor(1, "نبيل محمود عبدالله حويحي", 0, 0));
-        AppClass.professorsArrayList.add(new Professor(2, "نبيل محمود عبدالله حويحي", 0, 0));
-        AppClass.professorsArrayList.add(new Professor(3, "نبيل محمود عبدالله حويحي", 0, 0));
-        AppClass.professorsArrayList.add(new Professor(4, "نبيل محمود عبدالله حويحي", 0, 0));
+        AppClass.doctorsArrayList.add(new Doctor(0, "نبيل محمود عبدالله حويحي", 0, 0));
+        AppClass.doctorsArrayList.add(new Doctor(1, "نبيل محمود عبدالله حويحي", 0, 0));
+        AppClass.doctorsArrayList.add(new Doctor(2, "نبيل محمود عبدالله حويحي", 0, 0));
+        AppClass.doctorsArrayList.add(new Doctor(3, "نبيل محمود عبدالله حويحي", 0, 0));
+        AppClass.doctorsArrayList.add(new Doctor(4, "نبيل محمود عبدالله حويحي", 0, 0));
     }
 }

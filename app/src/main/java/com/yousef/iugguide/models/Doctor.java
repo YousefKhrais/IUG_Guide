@@ -1,21 +1,21 @@
 package com.yousef.iugguide.models;
 
-public class Professor {
+public class Doctor {
 
     private int id;
     private String name;
     private int collegeId;
     private int departmentId;
 
-    public Professor() {
+    public Doctor() {
     }
 
-    public Professor(int id, String name) {
+    public Doctor(int id, String name) {
         this.id = id;
         this.name = name;
     }
 
-    public Professor(int id, String name, int collegeId, int departmentId) {
+    public Doctor(int id, String name, int collegeId, int departmentId) {
         this.id = id;
         this.name = name;
         this.collegeId = collegeId;
@@ -56,7 +56,7 @@ public class Professor {
 
     @Override
     public String toString() {
-        return "Professor{" +
+        return "Doctor{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", collegeId=" + collegeId +

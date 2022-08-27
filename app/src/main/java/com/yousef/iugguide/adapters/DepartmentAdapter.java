@@ -21,9 +21,9 @@ public class DepartmentAdapter extends RecyclerView.Adapter<DepartmentAdapter.My
     Context context;
     ArrayList<Department> data;
 
-    public DepartmentAdapter(Context context, ArrayList<Department> clinics) {
+    public DepartmentAdapter(Context context, ArrayList<Department> departments) {
         this.context = context;
-        this.data = clinics;
+        this.data = departments;
     }
 
     @NonNull

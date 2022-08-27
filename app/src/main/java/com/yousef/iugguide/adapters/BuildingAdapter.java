@@ -22,9 +22,9 @@ public class BuildingAdapter extends RecyclerView.Adapter<BuildingAdapter.MyView
     Context context;
     ArrayList<Building> data;
 
-    public BuildingAdapter(Context context, ArrayList<Building> clinics) {
+    public BuildingAdapter(Context context, ArrayList<Building> buildings) {
         this.context = context;
-        this.data = clinics;
+        this.data = buildings;
     }
 
     @NonNull
