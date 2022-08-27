@@ -5,7 +5,10 @@ public class Doctor {
     private int id;
     private String name;
     private int collegeId;
-    private int departmentId;
+    private String degree;
+    private String email;
+    private String specialty;
+    private String roomNumber;
 
     public Doctor() {
     }
@@ -15,11 +18,14 @@ public class Doctor {
         this.name = name;
     }
 
-    public Doctor(int id, String name, int collegeId, int departmentId) {
+    public Doctor(int id, String name, int collegeId, String degree, String email, String specialty, String roomNumber) {
         this.id = id;
         this.name = name;
         this.collegeId = collegeId;
-        this.departmentId = departmentId;
+        this.degree = degree;
+        this.email = email;
+        this.specialty = specialty;
+        this.roomNumber = roomNumber;
     }
 
     public int getId() {
@@ -46,21 +52,36 @@ public class Doctor {
         this.collegeId = collegeId;
     }
 
-    public int getDepartmentId() {
-        return departmentId;
+    public String getDegree() {
+        return degree;
     }
 
-    public void setDepartmentId(int departmentId) {
-        this.departmentId = departmentId;
+    public void setDegree(String degree) {
+        this.degree = degree;
     }
 
-    @Override
-    public String toString() {
-        return "Doctor{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", collegeId=" + collegeId +
-                ", departmentId=" + departmentId +
-                '}';
+    public String getEmail() {
+        return email;
     }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getSpecialty() {
+        return specialty;
+    }
+
+    public void setSpecialty(String specialty) {
+        this.specialty = specialty;
+    }
+
+    public String getRoomNumber() {
+        return roomNumber;
+    }
+
+    public void setRoomNumber(String roomNumber) {
+        this.roomNumber = roomNumber;
+    }
+
 }

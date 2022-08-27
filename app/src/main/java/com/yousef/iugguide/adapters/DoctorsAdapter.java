@@ -53,6 +53,21 @@ public class DoctorsAdapter extends RecyclerView.Adapter<DoctorsAdapter.MyViewHo
             details.setVisibility(v);
                 }
         );
+      switch (data.get(position).getDegree()){
+          case "دكتوراة":{
+              holder.binding.doctorName.setText("د."+data.get(position).getName());
+          }break;
+          case "ماجستير":{
+              holder.binding.doctorName.setText("أ."+data.get(position).getName());
+
+          }break;
+          case "بكالوريوس":{
+              holder.binding.doctorName.setText("م."+data.get(position).getName());
+          }
+          break;
+      }
+        holder.binding.roomNumber.setText(data.get(position).getRoomNumber());
+        holder.binding.specialty.setText(data.get(position).getSpecialty());
 
     }
 

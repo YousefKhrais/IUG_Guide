@@ -152,11 +152,13 @@ public class DataHelper {
     }
 
     public void readProfessorsData(Context context) {
-        AppClass.doctorsArrayList.add(new Doctor(0, "نبيل محمود عبدالله حويحي", 0, 0));
-        AppClass.doctorsArrayList.add(new Doctor(1, "نبيل محمود عبدالله حويحي", 0, 0));
-        AppClass.doctorsArrayList.add(new Doctor(2, "نبيل محمود عبدالله حويحي", 0, 0));
-        AppClass.doctorsArrayList.add(new Doctor(3, "نبيل محمود عبدالله حويحي", 0, 0));
-        AppClass.doctorsArrayList.add(new Doctor(4, "نبيل محمود عبدالله حويحي", 0, 0));
+        AppClass.doctorsArrayList.add(new Doctor(1,"يوسف خريس",3,"دكتوراة","mo123456@gmail.com","تطوير برمجيات","I204"));
+        AppClass.doctorsArrayList.add(new Doctor(1,"مصلح النجار",3,"ماجستير","mo123456@gmail.com","علم حاسوب","I204"));
+        AppClass.doctorsArrayList.add(new Doctor(1,"موسى ريحان",3,"معيد","mo123456@gmail.com","هندسة مدنية","I204"));
+        AppClass.doctorsArrayList.add(new Doctor(1,"محمد ثاري",3,"دكتوراة","mo123456@gmail.com","هندسة نظم التشغيل","I204"));
+        AppClass.doctorsArrayList.add(new Doctor(1,"أحمد الأسيوطي",3,"معيد","mo123456@gmail.com","تكنولوجيا المعلومات","I204"));
+        AppClass.doctorsArrayList.add(new Doctor(1,"عبدالله حسونة",3,"ماجستير","mo123456@gmail.com","تطوير برمجيات","I204"));
+
     }
 
 //    public void readProfessorsData2(Context context) {
