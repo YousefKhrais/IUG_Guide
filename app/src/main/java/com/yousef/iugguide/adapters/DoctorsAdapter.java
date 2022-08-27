@@ -2,7 +2,6 @@ package com.yousef.iugguide.adapters;
 
 import android.animation.LayoutTransition;
 import android.content.Context;
-import android.content.Intent;
 import android.transition.AutoTransition;
 import android.transition.TransitionManager;
 import android.view.LayoutInflater;
@@ -10,17 +9,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.yousef.iugguide.AppClass;
 import com.yousef.iugguide.databinding.DoctorItemBinding;
-import com.yousef.iugguide.databinding.ItemDepartmentBinding;
-import com.yousef.iugguide.models.Department;
 import com.yousef.iugguide.models.Doctor;
-import com.yousef.iugguide.ui.colleges.DepartmentDetails;
 
 import java.util.ArrayList;
 
@@ -61,13 +55,14 @@ public class DoctorsAdapter extends RecyclerView.Adapter<DoctorsAdapter.MyViewHo
               holder.binding.doctorName.setText("أ."+data.get(position).getName());
 
           }break;
-          case "بكالوريوس":{
+          case "معيد":{
               holder.binding.doctorName.setText("م."+data.get(position).getName());
           }
           break;
       }
         holder.binding.roomNumber.setText(data.get(position).getRoomNumber());
-       // holder.binding.specialty.setText(data.get(position).getSpecialty());
+        holder.binding.specialty.setText(data.get(position).getSpecialty());
+        holder.binding.email.setText(data.get(position).getEmail());
 
     }
 
