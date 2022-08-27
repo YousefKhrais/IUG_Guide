@@ -83,6 +83,12 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         getActivity().startActivity(intent);
     }
 
+    private void openVolunteerWorkGuide() {
+        VolunteerWorkBottomSheetDialog coverPageBottomSheetDialog = new VolunteerWorkBottomSheetDialog();
+        coverPageBottomSheetDialog.setCancelable(false);
+        coverPageBottomSheetDialog.show(getChildFragmentManager(), "coverPageBottomSheetDialog");
+    }
+
     private void openAcceptanceKeyPage() {
         Intent intent = new Intent(getActivity(), AcceptanceKeys.class);
         getActivity().startActivity(intent);
@@ -114,7 +120,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                 break;
 
             case "button_volunteer_work":
-                System.out.println("button_volunteer_work");
+                openVolunteerWorkGuide();
                 break;
 
             case "button_faq":

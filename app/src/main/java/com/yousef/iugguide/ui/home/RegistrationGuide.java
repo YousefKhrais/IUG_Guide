@@ -6,13 +6,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.yousef.iugguide.R;
 import com.yousef.iugguide.databinding.ActivityRegistrationGuideBinding;
-import com.yousef.iugguide.ui.home.steps.CompleteRegistrationFormStep;
-import com.yousef.iugguide.ui.home.steps.GoToAdmissionAndRegistrationStep;
-import com.yousef.iugguide.ui.home.steps.GoToNewStudentsPlaceStep;
-import com.yousef.iugguide.ui.home.steps.GoToUniversityStep;
-import com.yousef.iugguide.ui.home.steps.PayApplicationFeeStep;
-import com.yousef.iugguide.ui.home.steps.PayTuitionFeesStep;
-import com.yousef.iugguide.ui.home.steps.RequiredPaperworkStep;
+import com.yousef.iugguide.ui.home.steps.registration.CompleteRegistrationFormStep;
+import com.yousef.iugguide.ui.home.steps.registration.GoToAdmissionAndRegistrationStep;
+import com.yousef.iugguide.ui.home.steps.registration.GoToNewStudentsPlaceStep;
+import com.yousef.iugguide.ui.home.steps.registration.GoToUniversityStep;
+import com.yousef.iugguide.ui.home.steps.registration.PayApplicationFeeStep;
+import com.yousef.iugguide.ui.home.steps.registration.PayTuitionFeesStep;
+import com.yousef.iugguide.ui.home.steps.registration.RequiredPaperworkStep;
 
 import ernestoyaquello.com.verticalstepperform.Step;
 import ernestoyaquello.com.verticalstepperform.VerticalStepperFormView;

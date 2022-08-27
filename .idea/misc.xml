@@ -9,19 +9,29 @@
         <entry key="..\:/Users/MoThary/AndroidStudioProjects/IUG_Guide/app/src/main/res/layout/activity_main.xml" value="0.12092391304347826" />
         <entry key="..\:/Users/MoThary/AndroidStudioProjects/IUG_Guide/app/src/main/res/layout/college_item.xml" value="0.33" />
         <entry key="..\:/Users/MoThary/AndroidStudioProjects/IUG_Guide/app/src/main/res/layout/department_item.xml" value="0.12092391304347826" />
-        <entry key="..\:/Users/MoThary/AndroidStudioProjects/IUG_Guide/app/src/main/res/layout/doctor_item.xml" value="0.33" />
         <entry key="..\:/Users/MoThary/AndroidStudioProjects/IUG_Guide/app/src/main/res/layout/fragment_colleges.xml" value="0.18" />
         <entry key="..\:/Users/MoThary/AndroidStudioProjects/IUG_Guide/app/src/main/res/layout/item_building.xml" value="0.19655797101449277" />
         <entry key="..\:/Users/MoThary/AndroidStudioProjects/IUG_Guide/app/src/main/res/layout/step_1_go_to_university_layout.xml" value="0.19655797101449277" />
         <entry key="..\:/Users/MoThary/AndroidStudioProjects/IUG_Guide/app/src/main/res/menu/Department_nav_menu.xml" value="0.209375" />
         <entry key="..\:/Users/MoThary/AndroidStudioProjects/IUG_Guide/app/src/main/res/menu/bottom_nav_menu.xml" value="0.209375" />
         <entry key="..\:/Users/MoThary/AndroidStudioProjects/IUG_Guide/app/src/main/res/menu/department_nav_menu.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/ic_facilities.xml" value="0.3025" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/ic_faq1.xml" value="0.114" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/ic_faq2.xml" value="0.114" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/ic_faq3.xml" value="0.114" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/ic_faq4.xml" value="0.114" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/shape_rounded_bottom_sheet.xml" value="0.3025" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/shape_rounded_button.xml" value="0.273" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/activity_about_iug.xml" value="0.33" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/activity_acceptance_keys.xml" value="0.23777173913043478" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/activity_building_details.xml" value="0.23777173913043478" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/activity_college_details.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/activity_department_details.xml" value="0.12708333333333333" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/activity_registration_guide.xml" value="0.23777173913043478" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/activity_volunteer_work_guide.xml" value="0.264" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/bottomsheet_cover_page.xml" value="0.3614583333333333" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/bottomsheet_volunteer_work.xml" value="0.3278985507246377" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/building_item.xml" value="0.33" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/college_item.xml" value="0.5" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/custom_grid_layout.xml" value="0.25" />
@@ -33,6 +43,8 @@
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/fragment_guide.xml" value="0.31179775280898875" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/fragment_registration_guide.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/item_department.xml" value="0.16574074074074074" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/item_home.xml" value="0.3278985507246377" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_1_go_to_university_layout.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_2_go_to_new_students_place_layout.xml" value="0.12158054711246201" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_2_go_to_university_layout.xml" value="0.1" />
@@ -46,6 +58,12 @@
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_7_admission_registration_layout.xml" value="0.12158054711246201" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_7_pay_tuition_fees_layout.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_days_of_week_layout.xml" value="0.23777173913043478" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_registration_guide_1_go_to_university_layout.xml" value="0.3278985507246377" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_registration_guide_6_pay_tuition_fees_layout.xml" value="0.3278985507246377" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_registration_guide_7_admission_registration_layout.xml" value="0.3278985507246377" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_volunteer_guide_1_go_to_university_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_volunteer_guide_1_layout.xml" value="0.264" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_volunteer_guide_2_layout.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
       </map>
     </option>

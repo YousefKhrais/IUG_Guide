@@ -158,4 +158,12 @@ public class DataHelper {
         AppClass.doctorsArrayList.add(new Doctor(3, "نبيل محمود عبدالله حويحي", 0, 0));
         AppClass.doctorsArrayList.add(new Doctor(4, "نبيل محمود عبدالله حويحي", 0, 0));
     }
+
+//    public void readProfessorsData2(Context context) {
+//        AppClass.professorsArrayList.add(new Professor(0, "نبيل محمود عبدالله حويحي", 0, 0));
+//        AppClass.professorsArrayList.add(new Professor(1, "نبيل محمود عبدالله حويحي", 0, 0));
+//        AppClass.professorsArrayList.add(new Professor(2, "نبيل محمود عبدالله حويحي", 0, 0));
+//        AppClass.professorsArrayList.add(new Professor(3, "نبيل محمود عبدالله حويحي", 0, 0));
+//        AppClass.professorsArrayList.add(new Professor(4, "نبيل محمود عبدالله حويحي", 0, 0));
+//    }
 }

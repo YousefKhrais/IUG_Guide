@@ -1,4 +1,4 @@
-package com.yousef.iugguide.ui.home.steps;
+package com.yousef.iugguide.ui.home.steps.registration;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,7 +18,7 @@ public class PayApplicationFeeStep extends Step<String> {
     @Override
     protected View createStepContentLayout() {
         LayoutInflater inflater = LayoutInflater.from(getContext());
-        stepContent = inflater.inflate(R.layout.step_4_pay_application_fee_layout, null, false);
+        stepContent = inflater.inflate(R.layout.step_registration_guide_4_pay_application_fee_layout, null, false);
 
         return stepContent;
     }

@@ -1,25 +1,45 @@
-package com.yousef.iugguide.ui.home.steps;
+package com.yousef.iugguide.ui.home.steps.registration;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Button;
 
 import com.yousef.iugguide.R;
 
 import ernestoyaquello.com.verticalstepperform.Step;
 
-public class RequiredPaperworkStep extends Step<String> {
-
+public class CompleteRegistrationFormStep extends Step<String> {
 
     private View stepContent;
+    private Button admissionVideoButton;
+    private Button admissionApplicationButton;
 
-    public RequiredPaperworkStep(String stepTitle) {
+    public CompleteRegistrationFormStep(String stepTitle) {
         super(stepTitle);
     }
 
     @Override
     protected View createStepContentLayout() {
         LayoutInflater inflater = LayoutInflater.from(getContext());
-        stepContent = inflater.inflate(R.layout.step_3_required_paperwork_layout, null, false);
+        stepContent = inflater.inflate(R.layout.step_registration_guide_5_complete_registration_form_layout, null, false);
+
+        admissionVideoButton = stepContent.findViewById(R.id.admissionVideoButton);
+        admissionVideoButton.setOnClickListener(v -> {
+            String url = "https://www.youtube.com/watch?v=KZBHwBP-Xv8&ab_channel=AdmissionIUG";
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse(url));
+            stepContent.getContext().startActivity(i);
+        });
+
+        admissionApplicationButton = stepContent.findViewById(R.id.admissionApplicationButton);
+        admissionApplicationButton.setOnClickListener(v -> {
+            String url = "https://eportal.iugaza.edu.ps/ords/f?p=142:LOGIN:12002841936534:::::";
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse(url));
+            stepContent.getContext().startActivity(i);
+        });
 
         return stepContent;
     }
