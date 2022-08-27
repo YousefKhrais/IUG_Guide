@@ -4,18 +4,16 @@
         android:id="@+id/nav_bachelor"
         android:icon="@drawable/ic_bachelor_icon"
         android:title="@string/title_bachelor" />
-
     <item
         android:id="@+id/nav_master"
         android:icon="@drawable/ic_master_degree_icon"
         android:title="@string/title_master" />
-
     <item
         android:id="@+id/nav_phd"
         android:icon="@drawable/ic_bachelor"
         android:title="@string/title_phd" />
     <item
         android:id="@+id/nav_doctors"
-        android:icon="@drawable/ic_bachelor"
+        android:icon="@drawable/teacher"
         android:title="@string/title_doctors" />
 </menu>
