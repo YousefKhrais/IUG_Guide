@@ -84,14 +84,20 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     }
 
     private void openVolunteerWorkGuide() {
-        VolunteerWorkBottomSheetDialog coverPageBottomSheetDialog = new VolunteerWorkBottomSheetDialog();
-        coverPageBottomSheetDialog.setCancelable(false);
-        coverPageBottomSheetDialog.show(getChildFragmentManager(), "coverPageBottomSheetDialog");
+        VolunteerWorkBottomSheetDialog volunteerWorkBottomSheetDialog = new VolunteerWorkBottomSheetDialog();
+        volunteerWorkBottomSheetDialog.setCancelable(false);
+        volunteerWorkBottomSheetDialog.show(getChildFragmentManager(), "volunteerWorkBottomSheetDialog");
     }
 
     private void openAcceptanceKeyPage() {
         Intent intent = new Intent(getActivity(), AcceptanceKeys.class);
         getActivity().startActivity(intent);
+    }
+
+    private void openAboutIUGPage() {
+        AboutIUGBottomSheetDialog aboutIUGBottomSheetDialog = new AboutIUGBottomSheetDialog();
+        aboutIUGBottomSheetDialog.setCancelable(true);
+        aboutIUGBottomSheetDialog.show(getChildFragmentManager(), "aboutIUGBottomSheetDialog");
     }
 
     private void openWebPageFromUrl(String url) {
@@ -128,7 +134,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                 break;
 
             case "button_about_iug":
-                System.out.println("button_about_iug");
+                openAboutIUGPage();
                 break;
             //reeeeeeeeeeeeee
 

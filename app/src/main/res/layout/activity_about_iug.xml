@@ -3,57 +3,105 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="8dp">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:src="@drawable/logo_iug"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></ImageView>
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:text="البرامج والمناهج الدراسية"
-        android:textColor="#800000"
-        android:textSize="24sp"
-        android:textStyle="bold"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"></TextView>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:text="تسعى الجامعه بشكل دائم لتحديث مناهجها لمواكبة التطور العلمي الذي تشهده حقول المعرفة، وللجامعة الإسلامية ثقافة تدعو إلى الإبداع والتطوير والتنمية، والأخذ بسبل التقدم العالمية."
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"></TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:text="البرامج والمناهج الدراسية"
-        android:textColor="#800000"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="عن الجامعة"
+                android:textColor="#800000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
-    <TextView
-        android:layout_width="match_parent"
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="الجامعة الإسلامية بغزة مؤسسة أكاديمية مستقلة من مؤسسات التعليم العالي، تعمل بإشراف وزارة التربية والتعليم العالي، وهي عضو في: اتحاد الجامعات العربية، ورابطة الجامعات الإسلامية ، واتحاد الجامعات الإسلامية ، ورابطة جامعات البحر الأبيض المتوسط، والاتحاد الدولي للجامعات، وتربطها علاقات تعاون بالكثير من الجامعات العربية والأجنبية.
+                \n\nتوفر الجامعة لطلبتها جواً أكاديمياً ملتزماً بالقيم الإسلامية ومراعياً لظروف الشعب الفلسطيني وتقاليده، وتضع كل الإمكانيات المتاحة لخدمة العملية التعليمية، وتهتم بالجانب التطبيقي اهتمامها بالجانب النظري، كما وتهتم بتوظيف وسائل التكنولوجيا المتوفرة في خدمة العملية التعليمية."
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="البرامج والمناهج الدراسية"
+                android:textColor="#800000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="تسعى الجامعه بشكل دائم لتحديث مناهجها لمواكبة التطور العلمي الذي تشهده حقول المعرفة، وللجامعة الإسلامية ثقافة تدعو إلى الإبداع والتطوير والتنمية، والأخذ بسبل التقدم العالمية."
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="رؤية الجامعة"
+                android:textColor="#800000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="منارة علمية رائدة للمعرفة والثقافة وخدمة الإنسانية لإحداث نهضة مجتمعية شاملة"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="رسالة الجامعة"
+                android:textColor="#800000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="الجامعة الإسلامية مؤسسة أكاديمية تسعى للنهوض بالمستوى العلمي والثقافي والحضاري، تعمل على مواكبة الاتجاهات الحديثة في التعليم العالي والتطور التكنولوجي، وتشجع البحث العلمي وتساهم في بناء الأجيال وتنمية المجتمع في إطار من القيم الإسلامية"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:text="تسعى الجامعه بشكل دائم لتحديث مناهجها لمواكبة التطور العلمي الذي تشهده حقول المعرفة، وللجامعة الإسلامية ثقافة تدعو إلى الإبداع والتطوير والتنمية، والأخذ بسبل التقدم العالمية."
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"></TextView>
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
 </androidx.constraintlayout.widget.ConstraintLayout>
