@@ -100,6 +100,10 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         aboutIUGBottomSheetDialog.show(getChildFragmentManager(), "aboutIUGBottomSheetDialog");
     }
 
+    private void openFAQPage() {
+
+    }
+
     private void openWebPageFromUrl(String url) {
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
@@ -130,7 +134,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                 break;
 
             case "button_faq":
-                System.out.println("button_faq");
+                openFAQPage();
                 break;
 
             case "button_about_iug":

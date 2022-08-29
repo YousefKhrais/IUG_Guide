@@ -21,7 +21,7 @@ public class AboutIUGBottomSheetDialog extends BottomSheetDialogFragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.activity_about_iug, container, false);
+        View rootView = inflater.inflate(R.layout.bottomsheet_about_iug, container, false);
         return rootView;
     }
 
