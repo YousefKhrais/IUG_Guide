@@ -30,63 +30,63 @@ public class CollegeDetails extends AppCompatActivity {
         departmentAdapter = new DepartmentAdapter(this, AppClass.chosenCollege.getBachelorDepartments());
         binding.departmentRv.setAdapter(departmentAdapter);
 
-        ViewGroup.LayoutParams params=binding.departmentRv.getLayoutParams();
+        ViewGroup.LayoutParams params = binding.departmentRv.getLayoutParams();
         binding.departmentNavView.setOnItemSelectedListener(item -> {
             switch (item.getItemId()) {
                 case R.id.nav_bachelor:
-                    if ( AppClass.chosenCollege.getBachelorDepartments().size()==0){
-                        params.height=1;
+                    if (AppClass.chosenCollege.getBachelorDepartments().size() == 0) {
+                        params.height = 1;
                         binding.departmentRv.setLayoutParams(params);
                         binding.departmentRv.setVisibility(View.INVISIBLE);
                         binding.infoText.setVisibility(View.VISIBLE);
-                    }else{
-                        params.height=1200;
+                    } else {
+                        params.height = 1200;
                         binding.departmentRv.setLayoutParams(params);
                         binding.departmentRv.setVisibility(View.VISIBLE);
                         binding.infoText.setVisibility(View.INVISIBLE);
-                    binding.departmentRv.setLayoutManager(new LinearLayoutManager(this));
-                    departmentAdapter = new DepartmentAdapter(this, AppClass.chosenCollege.getBachelorDepartments());
-                    binding.departmentRv.setAdapter(departmentAdapter);}
+                        binding.departmentRv.setLayoutManager(new LinearLayoutManager(this));
+                        departmentAdapter = new DepartmentAdapter(this, AppClass.chosenCollege.getBachelorDepartments());
+                        binding.departmentRv.setAdapter(departmentAdapter);
+                    }
                     break;
                 case R.id.nav_master:
-                    if ( AppClass.chosenCollege.getMasterDepartments().size()==0){
-                        params.height=1;
+                    if (AppClass.chosenCollege.getMasterDepartments().size() == 0) {
+                        params.height = 1;
                         binding.departmentRv.setLayoutParams(params);
                         binding.departmentRv.setVisibility(View.INVISIBLE);
                         binding.infoText.setVisibility(View.VISIBLE);
-                    }else{
-                        params.height=1200;
+                    } else {
+                        params.height = 1200;
                         binding.departmentRv.setLayoutParams(params);
                         binding.departmentRv.setVisibility(View.VISIBLE);
                         binding.infoText.setVisibility(View.INVISIBLE);
                         binding.departmentRv.setLayoutManager(new LinearLayoutManager(this));
                         departmentAdapter = new DepartmentAdapter(this, AppClass.chosenCollege.getMasterDepartments());
-                        binding.departmentRv.setAdapter(departmentAdapter);}
+                        binding.departmentRv.setAdapter(departmentAdapter);
+                    }
                     break;
                 case R.id.nav_phd:
-                    if ( AppClass.chosenCollege.getDoctorateDepartments().size()==0){
-                        params.height=1;
+                    if (AppClass.chosenCollege.getDoctorateDepartments().size() == 0) {
+                        params.height = 1;
                         binding.departmentRv.setLayoutParams(params);
                         binding.departmentRv.setVisibility(View.INVISIBLE);
                         binding.infoText.setVisibility(View.VISIBLE);
-                    }else{
-                        params.height=1200;
+                    } else {
+                        params.height = 1200;
                         binding.departmentRv.setLayoutParams(params);
                         binding.departmentRv.setVisibility(View.VISIBLE);
                         binding.infoText.setVisibility(View.INVISIBLE);
                         binding.departmentRv.setLayoutManager(new LinearLayoutManager(this));
                         departmentAdapter = new DepartmentAdapter(this, AppClass.chosenCollege.getDoctorateDepartments());
-                        binding.departmentRv.setAdapter(departmentAdapter);}
+                        binding.departmentRv.setAdapter(departmentAdapter);
+                    }
                     break;
                 case R.id.nav_doctors:
                     binding.departmentRv.setLayoutManager(new LinearLayoutManager(this));
                     doctorsAdapter = new DoctorsAdapter(this, AppClass.doctorsArrayList);
                     binding.departmentRv.setAdapter(doctorsAdapter);
                     break;
-
-
             }
-
 
             return true;
         });

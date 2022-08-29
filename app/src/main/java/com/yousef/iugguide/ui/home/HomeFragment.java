@@ -101,7 +101,9 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     }
 
     private void openFAQPage() {
-
+        FaqBottomSheetDialog faqBottomSheetDialog = new FaqBottomSheetDialog();
+        faqBottomSheetDialog.setCancelable(true);
+        faqBottomSheetDialog.show(getChildFragmentManager(), "faqBottomSheetDialog");
     }
 
     private void openWebPageFromUrl(String url) {

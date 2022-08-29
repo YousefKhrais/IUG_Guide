@@ -9,6 +9,7 @@ import com.yousef.iugguide.models.Building;
 import com.yousef.iugguide.models.College;
 import com.yousef.iugguide.models.Department;
 import com.yousef.iugguide.models.Doctor;
+import com.yousef.iugguide.models.FAQ;
 
 import java.util.ArrayList;
 
@@ -18,6 +19,7 @@ public class AppClass extends Application {
     public static ArrayList<College> collegesArrayList = new ArrayList<>();
     public static ArrayList<Building> buildingArrayList = new ArrayList<>();
     public static ArrayList<Doctor> doctorsArrayList = new ArrayList<>();
+    public static ArrayList<FAQ> faqArrayList = new ArrayList<>();
 
     public static College chosenCollege;
     public static Department chosenDepartment;
@@ -34,7 +36,6 @@ public class AppClass extends Application {
         DataHelper.getInstance().readDepartmentsData(this);
         DataHelper.getInstance().readBuildingsData(this);
         DataHelper.getInstance().readProfessorsData(this);
-
-        System.out.println(doctorsArrayList.toString());
+        DataHelper.getInstance().readFaqData(this);
     }
 }
