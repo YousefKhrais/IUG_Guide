@@ -16,10 +16,10 @@
             android:id="@+id/college_name_textview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_margin="16dp"
             android:text="@string/temp_college_title"
             android:textAlignment="center"
-            android:textColor="@color/black"
+            android:textColor="#800000"
             android:textDirection="rtl"
             android:textSize="32sp"
             android:textStyle="bold" />
@@ -28,45 +28,43 @@
             android:id="@+id/college_info_textview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_margin="8dp"
             android:text="@string/temp_college_info"
             android:textColor="@color/black"
             android:textDirection="rtl"
-            android:textSize="24sp" />
+            android:textSize="20sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="8dp"
             android:gravity="right"
             android:layoutDirection="rtl"
-            android:orientation="horizontal"
-            android:padding="8dp">
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"
                 android:text="@string/college_location"
                 android:textColor="@color/black"
                 android:textDirection="rtl"
-                android:textSize="24sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/college_location_textview"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
                 android:text="@string/temp_college_location"
-                android:textColor="@color/black"
                 android:textDirection="rtl"
-                android:textSize="24sp" />
+                android:textSize="18sp" />
         </LinearLayout>
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/department_nav_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="8dp"
             android:background="?android:attr/windowBackground"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -87,8 +85,8 @@
                 android:id="@+id/info_text"
                 android:layout_width="wrap_content"
                 android:layout_height="32dp"
-                android:gravity="center"
                 android:layout_margin="16dp"
+                android:gravity="center"
                 android:text="@string/empty_department_message"
                 android:textColor="@color/black"
                 android:textSize="16sp"

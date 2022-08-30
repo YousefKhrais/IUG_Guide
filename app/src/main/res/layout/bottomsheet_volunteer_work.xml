@@ -12,9 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/guideline13"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:layout_width="match_parent"
@@ -22,8 +22,8 @@
             android:layout_margin="16dp"
             android:text="العمل التطوعي"
             android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="28sp"
+            android:textColor="#800000"
+            android:textSize="32sp"
             android:textStyle="bold" />
 
         <TextView
@@ -90,25 +90,6 @@
             android:textColor="@color/black"
             android:textSize="18sp" />
     </LinearLayout>
-
-    <Button
-        android:id="@+id/cancelButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/shape_rounded_button"
-        android:text="اغلق"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline13" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.9" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

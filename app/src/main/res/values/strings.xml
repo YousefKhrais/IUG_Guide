@@ -36,6 +36,6 @@
     <string name="temp_department_name">كلية تكنلوجيا المعلومات</string>
 
     <string name="building_key">رمز المبنى :</string>
-    <string name="college_location">مقر الكلية:</string>
+    <string name="college_location">مقر العمادة:</string>
     <string name="empty_department_message">لا يوجد أقسام هنا</string>
 </resources>

@@ -42,7 +42,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 //        homeItems.add(new HomeItem("button_faq", "أسئلة شائعة", R.drawable.ic_faq4));
 //        homeItems.add(new HomeItem("button_acceptance_key", "مفتاح القبول", R.drawable.ic_percentage));
 
-        homeItems.add(new HomeItem("button_registration_guide", "دليل التسجيل", R.drawable.ic_guide));
+        homeItems.add(new HomeItem("button_registration_guide", "دليل الالتحاق", R.drawable.ic_guide));
         homeItems.add(new HomeItem("button_acceptance_key", "مفتاح القبول", R.drawable.ic_key));
         homeItems.add(new HomeItem("button_university_facilities", "مرافق الجامعة", R.drawable.ic_facilities));
         homeItems.add(new HomeItem("button_map", "تجول في الجامعة", R.drawable.ic_map));
@@ -85,7 +85,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 
     private void openVolunteerWorkGuide() {
         VolunteerWorkBottomSheetDialog volunteerWorkBottomSheetDialog = new VolunteerWorkBottomSheetDialog();
-        volunteerWorkBottomSheetDialog.setCancelable(false);
+        volunteerWorkBottomSheetDialog.setCancelable(true);
         volunteerWorkBottomSheetDialog.show(getChildFragmentManager(), "volunteerWorkBottomSheetDialog");
     }
 

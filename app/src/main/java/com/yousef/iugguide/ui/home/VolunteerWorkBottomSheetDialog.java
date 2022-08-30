@@ -22,7 +22,7 @@ public class VolunteerWorkBottomSheetDialog extends BottomSheetDialogFragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.bottomsheet_volunteer_work, container, false);
-        rootView.findViewById(R.id.cancelButton).setOnClickListener(view -> dismiss());
+//        rootView.findViewById(R.id.cancelButton).setOnClickListener(view -> dismiss());
         return rootView;
     }
 
@@ -48,6 +48,8 @@ public class VolunteerWorkBottomSheetDialog extends BottomSheetDialogFragment {
 //        }
 //        bottomSheet.setLayoutParams(layoutParams);
         behavior.setState(BottomSheetBehavior.STATE_EXPANDED);
+        behavior.setSkipCollapsed(true);
+        behavior.setDraggable(false);
     }
 
     private int getWindowHeight() {
