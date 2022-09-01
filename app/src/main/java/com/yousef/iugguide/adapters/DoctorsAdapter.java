@@ -45,8 +45,7 @@ public class DoctorsAdapter extends RecyclerView.Adapter<DoctorsAdapter.MyViewHo
             int v = (details.getVisibility() == View.GONE)? View.VISIBLE: View.GONE;
             TransitionManager.beginDelayedTransition(layout,new AutoTransition());
             details.setVisibility(v);
-                }
-        );
+                });
       switch (data.get(position).getDegree()){
           case "دكتوراة":{
               holder.binding.doctorName.setText("د."+data.get(position).getName());
