@@ -39,15 +39,6 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         RecyclerView dataList = binding.dataList;
         List<HomeItem> homeItems = new ArrayList<>();
 
-//        homeItems.add(new HomeItem("button_library", "المكتبة المركزية", R.drawable.ic_library1));
-//        homeItems.add(new HomeItem("button_library", "المكتبة المركزية", R.drawable.ic_library3));
-//        homeItems.add(new HomeItem("button_alumni_affairs", "شؤون الخريجين", R.drawable.ic_graduate1));
-//        homeItems.add(new HomeItem("button_alumni_affairs", "شؤون الخريجين", R.drawable.ic_graduate2));
-//        homeItems.add(new HomeItem("button_faq", "أسئلة شائعة", R.drawable.ic_faq1));
-//        homeItems.add(new HomeItem("button_faq", "أسئلة شائعة", R.drawable.ic_faq2));
-//        homeItems.add(new HomeItem("button_faq", "أسئلة شائعة", R.drawable.ic_faq4));
-//        homeItems.add(new HomeItem("button_acceptance_key", "مفتاح القبول", R.drawable.ic_percentage));
-
         homeItems.add(new HomeItem("button_registration_guide", "دليل الالتحاق", R.drawable.ic_guide));
         homeItems.add(new HomeItem("button_acceptance_key", "مفتاح القبول", R.drawable.ic_key));
         homeItems.add(new HomeItem("button_university_facilities", "مرافق الجامعة", R.drawable.ic_facilities));
@@ -68,6 +59,9 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         homeItems.add(new HomeItem("button_scholarships", "المنح الدراسية", R.drawable.ic_scholarships));
         homeItems.add(new HomeItem("button_admission_application", "طلب الالتحاق", R.drawable.ic_admission_application));
         homeItems.add(new HomeItem("button_university_website", "موقع الجامعة", R.drawable.ic_website));
+        homeItems.add(new HomeItem("button_about_us", "عن التطبيق", R.drawable.ic_website));
+
+        homeItems.add(new HomeItem("button_about_us", "تواصل معنا", R.drawable.ic_headphone));
 
         HomeAdapter homeAdapter = new HomeAdapter(getActivity(), homeItems, this);
 
@@ -157,6 +151,12 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         aboutIUGBottomSheetDialog.show(getChildFragmentManager(), "aboutIUGBottomSheetDialog");
     }
 
+    private void openAboutUsPage() {
+        AboutUsBottomSheetDialog aboutUsBottomSheetDialog = new AboutUsBottomSheetDialog();
+        aboutUsBottomSheetDialog.setCancelable(true);
+        aboutUsBottomSheetDialog.show(getChildFragmentManager(), "aboutUsBottomSheetDialog");
+    }
+
     private void openFAQPage() {
         FaqBottomSheetDialog faqBottomSheetDialog = new FaqBottomSheetDialog();
         faqBottomSheetDialog.setCancelable(true);
@@ -199,7 +199,10 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
             case "button_about_iug":
                 openAboutIUGPage();
                 break;
-            //reeeeeeeeeeeeee
+
+            case "button_about_us":
+                openAboutUsPage();
+                break;
 
             case "button_moodle":
                 openWebPageFromUrl("https://moodle.iugaza.edu.ps");

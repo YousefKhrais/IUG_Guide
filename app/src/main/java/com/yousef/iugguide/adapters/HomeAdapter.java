@@ -20,11 +20,13 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
     List<HomeItem> homeItems;
     LayoutInflater inflater;
     View.OnClickListener onClickListener;
+    Context ctx;
 
     public HomeAdapter(Context ctx, List<HomeItem> homeItems, View.OnClickListener onClickListener) {
         this.homeItems = homeItems;
         this.inflater = LayoutInflater.from(ctx);
         this.onClickListener = onClickListener;
+        this.ctx = ctx;
     }
 
     @NonNull
@@ -38,6 +40,9 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         holder.title.setText(homeItems.get(position).getTitle());
         holder.gridIcon.setImageResource(homeItems.get(position).getImageResId());
+
+//        holder.gridIcon.setColorFilter(ContextCompat.getColor(ctx, R.color.teal_200), android.graphics.PorterDuff.Mode.SRC_IN);
+
         holder.itemView.setTag(homeItems.get(position).getTag());
     }
 
