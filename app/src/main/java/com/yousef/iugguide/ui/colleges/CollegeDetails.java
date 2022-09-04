@@ -86,7 +86,7 @@ public class CollegeDetails extends AppCompatActivity {
                     binding.departmentRv.setLayoutParams(params);
                     binding.departmentRv.setVisibility(View.VISIBLE);
                     binding.departmentRv.setLayoutManager(new LinearLayoutManager(this));
-                    doctorsAdapter = new DoctorsAdapter(this, AppClass.doctorsArrayList);
+                    doctorsAdapter = new DoctorsAdapter(this, AppClass.chosenCollege.getProfessors());
                     binding.departmentRv.setAdapter(doctorsAdapter);
                     break;
             }

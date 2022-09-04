@@ -1,109 +1,3307 @@
 ﻿{
-    "professors": [
-        {
-            "name": "نبيل محمود عبدالله حويحي",
-            "degree": "دكتوراة",
-            "college": "كلية تكنلوجيا المعلومات"
-        },
-        {
-            "name": "شرف محمد عبدالعزيز العطار",
-            "degree": "ماجستير",
-            "college": "كلية تكنلوجيا المعلومات"
-        },
-        {
-            "name": "راوية فوزي أحمد عوض الله",
-            "degree": "ماجستير",
-            "college": "كلية تكنلوجيا المعلومات"
-        },
-        {
-            "name": "نبيل محمود عبدالله حويحي",
-            "degree": "دكتوراة",
-            "college": "كلية الآداب"
-        },
-        {
-            "name": "شرف محمد عبدالعزيز العطار",
-            "degree": "ماجستير",
-            "college": "كلية الآداب"
-        },
-        {
-            "name": "راوية فوزي أحمد عوض الله",
-            "degree": "ماجستير",
-            "college": "كلية الآداب"
-        },
-        {
-            "name": "نبيل محمود عبدالله حويحي",
-            "degree": "دكتوراة",
-            "college": "كلية الطب"
-        },
-        {
-            "name": "شرف محمد عبدالعزيز العطار",
-            "degree": "ماجستير",
-            "college": "كلية الطب"
-        },
-        {
-            "name": "راوية فوزي أحمد عوض الله",
-            "degree": "ماجستير",
-            "college": "كلية الطب"
-        },
-        {
-            "name": "نبيل محمود عبدالله حويحي",
-            "degree": "دكتوراة",
-            "college": "كلية الهندسة"
-        },
-        {
-            "name": "شرف محمد عبدالعزيز العطار",
-            "degree": "ماجستير",
-            "college": "كلية الهندسة"
-        },
-        {
-            "name": "راوية فوزي أحمد عوض الله",
-            "degree": "ماجستير",
-            "college": "كلية الهندسة"
-        },
-        {
-            "name": "نبيل محمود عبدالله حويحي",
-            "degree": "دكتوراة",
-            "college": "كلية الاقتصاد"
-        },
-        {
-            "name": "شرف محمد عبدالعزيز العطار",
-            "degree": "ماجستير",
-            "college": "كلية الاقتصاد"
-        },
-        {
-            "name": "راوية فوزي أحمد عوض الله",
-            "degree": "ماجستير",
-            "college": "كلية الاقتصاد"
-        },
-        {
-            "name": "نبيل محمود عبدالله حويحي",
-            "degree": "دكتوراة",
-            "college": "كلية العلوم"
-        },
-        {
-            "name": "شرف محمد عبدالعزيز العطار",
-            "degree": "ماجستير",
-            "college": "كلية العلوم"
-        },
-        {
-            "name": "راوية فوزي أحمد عوض الله",
-            "degree": "ماجستير",
-            "college": "كلية العلوم"
-        },
-        {
-            "name": "نبيل محمود عبدالله حويحي",
-            "degree": "دكتوراة",
-            "college": "كلية التمريض"
-        },
-        {
-            "name": "شرف محمد عبدالعزيز العطار",
-            "degree": "ماجستير",
-            "college": "كلية التمريض"
-        },
-        {
-            "name": "راوية فوزي أحمد عوض الله",
-            "degree": "ماجستير",
-            "college": "كلية التمريض"
-        }
-    ]
+  "professors": [
+    {
+      "id": "1",
+      "fullName": "إبراهيم عابد محمد عابد",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "الاقتصاد والعلوم السياسية",
+      "degre": "مدرس",
+      "insidePhone": "2513",
+      "email": "ibabed@iugaza.edu.ps"
+    },
+    {
+      "id": "2",
+      "fullName": "أحمد خالد محمد العبادلة",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "إدارة الأعمال",
+      "degre": "مدرس",
+      "insidePhone": "2535",
+      "email": "aabadla@iugaza.edu.ps"
+    },
+    {
+      "id": "3",
+      "fullName": "إسماعيل عبد الله محمد قاسم",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "إدارة الأعمال",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2510",
+      "email": "eqasem@iugaza.edu.ps"
+    },
+    {
+      "id": "4",
+      "fullName": "أمين محمد علي دبور",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "الاقتصاد والعلوم السياسية",
+      "degre": "مدرس",
+      "insidePhone": "0",
+      "email": "adabour@iugaza.edu.ps"
+    },
+    {
+      "id": "5",
+      "fullName": "باسل جبر حسن أبو زعيتر",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "المحاسبة",
+      "degre": "مدرس",
+      "insidePhone": "1052",
+      "email": "bzuaiter@iugaza.edu.ps"
+    },
+    {
+      "id": "6",
+      "fullName": "بشير عبد المجيد عبد اللطيف قفة",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "الاقتصاد والعلوم السياسية",
+      "degre": "محاضر",
+      "insidePhone": "2504",
+      "email": "bkofa@iugaza.edu.ps"
+    },
+    {
+      "id": "7",
+      "fullName": "حمدي شحدة محمود زعرب",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "المحاسبة",
+      "degre": "أستاذ",
+      "insidePhone": "2502",
+      "email": "hzourb@iugaza.edu.ps"
+    },
+    {
+      "id": "8",
+      "fullName": "خالد سعيد محمد البحيصي",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "الاقتصاد والعلوم السياسية",
+      "degre": "مدرس",
+      "insidePhone": "2511",
+      "email": "kbuhissi@iugaza.edu.ps"
+    },
+    {
+      "id": "9",
+      "fullName": "خالد هاني سعيد الحسيني",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "المحاسبة",
+      "degre": "مدرس",
+      "insidePhone": "2551",
+      "email": "khusseiny@iugaza.edu.ps"
+    },
+    {
+      "id": "10",
+      "fullName": "خلود عطية احمد الفليت",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "إدارة الأعمال",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2552",
+      "email": "krehan@iugaza.edu.ps"
+    },
+    {
+      "id": "11",
+      "fullName": "خليل أحمد يوسف النمروطي",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "الاقتصاد والعلوم السياسية",
+      "degre": "أستاذ",
+      "insidePhone": "1183",
+      "email": "knamroty@iugaza.edu.ps"
+    },
+    {
+      "id": "13",
+      "fullName": "درويش مصطفى درويش الجخلب",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "المحاسبة",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "1040",
+      "email": "dgekhlep@iugaza.edu.ps"
+    },
+    {
+      "id": "14",
+      "fullName": "رشدي عبداللطيف سلمان وادي",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "إدارة الأعمال",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2512",
+      "email": "rwady@iugaza.edu.ps"
+    },
+    {
+      "id": "15",
+      "fullName": "سالم اسماعيل محمد أبو شوارب",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "المحاسبة",
+      "degre": "محاضر",
+      "insidePhone": "2508",
+      "email": "shawareb@iugaza.edu.ps"
+    },
+    {
+      "id": "16",
+      "fullName": "سالم عبدالله سالم حلس",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "المحاسبة",
+      "degre": "أستاذ",
+      "insidePhone": "2509",
+      "email": "shelles@iugaza.edu.ps"
+    },
+    {
+      "id": "17",
+      "fullName": "سامي على سليمان أبو الروس",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "إدارة الأعمال",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2534",
+      "email": "saross@iugaza.edu.ps"
+    },
+    {
+      "id": "18",
+      "fullName": "صديق توفيق محمد نصار",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "إدارة الأعمال",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "1042",
+      "email": "stnassar@iugaza.edu.ps"
+    },
+    {
+      "id": "19",
+      "fullName": "صلاح رمضان محمد شبير",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "المحاسبة",
+      "degre": "محاضر",
+      "insidePhone": "2554",
+      "email": "salah2r@iugaza.edu.ps"
+    },
+    {
+      "id": "21",
+      "fullName": "عرفات عبد الله إبراهيم العف",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "إدارة الأعمال",
+      "degre": "محاضر",
+      "insidePhone": "2535",
+      "email": "aelaf@iugaza.edu.ps"
+    },
+    {
+      "id": "22",
+      "fullName": "علاءالدين عادل محمد الرفاتي",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "الاقتصاد والعلوم السياسية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2509",
+      "email": "arafati@iugaza.edu.ps"
+    },
+    {
+      "id": "23",
+      "fullName": "فارس محمود محمد أبو معمر",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "إدارة الأعمال",
+      "degre": "أستاذ",
+      "insidePhone": "0",
+      "email": "fmouamer@iugaza.edu.ps"
+    },
+    {
+      "id": "24",
+      "fullName": "كمال إبراهيم محمد هندي",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "الاقتصاد والعلوم السياسية",
+      "degre": "مدرس",
+      "insidePhone": "2511",
+      "email": "khindi@iugaza.edu.ps"
+    },
+    {
+      "id": "25",
+      "fullName": "ماهر موسى حامد درغام",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "المحاسبة",
+      "degre": "أستاذ",
+      "insidePhone": "2553",
+      "email": "mdurgham@iugaza.edu.ps"
+    },
+    {
+      "id": "26",
+      "fullName": "محمد إبراهيم حسين مقداد",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "الاقتصاد والعلوم السياسية",
+      "degre": "أستاذ",
+      "insidePhone": "1142",
+      "email": "mmigdad@iugaza.edu.ps"
+    },
+    {
+      "id": "28",
+      "fullName": "محمد حمدان عليان خفاجة",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "الاقتصاد والعلوم السياسية",
+      "degre": "مدرس",
+      "insidePhone": "2511",
+      "email": "mkhafaja@iugaza.edu.ps"
+    },
+    {
+      "id": "29",
+      "fullName": "محمد رجب محمد علي/ رضوان",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "الاقتصاد والعلوم السياسية",
+      "degre": "مدرس",
+      "insidePhone": "2513",
+      "email": "mrudwan@iugaza.edu.ps"
+    },
+    {
+      "id": "30",
+      "fullName": "محمد مروان محمد العشي",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "المحاسبة",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2555",
+      "email": "malashi@iugaza.edu.ps"
+    },
+    {
+      "id": "31",
+      "fullName": "محمد يوسف عنتر الأغا",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "المحاسبة",
+      "degre": "مدرس",
+      "insidePhone": "2551",
+      "email": "mfaloge@iugaza.edu.ps"
+    },
+    {
+      "id": "32",
+      "fullName": "منار ارحيم سليمان الفرا",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "إدارة الأعمال",
+      "degre": "مدرس",
+      "insidePhone": "2533",
+      "email": "mafarra@iugaza.edu.ps"
+    },
+    {
+      "id": "33",
+      "fullName": "نافذ محمد محمد بركات",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "الاقتصاد والعلوم السياسية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2507",
+      "email": "nbarakat@iugaza.edu.ps"
+    },
+    {
+      "id": "34",
+      "fullName": "هشام كامل محمد ماضي",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "المحاسبة",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "1094",
+      "email": "hmadi@iugaza.edu.ps"
+    },
+    {
+      "id": "35",
+      "fullName": "وليد حسن عبدالله المدلل",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "الاقتصاد والعلوم السياسية",
+      "degre": "أستاذ",
+      "insidePhone": "108",
+      "email": "wmodallal@iugaza.edu.ps"
+    },
+    {
+      "id": "36",
+      "fullName": "ياسر عبد طه الشرفا",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "إدارة الأعمال",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2533",
+      "email": "yshorafa@iugaza.edu.ps"
+    },
+    {
+      "id": "37",
+      "fullName": "يوسف حسين محمود عاشور",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "إدارة الأعمال",
+      "degre": "أستاذ",
+      "insidePhone": "0",
+      "email": "yashour@iugaza.edu.ps"
+    },
+    {
+      "id": "38",
+      "fullName": "يوسف عبد عطيه بحر",
+      "college": "الإقتصاد والعلوم الإدارية",
+      "department": "إدارة الأعمال",
+      "degre": "أستاذ",
+      "insidePhone": "2534",
+      "email": "ybaher@iugaza.edu.ps"
+    },
+    {
+      "id": "39",
+      "fullName": "إبراهيم أحمد حسن أبو شبيكة",
+      "college": "الآداب",
+      "department": "التاريخ والآثار",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2381",
+      "email": "ishbeka@iugaza.edu.ps"
+    },
+    {
+      "id": "40",
+      "fullName": "إبراهيم رجب جمعة بخيت",
+      "college": "الآداب",
+      "department": "اللغة العربية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2314",
+      "email": "ibakhit@iugaza.edu.ps"
+    },
+    {
+      "id": "41",
+      "fullName": "أحمد إبراهيم محمد الجدبة",
+      "college": "الآداب",
+      "department": "اللغة العربية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2302",
+      "email": "ajadba@iugaza.edu.ps"
+    },
+    {
+      "id": "42",
+      "fullName": "أحمد سيد سالم أبو مسامح",
+      "college": "الآداب",
+      "department": "الصحافة والإعلام",
+      "degre": "أمين مختبر",
+      "insidePhone": "0",
+      "email": "asmsameh@iugaza.edu.ps"
+    },
+    {
+      "id": "43",
+      "fullName": "أحمد عرابي/ حسين محمد الترك",
+      "college": "الآداب",
+      "department": "الصحافة والإعلام",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2333",
+      "email": "ahmadoraby@iugaza.edu.ps"
+    },
+    {
+      "id": "44",
+      "fullName": "أحمد محمد محمد الرنتيسي",
+      "college": "الآداب",
+      "department": "الخدمة الاجتماعية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2361",
+      "email": "aalrantisi@iugaza.edu.ps"
+    },
+    {
+      "id": "45",
+      "fullName": "أسامة خالد محمد حماد",
+      "college": "الآداب",
+      "department": "اللغة العربية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2305",
+      "email": "uhammad@iugaza.edu.ps"
+    },
+    {
+      "id": "46",
+      "fullName": "أشرف حسن محمد شقفة",
+      "college": "الآداب",
+      "department": "الجغرافيا",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2342",
+      "email": "ashaqfa@iugaza.edu.ps"
+    },
+    {
+      "id": "47",
+      "fullName": "أكرم محمد محمود عدوان",
+      "college": "الآداب",
+      "department": "التاريخ والآثار",
+      "degre": "أستاذ",
+      "insidePhone": "2332",
+      "email": "aedwan@iugaza.edu.ps"
+    },
+    {
+      "id": "48",
+      "fullName": "أمجد محمد حسن المفتي",
+      "college": "الآداب",
+      "department": "الخدمة الاجتماعية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2360",
+      "email": "amofty@iugaza.edu.ps"
+    },
+    {
+      "id": "49",
+      "fullName": "أمين منصور قاسم وافي",
+      "college": "الآداب",
+      "department": "الصحافة والإعلام",
+      "degre": "أستاذ",
+      "insidePhone": "2351",
+      "email": "awafi@iugaza.edu.ps"
+    },
+    {
+      "id": "50",
+      "fullName": "أيمن حسن محمد الحلاق",
+      "college": "الآداب",
+      "department": "اللغة الإنجليزية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2327",
+      "email": "ahallaq@iugaza.edu.ps"
+    },
+    {
+      "id": "51",
+      "fullName": "أيمن خميس ربيع أبو نقيرة",
+      "college": "الآداب",
+      "department": "الصحافة والإعلام",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "0",
+      "email": "anoqaira@iugaza.edu.ps"
+    },
+    {
+      "id": "52",
+      "fullName": "باسم عبد الرحمن صالح البابلي",
+      "college": "الآداب",
+      "department": "اللغة العربية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2315",
+      "email": "bbabli@iugaza.edu.ps"
+    },
+    {
+      "id": "53",
+      "fullName": "جمعة عبد الفتاح حسين أبو العينين",
+      "college": "الآداب",
+      "department": "الصحافة والإعلام",
+      "degre": "مدرس",
+      "insidePhone": "2386",
+      "email": "jelenein@iugaza.edu.ps"
+    },
+    {
+      "id": "54",
+      "fullName": "جهاد يوسف إبراهيم العرجا",
+      "college": "الآداب",
+      "department": "اللغة العربية",
+      "degre": "أستاذ",
+      "insidePhone": "2316",
+      "email": "jarja@iugaza.edu.ps"
+    },
+    {
+      "id": "55",
+      "fullName": "حسن أحمد حسن النبيه",
+      "college": "الآداب",
+      "department": "اللغة الإنجليزية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2326",
+      "email": "elnabih@iugaza.edu.ps"
+    },
+    {
+      "id": "56",
+      "fullName": "حسن محمد عبد الرحمن أبو حشيش",
+      "college": "الآداب",
+      "department": "الصحافة والإعلام",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2386",
+      "email": "hhashesh@iugaza.edu.ps"
+    },
+    {
+      "id": "57",
+      "fullName": "خالد يونس عبدالعزيز الخالدي",
+      "college": "الآداب",
+      "department": "التاريخ والآثار",
+      "degre": "أستاذ",
+      "insidePhone": "2332",
+      "email": "kkhaldi@iugaza.edu.ps"
+    },
+    {
+      "id": "58",
+      "fullName": "خضر توفيق علي خضر",
+      "college": "الآداب",
+      "department": "اللغة الإنجليزية",
+      "degre": "أستاذ",
+      "insidePhone": "2322",
+      "email": "kkhader@iugaza.edu.ps"
+    },
+    {
+      "id": "59",
+      "fullName": "خضر محمد محمود أبو جحجوح",
+      "college": "الآداب",
+      "department": "اللغة العربية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2311",
+      "email": "kjahjouh@iugaza.edu.ps"
+    },
+    {
+      "id": "60",
+      "fullName": "رائد أحمد طه صالحة",
+      "college": "الآداب",
+      "department": "الجغرافيا",
+      "degre": "أستاذ",
+      "insidePhone": "1082",
+      "email": "rsalha@iugaza.edu.ps"
+    },
+    {
+      "id": "61",
+      "fullName": "رجاء يونس سليمان أبو مزيد",
+      "college": "الآداب",
+      "department": "الصحافة والإعلام",
+      "degre": "مدرس",
+      "insidePhone": "1088",
+      "email": "rmazeed1@iugaza.edu.ps"
+    },
+    {
+      "id": "62",
+      "fullName": "رفعت رفيق سعيد العرعير",
+      "college": "الآداب",
+      "department": "اللغة الإنجليزية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2323",
+      "email": "rareer@iugaza.edu.ps"
+    },
+    {
+      "id": "63",
+      "fullName": "رياض مصطفى أحمد شاهين",
+      "college": "الآداب",
+      "department": "التاريخ والآثار",
+      "degre": "أستاذ",
+      "insidePhone": "2381",
+      "email": "rshaheen@iugaza.edu.ps"
+    },
+    {
+      "id": "64",
+      "fullName": "زكريا إبراهيم حسن السنوار",
+      "college": "الآداب",
+      "department": "التاريخ والآثار",
+      "degre": "أستاذ",
+      "insidePhone": "2332",
+      "email": "zelsenwar@iugaza.edu.ps"
+    },
+    {
+      "id": "66",
+      "fullName": "سامي سليمان سالم البريم",
+      "college": "الآداب",
+      "department": "اللغة الإنجليزية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2302",
+      "email": "sbreem@iugaza.edu.ps"
+    },
+    {
+      "id": "67",
+      "fullName": "طلعت عبدالحميد حسين عيسى",
+      "college": "الآداب",
+      "department": "الصحافة والإعلام",
+      "degre": "أستاذ",
+      "insidePhone": "2353",
+      "email": "tissa@iugaza.edu.ps"
+    },
+    {
+      "id": "68",
+      "fullName": "عبد الحميد مصطفى سعيد مرتجى",
+      "college": "الآداب",
+      "department": "اللغة العربية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2310",
+      "email": "amortaja@iugaza.edu.ps"
+    },
+    {
+      "id": "69",
+      "fullName": "عبد الناصر محمود فهيد بحر",
+      "college": "الآداب",
+      "department": "اللغة الإنجليزية",
+      "degre": "سكرتير",
+      "insidePhone": "2805",
+      "email": "abahar@iugaza.edu.ps"
+    },
+    {
+      "id": "70",
+      "fullName": "عبدالخالق محمد عبدالخالق العف",
+      "college": "الآداب",
+      "department": "اللغة العربية",
+      "degre": "أستاذ",
+      "insidePhone": "2316",
+      "email": "aelaff@iugaza.edu.ps"
+    },
+    {
+      "id": "71",
+      "fullName": "عبدربه أحمد عبدالرحمن أبو عليان",
+      "college": "الآداب",
+      "department": "اللغة الإنجليزية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2326",
+      "email": "aalyan@iugaza.edu.ps"
+    },
+    {
+      "id": "72",
+      "fullName": "غسان محمود أحمد وشاح",
+      "college": "الآداب",
+      "department": "التاريخ والآثار",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "0",
+      "email": "gwshah@iugaza.edu.ps"
+    },
+    {
+      "id": "73",
+      "fullName": "فوزي ابراهيم موسى أبو فياض",
+      "college": "الآداب",
+      "department": "اللغة العربية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2302",
+      "email": "fayyad@iugaza.edu.ps"
+    },
+    {
+      "id": "74",
+      "fullName": "كامل سالم عواد أبو ضاهر",
+      "college": "الآداب",
+      "department": "الجغرافيا",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2341",
+      "email": "kabudaher@iugaza.edu.ps"
+    },
+    {
+      "id": "75",
+      "fullName": "كمال أحمد محمد غنيم",
+      "college": "الآداب",
+      "department": "اللغة العربية",
+      "degre": "أستاذ",
+      "insidePhone": "1420",
+      "email": "kghonem@iugaza.edu.ps"
+    },
+    {
+      "id": "76",
+      "fullName": "كمال رجب حمد مرتجى",
+      "college": "الآداب",
+      "department": "اللغة الإنجليزية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2321",
+      "email": "kmortaga@iugaza.edu.ps"
+    },
+    {
+      "id": "77",
+      "fullName": "كمال عبد الحميد راغب إسليم",
+      "college": "الآداب",
+      "department": "الصحافة والإعلام",
+      "degre": "أمين مختبر",
+      "insidePhone": "2385",
+      "email": "kislim@iugaza.edu.ps"
+    },
+    {
+      "id": "78",
+      "fullName": "ماجد محمد إبراهيم النعامي",
+      "college": "الآداب",
+      "department": "اللغة العربية",
+      "degre": "أستاذ",
+      "insidePhone": "2318",
+      "email": "mnamme@iugaza.edu.ps"
+    },
+    {
+      "id": "79",
+      "fullName": "محمد سليم محمد الحاج أحمد",
+      "college": "الآداب",
+      "department": "اللغة الإنجليزية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2324",
+      "email": "mselhajahmed@iugaza.edu.ps"
+    },
+    {
+      "id": "80",
+      "fullName": "محمد شحادة أحمد تيم",
+      "college": "الآداب",
+      "department": "اللغة العربية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2315",
+      "email": "mtayem@iugaza.edu.ps"
+    },
+    {
+      "id": "82",
+      "fullName": "محمد مشير عبد العزيز محمد عامر",
+      "college": "الآداب",
+      "department": "اللغة الإنجليزية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "0",
+      "email": "mamer@iugaza.edu.ps"
+    },
+    {
+      "id": "83",
+      "fullName": "محمد مصطفى عبد الرحمن كلاب",
+      "college": "الآداب",
+      "department": "اللغة العربية",
+      "degre": "أستاذ",
+      "insidePhone": "112",
+      "email": "mkollab@iugaza.edu.ps"
+    },
+    {
+      "id": "84",
+      "fullName": "محمود لباد سلامة الترابين",
+      "college": "الآداب",
+      "department": "اللغة الإنجليزية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "0",
+      "email": "mtarabin@iugaza.edu.ps"
+    },
+    {
+      "id": "85",
+      "fullName": "محمود محمد أحمد العامودي",
+      "college": "الآداب",
+      "department": "اللغة العربية",
+      "degre": "أستاذ",
+      "insidePhone": "2333",
+      "email": "mamoudi@iugaza.edu.ps"
+    },
+    {
+      "id": "87",
+      "fullName": "محمود نايف محمود بارود",
+      "college": "الآداب",
+      "department": "اللغة الإنجليزية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2324",
+      "email": "mnbaroud@iugaza.edu.ps"
+    },
+    {
+      "id": "88",
+      "fullName": "منير سليم مسعود أبو راس",
+      "college": "الآداب",
+      "department": "الصحافة والإعلام",
+      "degre": "مدرس",
+      "insidePhone": "2385",
+      "email": "mras@iugaza.edu.ps"
+    },
+    {
+      "id": "89",
+      "fullName": "موسى سالم إبراهيم أبو جليدان",
+      "college": "الآداب",
+      "department": "اللغة العربية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "0",
+      "email": "mjeledan@iugaza.edu.ps"
+    },
+    {
+      "id": "90",
+      "fullName": "ميادا محمود عبد الوهاب مهنا",
+      "college": "الآداب",
+      "department": "الصحافة والإعلام",
+      "degre": "مدرس",
+      "insidePhone": "2334",
+      "email": "mmhanna@iugaza.edu.ps"
+    },
+    {
+      "id": "91",
+      "fullName": "نظمي عبد السلام يوسف المصري",
+      "college": "الآداب",
+      "department": "اللغة الإنجليزية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2328",
+      "email": "nmasri@iugaza.edu.ps"
+    },
+    {
+      "id": "92",
+      "fullName": "نعمان شعبان عبدالرحمن علوان",
+      "college": "الآداب",
+      "department": "اللغة العربية",
+      "degre": "أستاذ",
+      "insidePhone": "2317",
+      "email": "nolwan@iugaza.edu.ps"
+    },
+    {
+      "id": "93",
+      "fullName": "نعيم سلمان محمد بارود",
+      "college": "الآداب",
+      "department": "الجغرافيا",
+      "degre": "أستاذ",
+      "insidePhone": "2340",
+      "email": "nbaroud@iugaza.edu.ps"
+    },
+    {
+      "id": "94",
+      "fullName": "نفين رشدى محمد الشوا",
+      "college": "الآداب",
+      "department": "اللغة الإنجليزية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2359",
+      "email": "nshawa@iugaza.edu.ps"
+    },
+    {
+      "id": "95",
+      "fullName": "نهاد محمد سعدي الشيخ خليل",
+      "college": "الآداب",
+      "department": "التاريخ والآثار",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2333",
+      "email": "nkhaleel@iugaza.edu.ps"
+    },
+    {
+      "id": "96",
+      "fullName": "وائل عبدالرزاق يوسف المناعمة",
+      "college": "الآداب",
+      "department": "الصحافة والإعلام",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2386",
+      "email": "wmanama@iugaza.edu.ps"
+    },
+    {
+      "id": "97",
+      "fullName": "وليد محمود ندى أبو ندى",
+      "college": "الآداب",
+      "department": "اللغة العربية",
+      "degre": "أستاذ",
+      "insidePhone": "2337",
+      "email": "wnada@iugaza.edu.ps"
+    },
+    {
+      "id": "98",
+      "fullName": "ياسر سعيد سليمان أبو سليسل",
+      "college": "الآداب",
+      "department": "التاريخ والآثار",
+      "degre": "مدرس",
+      "insidePhone": "0",
+      "email": "yslesel@iugaza.edu.ps"
+    },
+    {
+      "id": "99",
+      "fullName": "يوسف جمعة حسن عاشور",
+      "college": "الآداب",
+      "department": "اللغة العربية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2310",
+      "email": "yjashour@iugaza.edu.ps"
+    },
+    {
+      "id": "100",
+      "fullName": "يوسف شحدة محمد الكحلوت",
+      "college": "الآداب",
+      "department": "اللغة العربية",
+      "degre": "أستاذ",
+      "insidePhone": "2314",
+      "email": "ykahlout@iugaza.edu.ps"
+    },
+    {
+      "id": "101",
+      "fullName": "إبراهيم حامد حسين الأسطل",
+      "college": "التربية",
+      "department": "المناهج وطرق التدريس",
+      "degre": "أستاذ",
+      "insidePhone": "2400",
+      "email": "ihastal@iugaza.edu.ps"
+    },
+    {
+      "id": "102",
+      "fullName": "أدهم حسن يوسف البعلوجي",
+      "college": "التربية",
+      "department": "المناهج وطرق التدريس",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2421",
+      "email": "abaloji@iugaza.edu.ps"
+    },
+    {
+      "id": "103",
+      "fullName": "أسامة عطية أحمد المزيني",
+      "college": "التربية",
+      "department": "علم النفس",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2430",
+      "email": "omozini@iugaza.edu.ps"
+    },
+    {
+      "id": "104",
+      "fullName": "إسلام جميل حسن الطهراوي",
+      "college": "التربية",
+      "department": "عام",
+      "degre": "إداري",
+      "insidePhone": "2420",
+      "email": "itahrawy@iugaza.edu.ps"
+    },
+    {
+      "id": "105",
+      "fullName": "إياد علي يحيى الدجني",
+      "college": "التربية",
+      "department": "أصول التربية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "1026",
+      "email": "edajani@iugaza.edu.ps"
+    },
+    {
+      "id": "106",
+      "fullName": "باسل مهدي محمد الخضري",
+      "college": "التربية",
+      "department": "علم النفس",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "0",
+      "email": "bkhodary@iugaza.edu.ps"
+    },
+    {
+      "id": "107",
+      "fullName": "باسمة صدقي محمد الأغا",
+      "college": "التربية",
+      "department": "عام",
+      "degre": "إداري",
+      "insidePhone": "2446",
+      "email": "bagha@iugaza.edu.ps"
+    },
+    {
+      "id": "108",
+      "fullName": "توفيق محمد توفيق شبير",
+      "college": "التربية",
+      "department": "علم النفس",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2442",
+      "email": "tshubier@iugaza.edu.ps"
+    },
+    {
+      "id": "109",
+      "fullName": "حمدان عبد الله شحدة الصوفي",
+      "college": "التربية",
+      "department": "أصول التربية",
+      "degre": "أستاذ",
+      "insidePhone": "2423",
+      "email": "hsoofi@iugaza.edu.ps"
+    },
+    {
+      "id": "110",
+      "fullName": "ختام إسماعيل موسى السحار",
+      "college": "التربية",
+      "department": "علم النفس",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2430",
+      "email": "khsahhar@iugaza.edu.ps"
+    },
+    {
+      "id": "111",
+      "fullName": "سليمان حسين موسى المزين",
+      "college": "التربية",
+      "department": "أصول التربية",
+      "degre": "أستاذ",
+      "insidePhone": "2410",
+      "email": "slemanhm@iugaza.edu.ps"
+    },
+    {
+      "id": "112",
+      "fullName": "سمية مصطفى عبد الغني صايمة",
+      "college": "التربية",
+      "department": "أصول التربية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2453",
+      "email": "ssayma@iugaza.edu.ps"
+    },
+    {
+      "id": "113",
+      "fullName": "سناء ابراهيم محمد أبو دقة",
+      "college": "التربية",
+      "department": "علم النفس",
+      "degre": "أستاذ",
+      "insidePhone": "2411",
+      "email": "sdagga@iugaza.edu.ps"
+    },
+    {
+      "id": "114",
+      "fullName": "صلاح أحمد عبد الهادي الناقة",
+      "college": "التربية",
+      "department": "المناهج وطرق التدريس",
+      "degre": "أستاذ",
+      "insidePhone": "2435",
+      "email": "snaqa@iugaza.edu.ps"
+    },
+    {
+      "id": "115",
+      "fullName": "عبد الفتاح عبدالغني مصطفى الهمص",
+      "college": "التربية",
+      "department": "علم النفس",
+      "degre": "أستاذ",
+      "insidePhone": "2445",
+      "email": "ahams@iugaza.edu.ps"
+    },
+    {
+      "id": "116",
+      "fullName": "عبد المعطي رمضان محمد الأغا",
+      "college": "التربية",
+      "department": "المناهج وطرق التدريس",
+      "degre": "أستاذ",
+      "insidePhone": "2421",
+      "email": "aalagha@iugaza.edu.ps"
+    },
+    {
+      "id": "117",
+      "fullName": "عطية شعبان محمد الخزندار",
+      "college": "التربية",
+      "department": "عام",
+      "degre": "مساعد إداري",
+      "insidePhone": "2436",
+      "email": "atia@iugaza.edu.ps"
+    },
+    {
+      "id": "118",
+      "fullName": "عليان عبدالله سليمان الحولي",
+      "college": "التربية",
+      "department": "أصول التربية",
+      "degre": "أستاذ",
+      "insidePhone": "2410",
+      "email": "aelholy@iugaza.edu.ps"
+    },
+    {
+      "id": "119",
+      "fullName": "غسان أحمد سالم جبر",
+      "college": "التربية",
+      "department": "عام",
+      "degre": "مدير",
+      "insidePhone": "2403",
+      "email": "gjabr@iugaza.edu.ps"
+    },
+    {
+      "id": "120",
+      "fullName": "فايز كمال عبد الرحمن شلدان",
+      "college": "التربية",
+      "department": "أصول التربية",
+      "insidePhone": "0",
+      "degre": "أستاذ",
+      "email": "fshaladan@iugaza.edu.ps"
+    },
+    {
+      "id": "121",
+      "fullName": "مجدي سعيد سليمان عقل",
+      "college": "التربية",
+      "department": "المناهج وطرق التدريس",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2425",
+      "email": "msaqel@iugaza.edu.ps"
+    },
+    {
+      "id": "122",
+      "fullName": "محمد سليمان حسين أبوشقير",
+      "college": "التربية",
+      "department": "المناهج وطرق التدريس",
+      "degre": "أستاذ",
+      "insidePhone": "2421",
+      "email": "mshgair@iugaza.edu.ps"
+    },
+    {
+      "id": "123",
+      "fullName": "محمد عبدالفتاح عبدالوهاب عسقول",
+      "college": "التربية",
+      "department": "المناهج وطرق التدريس",
+      "degre": "أستاذ",
+      "insidePhone": "1041",
+      "email": "masqule@iugaza.edu.ps"
+    },
+    {
+      "id": "124",
+      "fullName": "محمد عثمان مصطفى الأغا",
+      "college": "التربية",
+      "department": "أصول التربية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "7111",
+      "email": "magha@iugaza.edu.ps"
+    },
+    {
+      "id": "125",
+      "fullName": "محمد فؤاد محمد أبو عودة",
+      "college": "التربية",
+      "department": "المناهج وطرق التدريس",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2423",
+      "email": "modaa@iugaza.edu.ps"
+    },
+    {
+      "id": "126",
+      "fullName": "محمود حسني احمد أبو اللبن",
+      "college": "التربية",
+      "department": "الوسائل التعليمية",
+      "degre": "فني إلكترونيات",
+      "insidePhone": "2433",
+      "email": "mlaban@iugaza.edu.ps"
+    },
+    {
+      "id": "129",
+      "fullName": "محمود محمد درويش الرنتيسي",
+      "college": "التربية",
+      "department": "المناهج وطرق التدريس",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2447",
+      "email": "mrantisi@iugaza.edu.ps"
+    },
+    {
+      "id": "130",
+      "fullName": "منور عدنان محمد نجم",
+      "college": "التربية",
+      "department": "أصول التربية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2410",
+      "email": "mnajim@iugaza.edu.ps"
+    },
+    {
+      "id": "131",
+      "fullName": "منير سليمان إبراهيم حسن",
+      "college": "التربية",
+      "department": "المناهج وطرق التدريس",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2142",
+      "email": "mshasan@iugaza.edu.ps"
+    },
+    {
+      "id": "133",
+      "fullName": "ياسر حسن خليل الأشقر",
+      "college": "التربية",
+      "department": "عام",
+      "degre": "إداري",
+      "insidePhone": "2432",
+      "email": "yashkar@iugaza.edu.ps"
+    },
+    {
+      "id": "134",
+      "fullName": "أحمد علي محمد الشاعر",
+      "college": "التمريض",
+      "department": "عام",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2704",
+      "email": "aashaer@iugaza.edu.ps"
+    },
+    {
+      "id": "135",
+      "fullName": "أشرف يعقوب عبد الحميد الجدي",
+      "college": "التمريض",
+      "department": "عام",
+      "degre": "أستاذ",
+      "insidePhone": "2701",
+      "email": "ajedi@iugaza.edu.ps"
+    },
+    {
+      "id": "136",
+      "fullName": "حسين أحمد موسى الجديلي",
+      "college": "التمريض",
+      "department": "عام",
+      "degre": "رئيس قسم",
+      "insidePhone": "2703",
+      "email": "hjadili@iugaza.edu.ps"
+    },
+    {
+      "id": "138",
+      "fullName": "عاطف جابر عوض الله إسماعيل",
+      "college": "التمريض",
+      "department": "عام",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2704",
+      "email": "atismail@iugaza.edu.ps"
+    },
+    {
+      "id": "139",
+      "fullName": "عبد الكريم سعيد محمد رضوان",
+      "college": "التمريض",
+      "department": "عام",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2702",
+      "email": "arodwan@iugaza.edu.ps"
+    },
+    {
+      "id": "140",
+      "fullName": "عريفة سعيد مصطفى البحري",
+      "college": "التمريض",
+      "department": "القبالة",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2707",
+      "email": "abahri@iugaza.edu.ps"
+    },
+    {
+      "id": "141",
+      "fullName": "ناصر ابراهيم أحمد أبو النور",
+      "college": "التمريض",
+      "department": "عام",
+      "degre": "أستاذ",
+      "insidePhone": "2702",
+      "email": "naselnoor@iugaza.edu.ps"
+    },
+    {
+      "id": "142",
+      "fullName": "وفاء فرحان إسماعيل عبيد",
+      "college": "التمريض",
+      "department": "القبالة",
+      "degre": "معيد",
+      "insidePhone": "2707",
+      "email": "wabeid@iugaza.edu.ps"
+    },
+    {
+      "id": "143",
+      "fullName": "ياسر أحمد عبدالمجيد عبد العاطي",
+      "college": "التمريض",
+      "department": "عام",
+      "degre": "إداري",
+      "insidePhone": "2705",
+      "email": "yati@iugaza.edu.ps"
+    },
+    {
+      "id": "144",
+      "fullName": "يوسف ابراهيم علي الجيش",
+      "college": "التمريض",
+      "department": "عام",
+      "degre": "أستاذ",
+      "insidePhone": "2706",
+      "email": "yjeesh@iugaza.edu.ps"
+    },
+    {
+      "id": "146",
+      "fullName": "أنور حمدان مرزوق الشاعر",
+      "college": "الشريعة والقانون",
+      "department": "الشريعة والقانون",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2207",
+      "email": "ashaer@iugaza.edu.ps"
+    },
+    {
+      "id": "147",
+      "fullName": "إيمان محمد سلامة بركة",
+      "college": "الشريعة والقانون",
+      "department": "الشريعة الإسلامية",
+      "degre": "محاضر",
+      "insidePhone": "2216",
+      "email": "ebaraka@iugaza.edu.ps"
+    },
+    {
+      "id": "148",
+      "fullName": "تيسير كامل إسماعيل إبراهيم",
+      "college": "الشريعة والقانون",
+      "department": "الشريعة الإسلامية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2210",
+      "email": "tibrahim@iugaza.edu.ps"
+    },
+    {
+      "id": "149",
+      "fullName": "حسام الدين محمود زكريا الدن",
+      "college": "الشريعة والقانون",
+      "department": "الشريعة والقانون",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2208",
+      "email": "helden@iugaza.edu.ps"
+    },
+    {
+      "id": "150",
+      "fullName": "خالد عبد الجابر عبد ربه الصليبي",
+      "college": "الشريعة والقانون",
+      "department": "الشريعة الإسلامية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2210",
+      "email": "khslaibi@iugaza.edu.ps"
+    },
+    {
+      "id": "152",
+      "fullName": "رفيق أسعد محمد رضوان",
+      "college": "الشريعة والقانون",
+      "department": "الشريعة الإسلامية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2200",
+      "email": "rradwan@iugaza.edu.ps"
+    },
+    {
+      "id": "153",
+      "fullName": "زياد ابراهيم حسين مقداد",
+      "college": "الشريعة والقانون",
+      "department": "الشريعة الإسلامية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2221",
+      "email": "zmigdad@iugaza.edu.ps"
+    },
+    {
+      "id": "154",
+      "fullName": "سالم عبد الله محارب أبو مخدة",
+      "college": "الشريعة والقانون",
+      "department": "الشريعة الإسلامية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2230",
+      "email": "smakhada@iugaza.edu.ps"
+    },
+    {
+      "id": "155",
+      "fullName": "سلمان نصر أحمد الداية",
+      "college": "الشريعة والقانون",
+      "department": "الشريعة الإسلامية",
+      "degre": "أستاذ",
+      "insidePhone": "2208",
+      "email": "sdaya@iugaza.edu.ps"
+    },
+    {
+      "id": "156",
+      "fullName": "سمية عبد الرحمن عطية بحر",
+      "college": "الشريعة والقانون",
+      "department": "الشريعة الإسلامية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2216",
+      "email": "sbahar@iugaza.edu.ps"
+    },
+    {
+      "id": "157",
+      "fullName": "سهاد حسن حسن البياري",
+      "college": "الشريعة والقانون",
+      "department": "الشريعة الإسلامية",
+      "degre": "مدرس",
+      "insidePhone": "2206",
+      "email": "sbayari@iugaza.edu.ps"
+    },
+    {
+      "id": "158",
+      "fullName": "شحادة سعيد ابراهيم السويركي",
+      "college": "الشريعة والقانون",
+      "department": "الشريعة الإسلامية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2208",
+      "email": "sswairki@iugaza.edu.ps"
+    },
+    {
+      "id": "159",
+      "fullName": "صادق عطية سليم قنديل",
+      "college": "الشريعة والقانون",
+      "department": "الشريعة الإسلامية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2202",
+      "email": "skandeel@iugaza.edu.ps"
+    },
+    {
+      "id": "160",
+      "fullName": "عاطف محمد حسين أبو هربيد",
+      "college": "الشريعة والقانون",
+      "department": "الشريعة الإسلامية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2215",
+      "email": "aharbeed@iugaza.edu.ps"
+    },
+    {
+      "id": "161",
+      "fullName": "عبد الرحمن سلمان نصر الداية",
+      "college": "الشريعة والقانون",
+      "department": "الشريعة الإسلامية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "0",
+      "email": "adaya@iugaza.edu.ps"
+    },
+    {
+      "id": "162",
+      "fullName": "عفيف محمد حسين أبو كلوب",
+      "college": "الشريعة والقانون",
+      "department": "الشريعة والقانون",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2208",
+      "email": "akalloub@iugaza.edu.ps"
+    },
+    {
+      "id": "163",
+      "fullName": "فراس محمد موسى الأسطل",
+      "college": "الشريعة والقانون",
+      "department": "الشريعة الإسلامية",
+      "degre": "مدرس",
+      "insidePhone": "154",
+      "email": "fastal@iugaza.edu.ps"
+    },
+    {
+      "id": "164",
+      "fullName": "مازن إسماعيل مصباح هنية",
+      "college": "الشريعة والقانون",
+      "department": "الشريعة الإسلامية",
+      "degre": "أستاذ",
+      "insidePhone": "2203",
+      "email": "mhania@iugaza.edu.ps"
+    },
+    {
+      "id": "165",
+      "fullName": "مؤمن أحمد ذياب شويدح",
+      "college": "الشريعة والقانون",
+      "department": "الشريعة الإسلامية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2206",
+      "email": "mshwaideh@iugaza.edu.ps"
+    },
+    {
+      "id": "166",
+      "fullName": "ماهر حامد محمد الحولي",
+      "college": "الشريعة والقانون",
+      "department": "الشريعة الإسلامية",
+      "degre": "أستاذ",
+      "insidePhone": "2223",
+      "email": "mholiy@iugaza.edu.ps"
+    },
+    {
+      "id": "168",
+      "fullName": "محمد سليمان نصر الله الفرا",
+      "college": "الشريعة والقانون",
+      "department": "الشريعة الإسلامية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "7112",
+      "email": "mfaraa@iugaza.edu.ps"
+    },
+    {
+      "id": "169",
+      "fullName": "منال محمدرمضان هاشم العشي",
+      "college": "الشريعة والقانون",
+      "department": "الشريعة الإسلامية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2205",
+      "email": "mashy@iugaza.edu.ps"
+    },
+    {
+      "id": "170",
+      "fullName": "نبيل محمد علي أبو العمرين",
+      "college": "الشريعة والقانون",
+      "department": "عام",
+      "degre": "رئيس قسم",
+      "insidePhone": "2204",
+      "email": "nalamrin@iugaza.edu.ps"
+    },
+    {
+      "id": "171",
+      "fullName": "ياسر اسعيد حسين فوجو",
+      "college": "الشريعة والقانون",
+      "department": "الشريعة الإسلامية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "0",
+      "email": "yfujo@iugaza.edu.ps"
+    },
+    {
+      "id": "173",
+      "fullName": "أحمد ماهر صالح الغزالي",
+      "college": "الطب",
+      "department": "الطب البشرى",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "0",
+      "email": "amghazali@iugaza.edu.ps"
+    },
+    {
+      "id": "174",
+      "fullName": "آلاء محمود شعبان إسماعيل",
+      "college": "الطب",
+      "department": "عام",
+      "degre": "محاضر",
+      "insidePhone": "0",
+      "email": "aismail@iugaza.edu.ps"
+    },
+    {
+      "id": "175",
+      "fullName": "أنهار عطية موسى فرج الله",
+      "college": "الطب",
+      "department": "عام",
+      "degre": "أمين مختبر",
+      "insidePhone": "2915",
+      "email": "afrajallah@iugaza.edu.ps"
+    },
+    {
+      "id": "176",
+      "fullName": "أنور إبراهيم محمد الشيخ خليل",
+      "college": "الطب",
+      "department": "الطب البشرى",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2907",
+      "email": "aikhalil@iugaza.edu.ps"
+    },
+    {
+      "id": "178",
+      "fullName": "بلال عادل محمد الدبور",
+      "college": "الطب",
+      "department": "الطب البشرى",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "0",
+      "email": "bdabbour@iugaza.edu.ps"
+    },
+    {
+      "id": "179",
+      "fullName": "خالد عمر محمد الكحلوت",
+      "college": "الطب",
+      "department": "عام",
+      "degre": "مدير",
+      "insidePhone": "1330",
+      "email": "kkahlout@iugaza.edu.ps"
+    },
+    {
+      "id": "180",
+      "fullName": "خميس عبد الكريم محمد الإسي",
+      "college": "الطب",
+      "department": "الطب البشرى",
+      "degre": "أستاذ",
+      "insidePhone": "2909",
+      "email": "kessi@iugaza.edu.ps"
+    },
+    {
+      "id": "181",
+      "fullName": "سعيد صادق سعيد الغرة",
+      "college": "الطب",
+      "department": "عام",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "1161",
+      "email": "sghorra@iugaza.edu.ps"
+    },
+    {
+      "id": "182",
+      "fullName": "صبحي إسماعيل هاشم سكيك",
+      "college": "الطب",
+      "department": "عام",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "0",
+      "email": "sskaik@iugaza.edu.ps"
+    },
+    {
+      "id": "183",
+      "fullName": "صهيب محمد صبحي الهمص",
+      "college": "الطب",
+      "department": "الطب البشرى",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "0",
+      "email": "shamss@iugaza.edu.ps"
+    },
+    {
+      "id": "184",
+      "fullName": "فضل نعيم محمد نعيم",
+      "college": "الطب",
+      "department": "الطب البشرى",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "0",
+      "email": "fnaim@iugaza.edu.ps"
+    },
+    {
+      "id": "185",
+      "fullName": "ماجد محمد اسماعيل ياسين",
+      "college": "الطب",
+      "department": "الطب البشرى",
+      "degre": "أستاذ",
+      "insidePhone": "2905",
+      "email": "myassin@iugaza.edu.ps"
+    },
+    {
+      "id": "186",
+      "fullName": "محمد إبراهيم محمد أبو ندى",
+      "college": "الطب",
+      "department": "عام",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "0",
+      "email": "mabunada@iugaza.edu.ps"
+    },
+    {
+      "id": "187",
+      "fullName": "محمد عاطف محمد دبور أسعد",
+      "college": "الطب",
+      "department": "قبل السريري",
+      "degre": "محاضر",
+      "insidePhone": "0",
+      "email": "masaad@iugaza.edu.ps"
+    },
+    {
+      "id": "189",
+      "fullName": "هاني عبد الرحمن صالح فروانة",
+      "college": "الطب",
+      "department": "العلوم الأساسية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "0",
+      "email": "hfarwanah@iugaza.edu.ps"
+    },
+    {
+      "id": "190",
+      "fullName": "يوسف محمد سليم ابو سلمية",
+      "college": "الطب",
+      "department": "عام",
+      "degre": "أمين مختبر",
+      "insidePhone": "1378",
+      "email": "yselmya@iugaza.edu.ps"
+    },
+    {
+      "id": "191",
+      "fullName": "إبراهيم محمدعوض إبراهيم قدورة",
+      "college": "العلوم",
+      "department": "الفيزياء",
+      "degre": "محاضر",
+      "insidePhone": "2627",
+      "email": "iqadoura@iugaza.edu.ps"
+    },
+    {
+      "id": "192",
+      "fullName": "أحمد عبدالرؤوف محمد المبحوح",
+      "college": "العلوم",
+      "department": "الرياضيات",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2699",
+      "email": "mabhouh@iugaza.edu.ps"
+    },
+    {
+      "id": "193",
+      "fullName": "أروى عيد مصباح عاشور",
+      "college": "العلوم",
+      "department": "الرياضيات",
+      "degre": "أستاذ",
+      "insidePhone": "2612",
+      "email": "arashour@iugaza.edu.ps"
+    },
+    {
+      "id": "194",
+      "fullName": "أسعد يوسف عطية أسعد",
+      "college": "العلوم",
+      "department": "الرياضيات",
+      "degre": "أستاذ",
+      "insidePhone": "7110",
+      "email": "aasad@iugaza.edu.ps"
+    },
+    {
+      "id": "195",
+      "fullName": "أشرف احمد فؤاد الشافعي",
+      "college": "العلوم",
+      "department": "الأحياء",
+      "degre": "أمين مختبر",
+      "insidePhone": "2658",
+      "email": "ashafei@iugaza.edu.ps"
+    },
+    {
+      "id": "196",
+      "fullName": "أشرف أحمد محمد مغيصيب",
+      "college": "العلوم",
+      "department": "الرياضيات",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2689",
+      "email": "ashraf@iugaza.edu.ps"
+    },
+    {
+      "id": "197",
+      "fullName": "إعتماد محمد عبدالعزيز العطار",
+      "college": "العلوم",
+      "department": "الأحياء",
+      "degre": "محاضر",
+      "insidePhone": "2625",
+      "email": "ealattar@iugaza.edu.ps"
+    },
+    {
+      "id": "198",
+      "fullName": "أنس عوض محمد القانوع",
+      "college": "العلوم",
+      "department": "الفيزياء",
+      "degre": "مدرس",
+      "insidePhone": "2627",
+      "email": "akanoo@iugaza.edu.ps"
+    },
+    {
+      "id": "199",
+      "fullName": "أيمن هاشم درويش السقا",
+      "college": "العلوم",
+      "department": "الرياضيات",
+      "degre": "أستاذ",
+      "insidePhone": "2601",
+      "email": "asakka@iugaza.edu.ps"
+    },
+    {
+      "id": "200",
+      "fullName": "بسام احمد محمد أبو ظاهر",
+      "college": "العلوم",
+      "department": "الكيمياء",
+      "degre": "أستاذ",
+      "insidePhone": "2678",
+      "email": "bthaher@iugaza.edu.ps"
+    },
+    {
+      "id": "201",
+      "fullName": "بسام هاشم درويش السقا",
+      "college": "العلوم",
+      "department": "الفيزياء",
+      "degre": "أستاذ",
+      "insidePhone": "2601",
+      "email": "bsaqqa@iugaza.edu.ps"
+    },
+    {
+      "id": "202",
+      "fullName": "بشر مأمون محمد عقيلان",
+      "college": "العلوم",
+      "department": "الرياضيات",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2615",
+      "email": "biqelan@iugaza.edu.ps"
+    },
+    {
+      "id": "203",
+      "fullName": "بكر محمود حامد الزعبوط",
+      "college": "العلوم",
+      "department": "الكيمياء",
+      "degre": "أستاذ",
+      "insidePhone": "2639",
+      "email": "bzabut@iugaza.edu.ps"
+    },
+    {
+      "id": "204",
+      "fullName": "تهاني رزق نمر دلول",
+      "college": "العلوم",
+      "department": "الفيزياء",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2617",
+      "email": "tdalloul@iugaza.edu.ps"
+    },
+    {
+      "id": "205",
+      "fullName": "جاسر حسن على صرصور",
+      "college": "العلوم",
+      "department": "الرياضيات",
+      "degre": "أستاذ",
+      "insidePhone": "2613",
+      "email": "jasser@iugaza.edu.ps"
+    },
+    {
+      "id": "206",
+      "fullName": "خالد يوسف أحمد أبو اشكيان",
+      "college": "العلوم",
+      "department": "الفيزياء",
+      "degre": "أمين مختبر",
+      "insidePhone": "2624",
+      "email": "keshkyan@iugaza.edu.ps"
+    },
+    {
+      "id": "207",
+      "fullName": "ختام يوسف ديب الوصيفي",
+      "college": "العلوم",
+      "department": "الفيزياء",
+      "degre": "أستاذ",
+      "insidePhone": "2629",
+      "email": "kelwasife@iugaza.edu.ps"
+    },
+    {
+      "id": "208",
+      "fullName": "رائد بشير إبراهيم صالحه",
+      "college": "العلوم",
+      "department": "الرياضيات",
+      "degre": "أستاذ",
+      "insidePhone": "2681",
+      "email": "rbsalha@iugaza.edu.ps"
+    },
+    {
+      "id": "209",
+      "fullName": "رامي يوسف علي مرجان",
+      "college": "العلوم",
+      "department": "الكيمياء",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2632",
+      "email": "rmorjan@iugaza.edu.ps"
+    },
+    {
+      "id": "210",
+      "fullName": "زاهر محمود خليل نصار",
+      "college": "العلوم",
+      "department": "الفيزياء",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2627",
+      "email": "znassar@iugaza.edu.ps"
+    },
+    {
+      "id": "211",
+      "fullName": "زياد جميل عبدالله ياسين",
+      "college": "العلوم",
+      "department": "الكيمياء",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2631",
+      "email": "zyasseen@iugaza.edu.ps"
+    },
+    {
+      "id": "212",
+      "fullName": "زياد حسن حسين أبو هين",
+      "college": "العلوم",
+      "department": "علوم الارض والبيئة",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2662",
+      "email": "zabuheen@iugaza.edu.ps"
+    },
+    {
+      "id": "213",
+      "fullName": "سامي خليل كامل شعت",
+      "college": "العلوم",
+      "insidePhone": "0",
+      "department": "الفيزياء",
+      "degre": "أستاذ مشارك",
+      "email": "sshaat@iugaza.edu.ps"
+    },
+    {
+      "id": "214",
+      "fullName": "سعيد محمود عبدالرحمن الكردي",
+      "college": "العلوم",
+      "department": "الكيمياء",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2605",
+      "email": "skurdi@iugaza.edu.ps"
+    },
+    {
+      "id": "215",
+      "fullName": "سفجان روبين خالد الشامي",
+      "college": "العلوم",
+      "department": "الرياضيات",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2615",
+      "email": "selshamy@iugaza.edu.ps"
+    },
+    {
+      "id": "216",
+      "fullName": "سمير محمد علي ابراهيم حرارة",
+      "college": "العلوم",
+      "department": "علوم الارض والبيئة",
+      "degre": "محاضر",
+      "insidePhone": "2660",
+      "email": "shararah@iugaza.edu.ps"
+    },
+    {
+      "id": "217",
+      "fullName": "صائب حسين حسن العويني",
+      "college": "العلوم",
+      "department": "الأحياء",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2652",
+      "email": "siwini@iugaza.edu.ps"
+    },
+    {
+      "id": "219",
+      "fullName": "صلاح الدين يوسف علي جاد الله",
+      "college": "العلوم",
+      "department": "الأحياء",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2649",
+      "email": "sjadalla@iugaza.edu.ps"
+    },
+    {
+      "id": "220",
+      "fullName": "طارق عبد القادر إسماعيل البشيتي",
+      "college": "العلوم",
+      "department": "الأحياء",
+      "degre": "أستاذ",
+      "insidePhone": "2649",
+      "email": "tbashiti@iugaza.edu.ps"
+    },
+    {
+      "id": "221",
+      "fullName": "طارق محمد أحمد زايده",
+      "college": "العلوم",
+      "department": "الكيمياء",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2637",
+      "email": "tzaida@iugaza.edu.ps"
+    },
+    {
+      "id": "222",
+      "fullName": "طاهر محمد مصطفى العاجز",
+      "college": "العلوم",
+      "department": "الفيزياء",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2626",
+      "email": "telagez@iugaza.edu.ps"
+    },
+    {
+      "id": "223",
+      "fullName": "عادل محمد محمود عوض الله",
+      "college": "العلوم",
+      "department": "الكيمياء",
+      "degre": "أستاذ",
+      "insidePhone": "2655",
+      "email": "awada@iugaza.edu.ps"
+    },
+    {
+      "id": "224",
+      "fullName": "عبد الفتاح نظمي حسن عبد ربه",
+      "college": "العلوم",
+      "department": "الأحياء",
+      "degre": "أستاذ",
+      "insidePhone": "2651",
+      "email": "arabou@iugaza.edu.ps"
+    },
+    {
+      "id": "225",
+      "fullName": "عبود ياسر رامز القيشاوي",
+      "college": "العلوم",
+      "department": "الأحياء",
+      "degre": "أستاذ",
+      "insidePhone": "2640",
+      "email": "akichaoi@iugaza.edu.ps"
+    },
+    {
+      "id": "226",
+      "fullName": "علاء الدين رمضان عبد الرحمن الجعب",
+      "college": "العلوم",
+      "department": "علوم الارض والبيئة",
+      "degre": "أمين مختبر",
+      "insidePhone": "2663",
+      "email": "ajubb@iugaza.edu.ps"
+    },
+    {
+      "id": "227",
+      "fullName": "علي عبد العزيز علي الطرشاوي",
+      "college": "العلوم",
+      "department": "علوم الارض والبيئة",
+      "degre": "مدرس",
+      "insidePhone": "2666",
+      "email": "atarshaw@iugaza.edu.ps"
+    },
+    {
+      "id": "228",
+      "fullName": "فاتن سعيد أحمد أبو شوقة",
+      "college": "العلوم",
+      "department": "الرياضيات",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2616",
+      "email": "fshoga@iugaza.edu.ps"
+    },
+    {
+      "id": "229",
+      "fullName": "فخر محمد ياسين أبو عواد",
+      "college": "العلوم",
+      "department": "الكيمياء",
+      "degre": "أستاذ",
+      "insidePhone": "2638",
+      "email": "fakhr@iugaza.edu.ps"
+    },
+    {
+      "id": "230",
+      "fullName": "كمال العبد محمد الكحلوت",
+      "college": "العلوم",
+      "department": "الأحياء",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2652",
+      "email": "kelkahlout@iugaza.edu.ps"
+    },
+    {
+      "id": "231",
+      "fullName": "كمال جادالله محمود النبريص",
+      "college": "العلوم",
+      "department": "الأحياء",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2653",
+      "email": "elnabris@iugaza.edu.ps"
+    },
+    {
+      "id": "232",
+      "fullName": "ماجد محمد محمود هنية",
+      "college": "العلوم",
+      "department": "الكيمياء",
+      "degre": "أستاذ",
+      "insidePhone": "2637",
+      "email": "mmhania@iugaza.edu.ps"
+    },
+    {
+      "id": "233",
+      "fullName": "مازن فضل خليل البنا",
+      "college": "العلوم",
+      "department": "علوم الارض والبيئة",
+      "degre": "مدرس",
+      "insidePhone": "2663",
+      "email": "melbana@iugaza.edu.ps"
+    },
+    {
+      "id": "234",
+      "fullName": "ماهر عمر صالح الغصين",
+      "college": "العلوم",
+      "department": "الفيزياء",
+      "degre": "أستاذ",
+      "insidePhone": "2691",
+      "email": "ghossain@iugaza.edu.ps"
+    },
+    {
+      "id": "235",
+      "fullName": "محمد اسحق مصطفى الريفي",
+      "college": "العلوم",
+      "department": "الرياضيات",
+      "degre": "أستاذ",
+      "insidePhone": "2611",
+      "email": "mriffi@iugaza.edu.ps"
+    },
+    {
+      "id": "236",
+      "fullName": "محمد رزق محمد مطر",
+      "college": "العلوم",
+      "department": "الكيمياء",
+      "degre": "أمين مختبر",
+      "insidePhone": "2634",
+      "email": "mmattar@iugaza.edu.ps"
+    },
+    {
+      "id": "237",
+      "fullName": "محمد رمضان محمد الأغا",
+      "college": "العلوم",
+      "department": "علوم الارض والبيئة",
+      "degre": "أستاذ",
+      "insidePhone": "2665",
+      "email": "malagha@iugaza.edu.ps"
+    },
+    {
+      "id": "239",
+      "fullName": "محمد محمود عبد الهادى الأشقر",
+      "college": "العلوم",
+      "department": "الرياضيات",
+      "degre": "أستاذ",
+      "insidePhone": "2619",
+      "email": "mashker@iugaza.edu.ps"
+    },
+    {
+      "id": "240",
+      "fullName": "مروان ابراهيم إسماعيل عدوان",
+      "college": "العلوم",
+      "department": "الأحياء",
+      "degre": "مساعد فني",
+      "insidePhone": "2653",
+      "email": "modwan@iugaza.edu.ps"
+    },
+    {
+      "id": "241",
+      "fullName": "معين فتحي خليل عبيد",
+      "college": "العلوم",
+      "department": "الفيزياء",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2621",
+      "email": "mubeid@iugaza.edu.ps"
+    },
+    {
+      "id": "242",
+      "fullName": "منال رشدى على السراج",
+      "college": "العلوم",
+      "department": "الكيمياء",
+      "degre": "محاضر",
+      "insidePhone": "2616",
+      "email": "msarraj@iugaza.edu.ps"
+    },
+    {
+      "id": "243",
+      "fullName": "مهتاب رمضان سعيد الحداد",
+      "college": "العلوم",
+      "department": "الكيمياء",
+      "degre": "مدرس",
+      "insidePhone": "2616",
+      "email": "mhaddad@iugaza.edu.ps"
+    },
+    {
+      "id": "244",
+      "fullName": "ناصر اسماعيل خليل فرحات",
+      "college": "العلوم",
+      "department": "الفيزياء",
+      "degre": "أستاذ",
+      "insidePhone": "2622",
+      "email": "nfarahat@iugaza.edu.ps"
+    },
+    {
+      "id": "245",
+      "fullName": "نبيل مصباح طه الحلبي",
+      "college": "العلوم",
+      "department": "الكيمياء",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2630",
+      "email": "nhalabi@iugaza.edu.ps"
+    },
+    {
+      "id": "246",
+      "fullName": "نضال عبدالقادر حسين فياض",
+      "college": "العلوم",
+      "insidePhone": "0",
+      "department": "الأحياء",
+      "degre": "محاضر",
+      "email": "nfayyad@iugaza.edu.ps"
+    },
+    {
+      "id": "247",
+      "fullName": "نظام محمود عبد الهادي الأشقر",
+      "college": "العلوم",
+      "department": "الكيمياء",
+      "degre": "أستاذ",
+      "insidePhone": "1044",
+      "email": "nashgar@iugaza.edu.ps"
+    },
+    {
+      "id": "248",
+      "fullName": "هشام بشير محمد مهدي",
+      "college": "العلوم",
+      "department": "الرياضيات",
+      "degre": "أستاذ",
+      "insidePhone": "2614",
+      "email": "hmahdi@iugaza.edu.ps"
+    },
+    {
+      "id": "249",
+      "fullName": "هناء عبدالكريم رزق العجلة",
+      "college": "العلوم",
+      "department": "الفيزياء",
+      "degre": "محاضر",
+      "insidePhone": "2617",
+      "email": "helegla@iugaza.edu.ps"
+    },
+    {
+      "id": "250",
+      "fullName": "هنيبال \"محمد موسى محمد النجار",
+      "college": "العلوم",
+      "department": "الفيزياء",
+      "degre": "أمين مختبر",
+      "insidePhone": "2629",
+      "email": "hanibal@iugaza.edu.ps"
+    },
+    {
+      "id": "251",
+      "fullName": "وائل عبد ابراهيم طبازه",
+      "college": "العلوم",
+      "department": "الفيزياء",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2627",
+      "email": "wtabaza@iugaza.edu.ps"
+    },
+    {
+      "id": "252",
+      "fullName": "ياسر زيدان سالم النحال",
+      "college": "العلوم",
+      "department": "علوم الارض والبيئة",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2664",
+      "email": "ynahhal@iugaza.edu.ps"
+    },
+    {
+      "id": "253",
+      "fullName": "إبتسام حسن علي الأسود",
+      "college": "العلوم الصحية",
+      "department": "العلوم الطبية المخبرية",
+      "degre": "مدرس",
+      "insidePhone": "2759",
+      "email": "ialaswad@iugaza.edu.ps"
+    },
+    {
+      "id": "254",
+      "fullName": "أحمد شحادة إسماعيل سلمي",
+      "college": "العلوم الصحية",
+      "department": "العلوم الطبية المخبرية",
+      "degre": "محاضر",
+      "insidePhone": "2673",
+      "email": "asilmi@iugaza.edu.ps"
+    },
+    {
+      "id": "255",
+      "fullName": "أماني عبد الكريم إبراهيم مزهر",
+      "college": "العلوم الصحية",
+      "department": "العلاج الطبيعي",
+      "degre": "مدرس",
+      "insidePhone": "0",
+      "email": "amezher@iugaza.edu.ps"
+    },
+    {
+      "id": "256",
+      "fullName": "حاتم شوقي حميد برهوم",
+      "college": "العلوم الصحية",
+      "department": "البصريات",
+      "degre": "مدرس",
+      "insidePhone": "2756",
+      "email": "hbarhoom@iugaza.edu.ps"
+    },
+    {
+      "id": "257",
+      "fullName": "حامد طلال محمد الخضري",
+      "college": "العلوم الصحية",
+      "department": "البصريات",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2756",
+      "email": "hkhodari@iugaza.edu.ps"
+    },
+    {
+      "id": "258",
+      "fullName": "خالد سعيد علي عوض",
+      "college": "العلوم الصحية",
+      "department": "البصريات",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2681",
+      "email": "khawad@iugaza.edu.ps"
+    },
+    {
+      "id": "259",
+      "fullName": "شادي فيصل خليل العشي",
+      "college": "العلوم الصحية",
+      "department": "العلوم الطبية المخبرية",
+      "degre": "أمين مختبر",
+      "insidePhone": "2671",
+      "email": "shashi@iugaza.edu.ps"
+    },
+    {
+      "id": "260",
+      "fullName": "عبد الرؤوف على محمد المناعمة",
+      "college": "العلوم الصحية",
+      "department": "العلوم الطبية المخبرية",
+      "degre": "أستاذ",
+      "insidePhone": "1141",
+      "email": "elmanama@iugaza.edu.ps"
+    },
+    {
+      "id": "261",
+      "fullName": "عبد الكريم علي رشاد العسلي",
+      "college": "العلوم الصحية",
+      "department": "العلوم الطبية المخبرية",
+      "degre": "مساعد فني",
+      "insidePhone": "2753",
+      "email": "aasaly@iugaza.edu.ps"
+    },
+    {
+      "id": "262",
+      "fullName": "عمرو إسماعيل عبد اللطيف أبو عمارة",
+      "college": "العلوم الصحية",
+      "department": "البصريات",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2681",
+      "email": "aabuimara@iugaza.edu.ps"
+    },
+    {
+      "id": "263",
+      "fullName": "فضل أكرم محمد الشريف",
+      "college": "العلوم الصحية",
+      "department": "العلوم الطبية المخبرية",
+      "degre": "أستاذ",
+      "insidePhone": "2672",
+      "email": "fsharif@iugaza.edu.ps"
+    },
+    {
+      "id": "264",
+      "fullName": "مازن مدحت مصطفى الزهارنة",
+      "college": "العلوم الصحية",
+      "department": "العلوم الطبية المخبرية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2751",
+      "email": "mzaharna@iugaza.edu.ps"
+    },
+    {
+      "id": "265",
+      "fullName": "محمد جميل البراوي عاشور",
+      "college": "العلوم الصحية",
+      "department": "العلوم الطبية المخبرية",
+      "degre": "إداري",
+      "insidePhone": "2671",
+      "email": "mjashour@iugaza.edu.ps"
+    },
+    {
+      "id": "266",
+      "fullName": "محمد حسين عبد المعطي كريزم",
+      "college": "العلوم الصحية",
+      "department": "العلاج الطبيعي",
+      "degre": "مدرس",
+      "insidePhone": "2755",
+      "email": "mkraizem@iugaza.edu.ps"
+    },
+    {
+      "id": "267",
+      "fullName": "ياسين عبد إسماعيل النونو",
+      "college": "العلوم الصحية",
+      "department": "البصريات",
+      "degre": "فاحص نظر",
+      "insidePhone": "2682",
+      "email": "ynounou@iugaza.edu.ps"
+    },
+    {
+      "id": "268",
+      "fullName": "إبراهيم سليمان ابراهيم أبو هيبة",
+      "college": "الهندسة",
+      "department": "هندسة الحاسوب",
+      "degre": "أستاذ",
+      "insidePhone": "2873",
+      "email": "ihaiba@iugaza.edu.ps"
+    },
+    {
+      "id": "269",
+      "fullName": "أحمد العربي محمد أبوفول",
+      "college": "الهندسة",
+      "department": "الهندسة المدنية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2826",
+      "email": "afoul@iugaza.edu.ps"
+    },
+    {
+      "id": "270",
+      "fullName": "أحمد جميل عبد الهادي شامية",
+      "college": "الهندسة",
+      "department": "هندسة معمارية",
+      "degre": "مدرس",
+      "insidePhone": "2815",
+      "email": "ashameia@iugaza.edu.ps"
+    },
+    {
+      "id": "271",
+      "fullName": "أحمد سلامة حسين محيسن",
+      "college": "الهندسة",
+      "department": "هندسة معمارية",
+      "degre": "أستاذ",
+      "insidePhone": "1040",
+      "email": "amuhaisen@iugaza.edu.ps"
+    },
+    {
+      "id": "272",
+      "fullName": "أحمد صبحي عبد الفتاح العفيفي",
+      "college": "الهندسة",
+      "department": "الهندسة الميكانيكية",
+      "degre": "أمين مختبر",
+      "insidePhone": "2838",
+      "email": "aafeefy@iugaza.edu.ps"
+    },
+    {
+      "id": "273",
+      "fullName": "أحمد عبد الكريم أحمد الأسطل",
+      "college": "الهندسة",
+      "department": "هندسة معمارية",
+      "degre": "مدرس",
+      "insidePhone": "2890",
+      "email": "aelastal@iugaza.edu.ps"
+    },
+    {
+      "id": "274",
+      "fullName": "أحمد محمد رمضان دلول",
+      "college": "الهندسة",
+      "department": "عام",
+      "degre": "أمين مختبر",
+      "insidePhone": "2820",
+      "email": "adaloul@iugaza.edu.ps"
+    },
+    {
+      "id": "275",
+      "fullName": "أسامة عبد الحليم توفيق العيسوي",
+      "college": "الهندسة",
+      "department": "هندسة معمارية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2833",
+      "email": "uesawi@iugaza.edu.ps"
+    },
+    {
+      "id": "276",
+      "fullName": "أسعد نمر محمود أبو جاسر",
+      "college": "الهندسة",
+      "department": "الهندسة الكهربائية والنظم الذكية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2874",
+      "email": "ajasser@iugaza.edu.ps"
+    },
+    {
+      "id": "277",
+      "fullName": "أنور محمد محمود عوض الله",
+      "college": "الهندسة",
+      "department": "هندسة معمارية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2844",
+      "email": "anwar@iugaza.edu.ps"
+    },
+    {
+      "id": "278",
+      "fullName": "أيمن أحمد صالح أبوسمرة",
+      "college": "الهندسة",
+      "department": "هندسة الحاسوب",
+      "degre": "أستاذ",
+      "insidePhone": "2883",
+      "email": "aasamra@iugaza.edu.ps"
+    },
+    {
+      "id": "279",
+      "fullName": "أيمن فايز محمود مليحة",
+      "college": "الهندسة",
+      "department": "هندسة الحاسوب",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "1043",
+      "email": "amaliha@iugaza.edu.ps"
+    },
+    {
+      "id": "280",
+      "fullName": "باسل محمود توفيق حمد",
+      "college": "الهندسة",
+      "department": "الهندسة الكهربائية والنظم الذكية",
+      "degre": "أستاذ",
+      "insidePhone": "2875",
+      "email": "bhamed@iugaza.edu.ps"
+    },
+    {
+      "id": "281",
+      "fullName": "بسام عبد الرحمن عثمان تايه",
+      "college": "الهندسة",
+      "department": "الهندسة المدنية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "1235",
+      "email": "btayeh@iugaza.edu.ps"
+    },
+    {
+      "id": "282",
+      "fullName": "بسام فضل إبراهيم نصار",
+      "college": "الهندسة",
+      "department": "عام",
+      "degre": "موظف إستعلامات",
+      "insidePhone": "2870",
+      "email": "bnssar@iugaza.edu.ps"
+    },
+    {
+      "id": "284",
+      "fullName": "جمعة يوسف جمعة العايدي",
+      "college": "الهندسة",
+      "department": "الهندسة الميكانيكية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2832",
+      "email": "jalaydi@iugaza.edu.ps"
+    },
+    {
+      "id": "285",
+      "fullName": "جودت يوسف سليمان أبو طه",
+      "college": "الهندسة",
+      "department": "الهندسة الكهربائية والنظم الذكية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "1049",
+      "email": "jtaha@iugaza.edu.ps"
+    },
+    {
+      "id": "286",
+      "fullName": "حاتم علي سالم العايدي",
+      "college": "الهندسة",
+      "department": "الهندسة الكهربائية والنظم الذكية",
+      "degre": "أستاذ",
+      "insidePhone": "2875",
+      "email": "helaydi@iugaza.edu.ps"
+    },
+    {
+      "id": "287",
+      "fullName": "حاتم محمود ذيب حماد",
+      "college": "الهندسة",
+      "department": "هندسة الحاسوب",
+      "degre": "أستاذ",
+      "insidePhone": "2872",
+      "email": "hhamad@iugaza.edu.ps"
+    },
+    {
+      "id": "288",
+      "fullName": "حسام سليمان داود طالب",
+      "college": "الهندسة",
+      "department": "كهرباء وحاسوب",
+      "degre": "فني إلكترونيات",
+      "insidePhone": "2879",
+      "email": "htaleb@iugaza.edu.ps"
+    },
+    {
+      "id": "289",
+      "fullName": "حسام محمد محمود النجار",
+      "college": "الهندسة",
+      "department": "الهندسة المدنية",
+      "degre": "أستاذ",
+      "insidePhone": "2813",
+      "email": "halnajar@iugaza.edu.ps"
+    },
+    {
+      "id": "290",
+      "fullName": "حسن خميس حسن زايد",
+      "college": "الهندسة",
+      "department": "الهندسة الميكانيكية",
+      "degre": "مهندس",
+      "insidePhone": "2861",
+      "email": "hzayed@iugaza.edu.ps"
+    },
+    {
+      "id": "291",
+      "fullName": "خالد عبدالرؤوف محمود الحلاق",
+      "college": "الهندسة",
+      "department": "الهندسة المدنية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2809",
+      "email": "khalaq@iugaza.edu.ps"
+    },
+    {
+      "id": "292",
+      "fullName": "خليل محمود خليل الأسطل",
+      "college": "الهندسة",
+      "department": "الهندسة المدنية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2801",
+      "email": "kastal@iugaza.edu.ps"
+    },
+    {
+      "id": "293",
+      "fullName": "ربا عبد الحميد عبد الرحمن سلامة",
+      "college": "الهندسة",
+      "department": "هندسة الحاسوب",
+      "degre": "مدرس",
+      "insidePhone": "2893",
+      "email": "rsalamah@iugaza.edu.ps"
+    },
+    {
+      "id": "294",
+      "fullName": "رفعت نعيم هاشم رستم",
+      "college": "الهندسة",
+      "department": "الهندسة المدنية",
+      "insidePhone": "0",
+      "degre": "أستاذ",
+      "email": "rustom@iugaza.edu.ps"
+    },
+    {
+      "id": "295",
+      "fullName": "رنا اسماعيل رزق عبده",
+      "college": "الهندسة",
+      "department": "عام",
+      "degre": "إداري",
+      "insidePhone": "2822",
+      "email": "rabdo@iugaza.edu.ps"
+    },
+    {
+      "id": "296",
+      "fullName": "سمير محمد ابراهيم شحادة",
+      "college": "الهندسة",
+      "department": "الهندسة المدنية",
+      "degre": "أستاذ",
+      "insidePhone": "2819",
+      "email": "sshihada@iugaza.edu.ps"
+    },
+    {
+      "id": "297",
+      "fullName": "سناء يوسف حسن صالح",
+      "college": "الهندسة",
+      "department": "هندسة معمارية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2807",
+      "email": "sysaleh@iugaza.edu.ps"
+    },
+    {
+      "id": "298",
+      "fullName": "سهير محمد سليم سعيد عمار",
+      "college": "الهندسة",
+      "department": "هندسة معمارية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2802",
+      "email": "sammar@iugaza.edu.ps"
+    },
+    {
+      "id": "299",
+      "fullName": "شفيق مسعود صابر جندية",
+      "college": "الهندسة",
+      "department": "الهندسة المدنية",
+      "degre": "أستاذ",
+      "insidePhone": "2892",
+      "email": "sjendia@iugaza.edu.ps"
+    },
+    {
+      "id": "300",
+      "fullName": "صادق أحمد محمد عبد العال",
+      "college": "الهندسة",
+      "department": "الهندسة الصناعية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2830",
+      "email": "sabdelall@iugaza.edu.ps"
+    },
+    {
+      "id": "301",
+      "fullName": "طالب بكر فوزي الريس",
+      "college": "الهندسة",
+      "department": "الهندسة الصناعية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "0",
+      "email": "talrayyes@iugaza.edu.ps"
+    },
+    {
+      "id": "302",
+      "fullName": "عبد أحمد عبد الشكري",
+      "college": "الهندسة",
+      "department": "الهندسة الصناعية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2832",
+      "email": "aschokry@iugaza.edu.ps"
+    },
+    {
+      "id": "303",
+      "fullName": "عبد الكريم حسن خليل محسن",
+      "college": "الهندسة",
+      "department": "هندسة معمارية",
+      "degre": "أستاذ",
+      "insidePhone": "2846",
+      "email": "amohsen@iugaza.edu.ps"
+    },
+    {
+      "id": "304",
+      "fullName": "عبد الله محمد أحمد الصعيدي",
+      "college": "الهندسة",
+      "department": "عام",
+      "degre": "فني",
+      "insidePhone": "0",
+      "email": "asaidy@iugaza.edu.ps"
+    },
+    {
+      "id": "305",
+      "fullName": "عبد المجيد رمضان إبراهيم نصار",
+      "college": "الهندسة",
+      "department": "الهندسة المدنية",
+      "degre": "أستاذ",
+      "insidePhone": "2812",
+      "email": "anassar@iugaza.edu.ps"
+    },
+    {
+      "id": "306",
+      "fullName": "علاءالدين داود اسماعيل الجماصي",
+      "college": "الهندسة",
+      "department": "الهندسة المدنية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2800",
+      "email": "ajamassi@iugaza.edu.ps"
+    },
+    {
+      "id": "307",
+      "fullName": "عمار محمد رمضان/ محمد أبو هدروس",
+      "college": "الهندسة",
+      "department": "الهندسة الكهربائية والنظم الذكية",
+      "degre": "أستاذ",
+      "insidePhone": "2875",
+      "email": "ahdrouss@iugaza.edu.ps"
+    },
+    {
+      "id": "308",
+      "fullName": "فريد صبح محمود القيق",
+      "college": "الهندسة",
+      "department": "هندسة معمارية",
+      "degre": "أستاذ",
+      "insidePhone": "1071",
+      "email": "falqeeq@iugaza.edu.ps"
+    },
+    {
+      "id": "309",
+      "fullName": "فهد خضر جاد الله رباح",
+      "college": "الهندسة",
+      "department": "الهندسة المدنية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "1181",
+      "email": "frabah@iugaza.edu.ps"
+    },
+    {
+      "id": "310",
+      "fullName": "مازن طه سالم أبو الطيف",
+      "college": "الهندسة",
+      "department": "الهندسة البيئية",
+      "degre": "أستاذ",
+      "insidePhone": "2826",
+      "email": "mabualtayef@iugaza.edu.ps"
+    },
+    {
+      "id": "311",
+      "fullName": "مأمون عبد الحميد ثابت القدرة",
+      "college": "الهندسة",
+      "department": "الهندسة المدنية",
+      "degre": "أستاذ",
+      "insidePhone": "2812",
+      "email": "malqedra@iugaza.edu.ps"
+    },
+    {
+      "id": "312",
+      "fullName": "ماهر بدر يونس صبرة",
+      "college": "الهندسة",
+      "department": "الهندسة الكهربائية والنظم الذكية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2877",
+      "email": "mahir@iugaza.edu.ps"
+    },
+    {
+      "id": "313",
+      "fullName": "ماهر عبد الفتاح مصطفى الحلاق",
+      "college": "الهندسة",
+      "department": "الهندسة المدنية",
+      "degre": "أستاذ",
+      "insidePhone": "2826",
+      "email": "mhallaq@iugaza.edu.ps"
+    },
+    {
+      "id": "314",
+      "fullName": "مؤيد نصر عبد الله المبيض",
+      "college": "الهندسة",
+      "department": "الهندسة الكهربائية والنظم الذكية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "1201",
+      "email": "malmobaied@iugaza.edu.ps"
+    },
+    {
+      "id": "315",
+      "fullName": "محمد أحمد محمد الحنجوري",
+      "college": "الهندسة",
+      "department": "هندسة الحاسوب",
+      "degre": "أستاذ",
+      "insidePhone": "1024",
+      "email": "mhanjouri@iugaza.edu.ps"
+    },
+    {
+      "id": "316",
+      "fullName": "محمد أحمد محمد عوض",
+      "college": "الهندسة",
+      "department": "الهندسة المدنية",
+      "degre": "أستاذ",
+      "insidePhone": "2808",
+      "email": "mawad@iugaza.edu.ps"
+    },
+    {
+      "id": "317",
+      "fullName": "محمد أمين محمد مكي",
+      "college": "الهندسة",
+      "department": "هندسة الحاسوب",
+      "degre": "أستاذ",
+      "insidePhone": "2833",
+      "email": "mmikki@iugaza.edu.ps"
+    },
+    {
+      "id": "318",
+      "fullName": "محمد حسني حسن عرفة",
+      "college": "الهندسة",
+      "department": "الهندسة المدنية",
+      "degre": "أستاذ",
+      "insidePhone": "2812",
+      "email": "marafa@iugaza.edu.ps"
+    },
+    {
+      "id": "319",
+      "fullName": "محمد سليمان ابراهيم أبو هيبة",
+      "college": "الهندسة",
+      "department": "الهندسة الميكانيكية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2830",
+      "email": "mhaiba@iugaza.edu.ps"
+    },
+    {
+      "id": "321",
+      "fullName": "محمد علي محمد الكحلوت",
+      "college": "الهندسة",
+      "department": "هندسة معمارية",
+      "degre": "أستاذ",
+      "insidePhone": "2826",
+      "email": "mkahlot@iugaza.edu.ps"
+    },
+    {
+      "id": "322",
+      "fullName": "محمد محمد رشيد عبد العاطي",
+      "college": "الهندسة",
+      "department": "الهندسة الكهربائية والنظم الذكية",
+      "degre": "أستاذ",
+      "insidePhone": "2878",
+      "email": "muhammet@iugaza.edu.ps"
+    },
+    {
+      "id": "323",
+      "fullName": "محمد يوسف إبراهيم موسى",
+      "college": "الهندسة",
+      "department": "الهندسة المدنية",
+      "degre": "فني",
+      "insidePhone": "2842",
+      "email": "mymousa@iugaza.edu.ps"
+    },
+    {
+      "id": "324",
+      "fullName": "محمود عبد الله محمود البلعاوي",
+      "college": "الهندسة",
+      "department": "عام",
+      "degre": "إداري",
+      "insidePhone": "2890",
+      "email": "mabalawi@iugaza.edu.ps"
+    },
+    {
+      "id": "325",
+      "fullName": "نادر جواد ربيع النمرة",
+      "college": "الهندسة",
+      "department": "هندسة معمارية",
+      "degre": "أستاذ",
+      "insidePhone": "2840",
+      "email": "nnamara@iugaza.edu.ps"
+    },
+    {
+      "id": "326",
+      "fullName": "نبيل إبراهيم حسين الصوالحي",
+      "college": "الهندسة",
+      "department": "الهندسة المدنية",
+      "degre": "أستاذ",
+      "insidePhone": "0",
+      "email": "nsawalhi@iugaza.edu.ps"
+    },
+    {
+      "id": "327",
+      "fullName": "نشوة ياسر إسماعيل الرملاوي",
+      "college": "الهندسة",
+      "department": "عام",
+      "degre": "إداري",
+      "insidePhone": "2890",
+      "email": "nalramlawy@iugaza.edu.ps"
+    },
+    {
+      "id": "328",
+      "fullName": "هالة جارالله نعمان الخزندار",
+      "college": "الهندسة",
+      "department": "الهندسة الكهربائية والنظم الذكية",
+      "degre": "أستاذ",
+      "insidePhone": "1014",
+      "email": "hkhozondar@iugaza.edu.ps"
+    },
+    {
+      "id": "329",
+      "fullName": "وسام محمود زايد عاشور",
+      "college": "الهندسة",
+      "department": "هندسة الحاسوب",
+      "degre": "أستاذ",
+      "insidePhone": "0",
+      "email": "washour@iugaza.edu.ps"
+    },
+    {
+      "id": "330",
+      "fullName": "يحيى عطا محمد الغمري",
+      "college": "الهندسة",
+      "department": "عام",
+      "degre": "سكرتير-سكرتير العميد / الكلية",
+      "insidePhone": "2811",
+      "email": "yghamry@iugaza.edu.ps"
+    },
+    {
+      "id": "331",
+      "fullName": "يوسف عمر محمد لبد",
+      "college": "الهندسة",
+      "department": "عام",
+      "degre": "مساعد إداري",
+      "insidePhone": "2820",
+      "email": "ylubbad@iugaza.edu.ps"
+    },
+    {
+      "id": "332",
+      "fullName": "يونس خليل يوسف المغير",
+      "college": "الهندسة",
+      "department": "الهندسة البيئية",
+      "degre": "أستاذ",
+      "insidePhone": "2816",
+      "email": "ymogheir@iugaza.edu.ps"
+    },
+    {
+      "id": "333",
+      "fullName": "إبراهيم عيسى إبراهيم صيدم",
+      "college": "أصول الدين",
+      "department": "التفسير وعلوم القران",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2170",
+      "email": "isydum@iugaza.edu.ps"
+    },
+    {
+      "id": "334",
+      "fullName": "أحلام محمد علي طوير",
+      "college": "أصول الدين",
+      "department": "التفسير وعلوم القران",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "166",
+      "email": "atweir@iugaza.edu.ps"
+    },
+    {
+      "id": "335",
+      "fullName": "أحمد إدريس رشيد عودة",
+      "college": "أصول الدين",
+      "department": "الحديث الشريف",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2120",
+      "email": "aowda@iugaza.edu.ps"
+    },
+    {
+      "id": "336",
+      "fullName": "أحمد جابر محمود العمصي",
+      "college": "أصول الدين",
+      "department": "العقيدة الإسلامية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2131",
+      "email": "aamassi@iugaza.edu.ps"
+    },
+    {
+      "id": "337",
+      "fullName": "أحمد محمد سعيد النقلة",
+      "college": "أصول الدين",
+      "department": "الحديث الشريف",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2120",
+      "email": "anaqlah@iugaza.edu.ps"
+    },
+    {
+      "id": "338",
+      "fullName": "أدهم علي نعمان عمار",
+      "college": "أصول الدين",
+      "department": "عام",
+      "degre": "إداري",
+      "insidePhone": "2123",
+      "email": "aammar@iugaza.edu.ps"
+    },
+    {
+      "id": "339",
+      "fullName": "إسماعيل سعيد محمد رضوان",
+      "college": "أصول الدين",
+      "department": "الحديث الشريف",
+      "degre": "أستاذ",
+      "insidePhone": "1161",
+      "email": "eradwan@iugaza.edu.ps"
+    },
+    {
+      "id": "340",
+      "fullName": "بشير إسماعيل حامد حمو",
+      "college": "أصول الدين",
+      "department": "العقيدة الإسلامية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2114",
+      "email": "bhammo@iugaza.edu.ps"
+    },
+    {
+      "id": "341",
+      "fullName": "جابر زايد عيد السميري",
+      "college": "أصول الدين",
+      "department": "العقيدة الإسلامية",
+      "degre": "أستاذ",
+      "insidePhone": "2130",
+      "email": "jsmiry@iugaza.edu.ps"
+    },
+    {
+      "id": "343",
+      "fullName": "جمال محمود محمد الهوبي",
+      "college": "أصول الدين",
+      "department": "التفسير وعلوم القران",
+      "degre": "أستاذ",
+      "insidePhone": "2108",
+      "email": "jhoobe@iugaza.edu.ps"
+    },
+    {
+      "id": "344",
+      "fullName": "خالد حسين عبد الرحيم حمدان",
+      "college": "أصول الدين",
+      "department": "العقيدة الإسلامية",
+      "degre": "أستاذ",
+      "insidePhone": "2114",
+      "email": "khamdan@iugaza.edu.ps"
+    },
+    {
+      "id": "345",
+      "fullName": "رائد طلال عبد القادر شعت",
+      "college": "أصول الدين",
+      "department": "الحديث الشريف",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2102",
+      "email": "rshaat@iugaza.edu.ps"
+    },
+    {
+      "id": "346",
+      "fullName": "رأفت منسي محمد نصار",
+      "college": "أصول الدين",
+      "department": "الحديث الشريف",
+      "degre": "أستاذ",
+      "insidePhone": "0",
+      "email": "rnassar@iugaza.edu.ps"
+    },
+    {
+      "id": "347",
+      "fullName": "رياض محمود جابر قاسم",
+      "college": "أصول الدين",
+      "department": "التفسير وعلوم القران",
+      "degre": "أستاذ",
+      "insidePhone": "2102",
+      "email": "rqasem@iugaza.edu.ps"
+    },
+    {
+      "id": "348",
+      "fullName": "زكريا ابراهيم صالح الزميلي",
+      "college": "أصول الدين",
+      "department": "التفسير وعلوم القران",
+      "degre": "أستاذ",
+      "insidePhone": "2105",
+      "email": "zzimaily@iugaza.edu.ps"
+    },
+    {
+      "id": "349",
+      "fullName": "زكريا صبحي محمد زين الدين",
+      "college": "أصول الدين",
+      "department": "الحديث الشريف",
+      "degre": "أستاذ",
+      "insidePhone": "2107",
+      "email": "zsze@iugaza.edu.ps"
+    },
+    {
+      "id": "350",
+      "fullName": "زهدي محمد مطر أبو نعمة",
+      "college": "أصول الدين",
+      "department": "التفسير وعلوم القران",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2109",
+      "email": "znema@iugaza.edu.ps"
+    },
+    {
+      "id": "351",
+      "fullName": "سعد عبد الله حسان عاشور",
+      "college": "أصول الدين",
+      "department": "العقيدة الإسلامية",
+      "degre": "أستاذ",
+      "insidePhone": "2228",
+      "email": "sashoor@iugaza.edu.ps"
+    },
+    {
+      "id": "352",
+      "fullName": "صبحي رشيد حسن اليازجي",
+      "college": "أصول الدين",
+      "department": "التفسير وعلوم القران",
+      "degre": "أستاذ",
+      "insidePhone": "2109",
+      "email": "syazji@iugaza.edu.ps"
+    },
+    {
+      "id": "353",
+      "fullName": "طارق عمر علي التلباني",
+      "college": "أصول الدين",
+      "department": "العقيدة الإسلامية",
+      "degre": "مدرس",
+      "insidePhone": "2131",
+      "email": "ttelbani@iugaza.edu.ps"
+    },
+    {
+      "id": "354",
+      "fullName": "طالب حماد خليل أبو شعر",
+      "college": "أصول الدين",
+      "department": "الحديث الشريف",
+      "degre": "أستاذ",
+      "insidePhone": "1141",
+      "email": "tshaar@iugaza.edu.ps"
+    },
+    {
+      "id": "355",
+      "fullName": "عادل أحمد عطية البرش",
+      "college": "أصول الدين",
+      "department": "عام",
+      "degre": "مدير",
+      "insidePhone": "2103",
+      "email": "aelborsh@iugaza.edu.ps"
+    },
+    {
+      "id": "356",
+      "fullName": "عبد الكريم حمدى خليل الدهشان",
+      "college": "أصول الدين",
+      "department": "التفسير وعلوم القران",
+      "degre": "أستاذ",
+      "insidePhone": "2150",
+      "email": "adahshan@iugaza.edu.ps"
+    },
+    {
+      "id": "357",
+      "fullName": "عماد الدين عبدالله طه الشنطي",
+      "college": "أصول الدين",
+      "department": "العقيدة الإسلامية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2130",
+      "email": "eshanti@iugaza.edu.ps"
+    },
+    {
+      "id": "358",
+      "fullName": "ليلى محمد رجب اسليم",
+      "college": "أصول الدين",
+      "department": "الحديث الشريف",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "0",
+      "email": "lislem@iugaza.edu.ps"
+    },
+    {
+      "id": "359",
+      "fullName": "محمد حسن رباح بخيت",
+      "college": "أصول الدين",
+      "department": "العقيدة الإسلامية",
+      "degre": "أستاذ",
+      "insidePhone": "2101",
+      "email": "mbakheet@iugaza.edu.ps"
+    },
+    {
+      "id": "360",
+      "fullName": "محمد رضوان خليل أبو شعبان",
+      "college": "أصول الدين",
+      "department": "الحديث الشريف",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2100",
+      "email": "mshaban@iugaza.edu.ps"
+    },
+    {
+      "id": "361",
+      "fullName": "محمد ماهر محمد المظلوم",
+      "college": "أصول الدين",
+      "department": "الحديث الشريف",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2104",
+      "email": "mmathloum@iugaza.edu.ps"
+    },
+    {
+      "id": "362",
+      "fullName": "محمد مصطفى محمد الجدي",
+      "college": "أصول الدين",
+      "department": "العقيدة الإسلامية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "213",
+      "email": "mjedy@iugaza.edu.ps"
+    },
+    {
+      "id": "363",
+      "fullName": "محمود هاشم محمود عنبر",
+      "college": "أصول الدين",
+      "department": "التفسير وعلوم القران",
+      "degre": "أستاذ",
+      "insidePhone": "2115",
+      "email": "manber@iugaza.edu.ps"
+    },
+    {
+      "id": "364",
+      "fullName": "نسيم شحده اسماعيل ياسين",
+      "college": "أصول الدين",
+      "department": "العقيدة الإسلامية",
+      "degre": "أستاذ",
+      "insidePhone": "2113",
+      "email": "nyaseen@iugaza.edu.ps"
+    },
+    {
+      "id": "365",
+      "fullName": "نعيم أسعد عبد الرازق الصفدي",
+      "college": "أصول الدين",
+      "department": "الحديث الشريف",
+      "degre": "أستاذ",
+      "insidePhone": "2107",
+      "email": "nsafadi@iugaza.edu.ps"
+    },
+    {
+      "id": "366",
+      "fullName": "نهاد يوسف شكري الثلاثيني",
+      "college": "أصول الدين",
+      "department": "الحديث الشريف",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2110",
+      "email": "tnehad@iugaza.edu.ps"
+    },
+    {
+      "id": "367",
+      "fullName": "هشام محمود ابراهيم زقوت",
+      "college": "أصول الدين",
+      "department": "الحديث الشريف",
+      "degre": "أستاذ",
+      "insidePhone": "2120",
+      "email": "hzagot@iugaza.edu.ps"
+    },
+    {
+      "id": "368",
+      "fullName": "وليد محمد حسن العمودي",
+      "college": "أصول الدين",
+      "department": "التفسير وعلوم القران",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2162",
+      "email": "wamoudi@iugaza.edu.ps"
+    },
+    {
+      "id": "369",
+      "fullName": "يحيى على يحيى الدجني",
+      "college": "أصول الدين",
+      "department": "العقيدة الإسلامية",
+      "degre": "أستاذ",
+      "insidePhone": "2116",
+      "email": "ydajani@iugaza.edu.ps"
+    },
+    {
+      "id": "370",
+      "fullName": "يوسف محيي الدين فايز الأسطل",
+      "college": "أصول الدين",
+      "department": "الحديث الشريف",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "0",
+      "email": "ymastal@iugaza.edu.ps"
+    },
+    {
+      "id": "372",
+      "fullName": "أشرف يونس عبد العزيز مغاري",
+      "college": "تكنولوجيا المعلومات",
+      "department": "تكنولوجيا الوسائط المتعددة وتطوير الويب",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2954",
+      "email": "amaghari@iugaza.edu.ps"
+    },
+    {
+      "id": "373",
+      "fullName": "إياد حسني محمد الشامي",
+      "college": "تكنولوجيا المعلومات",
+      "department": "الحوسبة المتنقلة وتطبيقات الأجهزة الذكية",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2950",
+      "email": "eshami@iugaza.edu.ps"
+    },
+    {
+      "id": "374",
+      "fullName": "إياد محمد قاسم الأغا",
+      "college": "تكنولوجيا المعلومات",
+      "department": "الحوسبة المتنقلة وتطبيقات الأجهزة الذكية",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2958",
+      "email": "ialagha@iugaza.edu.ps"
+    },
+    {
+      "id": "375",
+      "fullName": "إيهاب محمود شكري مرتجى",
+      "college": "تكنولوجيا المعلومات",
+      "department": "تكنولوجيا الوسائط المتعددة وتطوير الويب",
+      "degre": "محاضر",
+      "insidePhone": "2960",
+      "email": "emortaja@iugaza.edu.ps"
+    },
+    {
+      "id": "376",
+      "fullName": "باسم عمر فرحات العجلة",
+      "college": "تكنولوجيا المعلومات",
+      "department": "علم الحاسوب",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2952",
+      "email": "balijla@iugaza.edu.ps"
+    },
+    {
+      "id": "377",
+      "fullName": "توفيق سليمان منصور برهوم",
+      "college": "تكنولوجيا المعلومات",
+      "department": "تطوير البرمجيات",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2969",
+      "email": "tbarhoom@iugaza.edu.ps"
+    },
+    {
+      "id": "379",
+      "fullName": "رائد سعيد خليل رشيد",
+      "college": "تكنولوجيا المعلومات",
+      "department": "تكنولوجيا الوسائط المتعددة وتطوير الويب",
+      "degre": "مدرس",
+      "insidePhone": "1049",
+      "email": "rrasheed@iugaza.edu.ps"
+    },
+    {
+      "id": "380",
+      "fullName": "رامي عثمان محمدحسن سكيك",
+      "college": "تكنولوجيا المعلومات",
+      "department": "تكنولوجيا الوسائط المتعددة وتطوير الويب",
+      "degre": "مدرس",
+      "insidePhone": "2955",
+      "email": "roskaik@iugaza.edu.ps"
+    },
+    {
+      "id": "381",
+      "fullName": "راوية فوزي أحمد عوض الله",
+      "college": "تكنولوجيا المعلومات",
+      "department": "علم الحاسوب",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2643",
+      "email": "rradi@iugaza.edu.ps"
+    },
+    {
+      "id": "382",
+      "fullName": "ربحي سليمان أحمد بركة",
+      "college": "تكنولوجيا المعلومات",
+      "department": "علم الحاسوب",
+      "degre": "أستاذ مشارك",
+      "insidePhone": "2652",
+      "email": "rbaraka@iugaza.edu.ps"
+    },
+    {
+      "id": "383",
+      "fullName": "رمزي محمد عبدالعزيز عابد",
+      "college": "تكنولوجيا المعلومات",
+      "department": "تكنولوجيا الوسائط المتعددة وتطوير الويب",
+      "degre": "مدرس",
+      "insidePhone": "2960",
+      "email": "rabed@iugaza.edu.ps"
+    },
+    {
+      "id": "384",
+      "fullName": "سالم جميل بكير اليازجي",
+      "college": "تكنولوجيا المعلومات",
+      "department": "تكنولوجيا المعلومات",
+      "degre": "مدرس",
+      "insidePhone": "2968",
+      "email": "syazgy@iugaza.edu.ps"
+    },
+    {
+      "id": "385",
+      "fullName": "عبد الكريم محمود عبدالهادي الأشقر",
+      "college": "تكنولوجيا المعلومات",
+      "department": "تطوير البرمجيات",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "2954",
+      "email": "aashgar@iugaza.edu.ps"
+    },
+    {
+      "id": "386",
+      "fullName": "عرفات محمد راضي أبو جري",
+      "college": "تكنولوجيا المعلومات",
+      "department": "عام",
+      "degre": "مساعد مدير",
+      "insidePhone": "2953",
+      "email": "aabujrai@iugaza.edu.ps"
+    },
+    {
+      "id": "387",
+      "fullName": "علاء مصطفى درويش الهليس",
+      "college": "تكنولوجيا المعلومات",
+      "department": "تطوير البرمجيات",
+      "degre": "أستاذ",
+      "insidePhone": "2956",
+      "email": "alhalees@iugaza.edu.ps"
+    },
+    {
+      "id": "388",
+      "fullName": "لمياء محمد محمد الصعيدي",
+      "college": "تكنولوجيا المعلومات",
+      "department": "تكنولوجيا الوسائط المتعددة وتطوير الويب",
+      "degre": "مدرس",
+      "insidePhone": "2965",
+      "email": "lalsaedi@iugaza.edu.ps"
+    },
+    {
+      "id": "389",
+      "fullName": "مروة روحي أحمد أبو جلالة",
+      "college": "تكنولوجيا المعلومات",
+      "department": "عام",
+      "degre": "فني حاسوب",
+      "insidePhone": "1285",
+      "email": "mjalala@iugaza.edu.ps"
+    },
+    {
+      "id": "390",
+      "fullName": "معتز خالد حسين سعد",
+      "college": "تكنولوجيا المعلومات",
+      "department": "تكنولوجيا الوسائط المتعددة وتطوير الويب",
+      "degre": "أستاذ مساعد",
+      "insidePhone": "1032",
+      "email": "msaad@iugaza.edu.ps"
+    }
+  ]
 }

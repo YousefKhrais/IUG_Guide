@@ -41,28 +41,25 @@ public class DoctorsAdapter extends RecyclerView.Adapter<DoctorsAdapter.MyViewHo
         LinearLayout layout = holder.binding.layout;
         layout.getLayoutTransition().enableTransitionType(LayoutTransition.CHANGING);
         LinearLayout details = holder.binding.details;
-        holder.binding.doctorCard.setOnClickListener(view -> {
-            int v = (details.getVisibility() == View.GONE)? View.VISIBLE: View.GONE;
-            TransitionManager.beginDelayedTransition(layout,new AutoTransition());
-            details.setVisibility(v);
-                });
-      switch (data.get(position).getDegree()){
-          case "دكتوراة":{
-              holder.binding.doctorName.setText("د."+data.get(position).getName());
-          }break;
-          case "ماجستير":{
-              holder.binding.doctorName.setText("أ."+data.get(position).getName());
 
-          }break;
-          case "معيد":{
-              holder.binding.doctorName.setText("م."+data.get(position).getName());
-          }
-          break;
-      }
-        holder.binding.roomNumber.setText(data.get(position).getRoomNumber());
-        holder.binding.specialty.setText(data.get(position).getSpecialty());
+        holder.binding.doctorCard.setOnClickListener(view -> {
+            int v = (details.getVisibility() == View.GONE) ? View.VISIBLE : View.GONE;
+            TransitionManager.beginDelayedTransition(layout, new AutoTransition());
+            details.setVisibility(v);
+        });
+
+        holder.binding.doctorName.setText(data.get(position).getName());
+        holder.binding.specialty.setText(data.get(position).getDepartment());
+        holder.binding.roomNumber.setText(data.get(position).getInsidePhone());
         holder.binding.email.setText(data.get(position).getEmail());
 
+//        private String department;
+//        private String degree;
+//        private String insidePhone;
+//        private String email;
+
+//        holder.binding.roomNumber.setText(data.get(position).getRoomNumber());
+//        holder.binding.specialty.setText(data.get(position).getSpecialty());
     }
 
     @Override

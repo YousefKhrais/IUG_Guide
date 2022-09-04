@@ -14,6 +14,6 @@
         android:title="@string/title_phd" />
     <item
         android:id="@+id/nav_doctors"
-        android:icon="@drawable/teacher"
+        android:icon="@drawable/ic_teacher"
         android:title="@string/title_doctors" />
 </menu>
