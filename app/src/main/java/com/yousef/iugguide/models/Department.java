@@ -17,18 +17,6 @@ public class Department {
     public Department() {
     }
 
-    public Department(int id, int studentsCount, String name, String section, String planUrl, String description, String formatKey, DepartmentType departmentType, int collegeId) {
-        this.id = id;
-        this.studentsCount = studentsCount;
-        this.name = name;
-        this.section = section;
-        this.planUrl = planUrl;
-        this.description = description;
-        this.formatKey = formatKey;
-        this.departmentType = departmentType;
-        this.collegeId = collegeId;
-    }
-
     public int getId() {
         return id;
     }

@@ -9,7 +9,7 @@
       "Bachelor_programs": "بكالوريوس",
       "facebookLink": "https://www.facebook.com/medicine.iug/",
       "basic_info": "كلية الطب",
-      "name": "كلية الطب",
+      "name": "الطب",
       "Id": "1",
       "infoLink":"https://www.youtube.com/watch?v=IPqTjJnNou4"
     },
@@ -22,7 +22,7 @@
       "Bachelor_programs": "بكالوريوس",
       "facebookLink": "https://www.facebook.com/engineering.iug/",
       "basic_info": "معلومات عامة",
-      "name": "كلية الهندسة",
+      "name": "الهندسة",
       "Id": "2",
       "infoLink":"https://www.youtube.com/watch?v=sabgI24M4fs"
     },
@@ -35,7 +35,7 @@
       "Bachelor_programs": "بكالوريوس",
       "facebookLink": "https://www.facebook.com/fit.iug/",
       "basic_info": "معلومات عامة",
-      "name": "كلية تكنلوجيا المعلومات",
+      "name": "تكنولوجيا المعلومات",
       "Id": "3",
       "infoLink":"https://www.youtube.com/watch?v=s8v0s-wD9QA"
     },
@@ -48,7 +48,7 @@
       "Bachelor_programs": "بكالوريوس",
       "facebookLink": "https://www.facebook.com/FacultyofNursingIUG/",
       "basic_info": "معلومات عامة",
-      "name": "كلية التمريض",
+      "name": "التمريض",
       "Id": "4",
       "infoLink":"https://www.youtube.com/watch?v=KGeKfvw3910"
     },
@@ -61,7 +61,7 @@
       "Bachelor_programs": "بكالوريوس",
       "facebookLink": "https://www.facebook.com/iug.health.sciences/",
       "basic_info": "معلومات عامة",
-      "name": "كلية العلوم الصحية",
+      "name": "العلوم الصحية",
       "Id": "5",
       "infoLink":"https://www.youtube.com/watch?v=6kDa6CB7Sgg"
     },
@@ -74,7 +74,7 @@
       "Bachelor_programs": "بكالوريوس",
       "facebookLink": "https://www.facebook.com/science.iugaza/",
       "basic_info": "معلومات عامة",
-      "name": "كلية العلوم",
+      "name": "العلوم",
       "Id": "6",
       "infoLink":"https://www.youtube.com/watch?v=PfcnZILaW-U"
     },
@@ -87,7 +87,7 @@
       "Bachelor_programs": "بكالوريوس",
       "facebookLink": "https://www.facebook.com/IugArts/",
       "basic_info": "معلومات عامة",
-      "name": "كلية الآداب",
+      "name": "الآداب",
       "Id": "7",
       "infoLink":"https://www.youtube.com/watch?v=_r3v-zm6S0Q"
     },
@@ -100,7 +100,7 @@
       "Bachelor_programs": "بكالوريوس",
       "facebookLink": "https://www.facebook.com/sharea.iugaza/",
       "basic_info": "معلومات عامة",
-      "name": "كلية الشريعة والقانون",
+      "name": "الشريعة والقانون",
       "Id": "8",
       "infoLink":"https://www.youtube.com/watch?v=Y03_3e9lMBg"
     },
@@ -113,7 +113,7 @@
       "Bachelor_programs": "بكالوريوس",
       "facebookLink": "https://www.facebook.com/ossol2017/",
       "basic_info": "معلومات عامة",
-      "name": "كلية أصول الدين",
+      "name": "أصول الدين",
       "Id": "9",
       "infoLink":"https://osool.iugaza.edu.ps/"
     },
@@ -126,7 +126,7 @@
       "Bachelor_programs": "بكالوريوس",
       "facebookLink": "https://www.facebook.com/iug.educ/",
       "basic_info": "معلومات عامة",
-      "name": "كلية التربية",
+      "name": "التربية",
       "Id": "10",
       "infoLink":"https://www.youtube.com/watch?v=1e7Dogs8MK8"
     },
@@ -139,7 +139,7 @@
       "Bachelor_programs": "بكالوريوس",
       "facebookLink": "https://www.facebook.com/commerceiug/",
       "basic_info": "معلومات عامة",
-      "name": "كلية الاقتصاد والعلوم الإدارية",
+      "name": "الإقتصاد والعلوم الإدارية",
       "Id": "11",
       "infoLink":"https://commerce.iugaza.edu.ps"
     }

@@ -40,9 +40,6 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         holder.title.setText(homeItems.get(position).getTitle());
         holder.gridIcon.setImageResource(homeItems.get(position).getImageResId());
-
-//        holder.gridIcon.setColorFilter(ContextCompat.getColor(ctx, R.color.teal_200), android.graphics.PorterDuff.Mode.SRC_IN);
-
         holder.itemView.setTag(homeItems.get(position).getTag());
     }
 

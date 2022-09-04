@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
+import androidx.core.content.res.ResourcesCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.yousef.iugguide.AppClass;
@@ -39,7 +40,8 @@ public class CollegeAdapter extends RecyclerView.Adapter<CollegeAdapter.MyViewHo
         final ImageView imageView = holder.binding.collegeImage;
         Resources resources = context.getResources();
         final int resourceId = resources.getIdentifier("img_"+data.get(position).getImageUrl(), "drawable", context.getPackageName());
-        imageView.setImageDrawable(resources.getDrawable(resourceId));
+        imageView.setImageDrawable(ResourcesCompat.getDrawable(resources, resourceId, null));
+
         imageView.setOnClickListener(v->{
             AppClass.chosenCollege = data.get(position);
             Intent intent = new Intent(context, CollegeDetails.class);
@@ -52,7 +54,6 @@ public class CollegeAdapter extends RecyclerView.Adapter<CollegeAdapter.MyViewHo
         return data.size();
     }
 
-
     public class MyViewHolder extends RecyclerView.ViewHolder {
         ItemCollegeBinding binding;
 
@@ -61,5 +62,4 @@ public class CollegeAdapter extends RecyclerView.Adapter<CollegeAdapter.MyViewHo
             this.binding = binding;
         }
     }
-
 }

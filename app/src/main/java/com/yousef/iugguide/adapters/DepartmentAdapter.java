@@ -49,7 +49,6 @@ public class DepartmentAdapter extends RecyclerView.Adapter<DepartmentAdapter.My
         return data.size();
     }
 
-
     public class MyViewHolder extends RecyclerView.ViewHolder {
         ItemDepartmentBinding binding;
 
@@ -58,5 +57,4 @@ public class DepartmentAdapter extends RecyclerView.Adapter<DepartmentAdapter.My
             this.binding = binding;
         }
     }
-
 }

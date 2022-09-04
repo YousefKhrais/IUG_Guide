@@ -14,27 +14,6 @@ public class Doctor {
     public Doctor() {
     }
 
-    public Doctor(int id, String name, String college, String department, String degree, String insidePhone, String email) {
-        this.id = id;
-        this.name = name;
-        this.college = college;
-        this.department = department;
-        this.degree = degree;
-        this.insidePhone = insidePhone;
-        this.email = email;
-    }
-
-    public Doctor(int id, String name, String college, String department, String degree, String insidePhone, String email, int collegeId) {
-        this.id = id;
-        this.name = name;
-        this.college = college;
-        this.department = department;
-        this.degree = degree;
-        this.insidePhone = insidePhone;
-        this.email = email;
-        this.collegeId = collegeId;
-    }
-
     public int getId() {
         return id;
     }

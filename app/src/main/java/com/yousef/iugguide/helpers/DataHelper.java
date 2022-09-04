@@ -16,6 +16,7 @@ import org.json.JSONObject;
 
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class DataHelper {
@@ -58,7 +59,6 @@ public class DataHelper {
                 college.setProfessors(new ArrayList<>());
 
                 AppClass.collegesArrayList.add(college);
-                System.out.println("College: " + college);
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -107,7 +107,6 @@ public class DataHelper {
                 }
 
                 AppClass.departmentsArrayList.add(department);
-                System.out.println("Department: " + department);
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -139,14 +138,11 @@ public class DataHelper {
                 ArrayList<String> imagesArrayList = new ArrayList<>();
                 String[] other_images = object.getString("other_images").split("\r\n");
 
-                for (int j = 0; j < other_images.length; j++) {
-                    imagesArrayList.add(other_images[j]);
-                }
+                Collections.addAll(imagesArrayList, other_images);
 
                 building.setImagesArrayList(imagesArrayList);
 
                 AppClass.buildingArrayList.add(building);
-                System.out.println("Building: " + building);
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -165,7 +161,6 @@ public class DataHelper {
             for (int i = 0; i < array.length(); i++) {
                 JSONObject object = array.getJSONObject(i);
 
-                System.out.println(object.toString());
                 Doctor doctor = new Doctor();
                 doctor.setId(object.getInt("id"));
                 doctor.setName(object.getString("fullName"));
@@ -217,23 +212,5 @@ public class DataHelper {
         AppClass.faqArrayList.add(new FAQ(22, "23. هل بإمكان الطلبة ممارسة هواياتهم أو الرياضة داخل الحرم الجامعي ؟", "نعم وهناك العديد من المجالات الرياضية والبدنية والذهنية ، وللمزيد راجع قسم الإشراف الرياضي في عمادة شؤون الطلبة."));
         AppClass.faqArrayList.add(new FAQ(23, "25. كم مرة يسمح للطالب بالتحويل داخل الجامعة ؟", "مرتان برغبته."));
         AppClass.faqArrayList.add(new FAQ(24, "26. أنا طالب لم أحصل على معدل جيد في السنة الدراسية الأولى، و أرغب بالالتحاق برقم جديد، هل يمكنني ذلك؟ و كم عدد الساعات التي يمكن معادلتها ؟", "– نعم يمكنك الالتحاق برقم جديد ولمرة واحدة فقط حسب النظام .\n– الحد الأقصى من الساعات المسموح معادلتها 30 ساعة معتمدة فقط و بعلامة لا تقل عن 70 لكل مساق يمكن معادلته."));
-
-//        AppClass.faqArrayList.add(new FAQ(25, "", ""));
-//        AppClass.faqArrayList.add(new FAQ(26, "", ""));
-//        AppClass.faqArrayList.add(new FAQ(27, "", ""));
-//        AppClass.faqArrayList.add(new FAQ(28, "", ""));
-//        AppClass.faqArrayList.add(new FAQ(29, "", ""));
-//        AppClass.faqArrayList.add(new FAQ(30, "", ""));
-//        AppClass.faqArrayList.add(new FAQ(31, "", ""));
-//        AppClass.faqArrayList.add(new FAQ(32, "", ""));
-//        AppClass.faqArrayList.add(new FAQ(33, "", ""));
-//        AppClass.faqArrayList.add(new FAQ(34, "", ""));
-//        AppClass.faqArrayList.add(new FAQ(35, "", ""));
-//        AppClass.faqArrayList.add(new FAQ(36, "", ""));
-//        AppClass.faqArrayList.add(new FAQ(37, "", ""));
-//        AppClass.faqArrayList.add(new FAQ(38, "", ""));
-//        AppClass.faqArrayList.add(new FAQ(39, "", ""));
-//        AppClass.faqArrayList.add(new FAQ(40, "", ""));
-//        AppClass.faqArrayList.add(new FAQ(41, "", ""));
     }
 }

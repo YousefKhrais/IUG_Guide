@@ -15,14 +15,32 @@ public class College {
 
     private String backGroundImageUrl;
     private String iconUrl;
+    private String infoLink;
 
-    private ArrayList<Department> BachelorDepartments;
-    private ArrayList<Department> MasterDepartments;
-    private ArrayList<Department> DoctorateDepartments;
+    private ArrayList<Department> bachelorDepartments;
+    private ArrayList<Department> masterDepartments;
+    private ArrayList<Department> doctorateDepartments;
 
     private ArrayList<Doctor> professors;
 
     public College() {
+    }
+
+    public College(int id, int studentsCount, String name, String imageUrl, String location, String facebookPageLink, String description, String backGroundImageUrl, String iconUrl, String infoLink, ArrayList<Department> bachelorDepartments, ArrayList<Department> masterDepartments, ArrayList<Department> doctorateDepartments, ArrayList<Doctor> professors) {
+        this.id = id;
+        this.studentsCount = studentsCount;
+        this.name = name;
+        this.imageUrl = imageUrl;
+        this.location = location;
+        this.facebookPageLink = facebookPageLink;
+        this.description = description;
+        this.backGroundImageUrl = backGroundImageUrl;
+        this.iconUrl = iconUrl;
+        this.infoLink = infoLink;
+        this.bachelorDepartments = bachelorDepartments;
+        this.masterDepartments = masterDepartments;
+        this.doctorateDepartments = doctorateDepartments;
+        this.professors = professors;
     }
 
     public int getId() {
@@ -81,30 +99,6 @@ public class College {
         this.description = description;
     }
 
-    public ArrayList<Department> getBachelorDepartments() {
-        return BachelorDepartments;
-    }
-
-    public void setBachelorDepartments(ArrayList<Department> bachelorDepartments) {
-        BachelorDepartments = bachelorDepartments;
-    }
-
-    public ArrayList<Department> getMasterDepartments() {
-        return MasterDepartments;
-    }
-
-    public void setMasterDepartments(ArrayList<Department> masterDepartments) {
-        MasterDepartments = masterDepartments;
-    }
-
-    public ArrayList<Department> getDoctorateDepartments() {
-        return DoctorateDepartments;
-    }
-
-    public void setDoctorateDepartments(ArrayList<Department> doctorateDepartments) {
-        DoctorateDepartments = doctorateDepartments;
-    }
-
     public String getBackGroundImageUrl() {
         return backGroundImageUrl;
     }
@@ -119,6 +113,38 @@ public class College {
 
     public void setIconUrl(String iconUrl) {
         this.iconUrl = iconUrl;
+    }
+
+    public String getInfoLink() {
+        return infoLink;
+    }
+
+    public void setInfoLink(String infoLink) {
+        this.infoLink = infoLink;
+    }
+
+    public ArrayList<Department> getBachelorDepartments() {
+        return bachelorDepartments;
+    }
+
+    public void setBachelorDepartments(ArrayList<Department> bachelorDepartments) {
+        this.bachelorDepartments = bachelorDepartments;
+    }
+
+    public ArrayList<Department> getMasterDepartments() {
+        return masterDepartments;
+    }
+
+    public void setMasterDepartments(ArrayList<Department> masterDepartments) {
+        this.masterDepartments = masterDepartments;
+    }
+
+    public ArrayList<Department> getDoctorateDepartments() {
+        return doctorateDepartments;
+    }
+
+    public void setDoctorateDepartments(ArrayList<Department> doctorateDepartments) {
+        this.doctorateDepartments = doctorateDepartments;
     }
 
     public ArrayList<Doctor> getProfessors() {
@@ -141,9 +167,10 @@ public class College {
                 ", description='" + description + '\'' +
                 ", backGroundImageUrl='" + backGroundImageUrl + '\'' +
                 ", iconUrl='" + iconUrl + '\'' +
-                ", BachelorDepartments=" + BachelorDepartments +
-                ", MasterDepartments=" + MasterDepartments +
-                ", DoctorateDepartments=" + DoctorateDepartments +
+                ", infoLink='" + infoLink + '\'' +
+                ", bachelorDepartments=" + bachelorDepartments +
+                ", masterDepartments=" + masterDepartments +
+                ", doctorateDepartments=" + doctorateDepartments +
                 ", professors=" + professors +
                 '}';
     }

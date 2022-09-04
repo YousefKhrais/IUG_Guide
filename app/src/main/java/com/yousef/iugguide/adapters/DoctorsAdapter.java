@@ -67,7 +67,6 @@ public class DoctorsAdapter extends RecyclerView.Adapter<DoctorsAdapter.MyViewHo
         return data.size();
     }
 
-
     public class MyViewHolder extends RecyclerView.ViewHolder {
         DoctorItemBinding binding;
 
@@ -76,5 +75,4 @@ public class DoctorsAdapter extends RecyclerView.Adapter<DoctorsAdapter.MyViewHo
             this.binding = binding;
         }
     }
-
 }

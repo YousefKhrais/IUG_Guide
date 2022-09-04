@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
+import androidx.core.content.res.ResourcesCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.yousef.iugguide.AppClass;
@@ -40,11 +41,9 @@ public class BuildingAdapter extends RecyclerView.Adapter<BuildingAdapter.MyView
         holder.binding.cardViewImageTitle.setText(data.get(position).getName());
         holder.binding.cardViceTitle.setText(data.get(position).getKey());
 
-//        Picasso.get().load(data.get(position).getMainImageUrl()).into(holder.binding.buildingImage);
-
         Resources resources = context.getResources();
         final int resourceId = resources.getIdentifier(data.get(position).getMainImageUrl(), "drawable", context.getPackageName());
-        holder.binding.buildingImage.setImageDrawable(resources.getDrawable(resourceId));
+        holder.binding.buildingImage.setImageDrawable(ResourcesCompat.getDrawable(resources, resourceId, null));
 
         imageView.setOnClickListener(v -> {
             AppClass.chosenBuilding = data.get(position);
@@ -59,7 +58,6 @@ public class BuildingAdapter extends RecyclerView.Adapter<BuildingAdapter.MyView
         return data.size();
     }
 
-
     public class MyViewHolder extends RecyclerView.ViewHolder {
         ItemBuildingBinding binding;
 
@@ -68,5 +66,4 @@ public class BuildingAdapter extends RecyclerView.Adapter<BuildingAdapter.MyView
             this.binding = binding;
         }
     }
-
 }
