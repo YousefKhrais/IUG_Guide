@@ -83,7 +83,7 @@ public class CollegeDetails extends AppCompatActivity {
                     break;
                 case R.id.nav_doctors:
                     binding.departmentRv.setLayoutManager(new LinearLayoutManager(this));
-                    doctorsAdapter = new DoctorsAdapter(this, AppClass.doctorsArrayList);
+                    doctorsAdapter = new DoctorsAdapter(this, AppClass.chosenCollege.getProfessors());
                     binding.departmentRv.setAdapter(doctorsAdapter);
                     break;
             }

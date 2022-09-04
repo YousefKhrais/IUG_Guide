@@ -40,7 +40,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         List<HomeItem> homeItems = new ArrayList<>();
 
         homeItems.add(new HomeItem("button_registration_guide", "دليل الالتحاق", R.drawable.ic_guide));
-        homeItems.add(new HomeItem("button_acceptance_key", "مفتاح القبول", R.drawable.ic_key));
+//        homeItems.add(new HomeItem("button_acceptance_key", "مفتاح القبول", R.drawable.ic_key));
         homeItems.add(new HomeItem("button_university_facilities", "مرافق الجامعة", R.drawable.ic_facilities));
         homeItems.add(new HomeItem("button_map", "تجول في الجامعة", R.drawable.ic_map));
         homeItems.add(new HomeItem("button_volunteer_work", "العمل التطوعي", R.drawable.ic_volunteer));
@@ -59,9 +59,10 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         homeItems.add(new HomeItem("button_scholarships", "المنح الدراسية", R.drawable.ic_scholarships));
         homeItems.add(new HomeItem("button_admission_application", "طلب الالتحاق", R.drawable.ic_admission_application));
         homeItems.add(new HomeItem("button_university_website", "موقع الجامعة", R.drawable.ic_website));
-        homeItems.add(new HomeItem("button_about_us", "عن التطبيق", R.drawable.ic_website));
 
         homeItems.add(new HomeItem("button_about_us", "تواصل معنا", R.drawable.ic_headphone));
+        homeItems.add(new HomeItem("button_about_us", "انترنت الجامعة", R.drawable.ic_wifi));
+        homeItems.add(new HomeItem("button_about_us", "عن التطبيق", R.drawable.ic_info));
 
         HomeAdapter homeAdapter = new HomeAdapter(getActivity(), homeItems, this);
 

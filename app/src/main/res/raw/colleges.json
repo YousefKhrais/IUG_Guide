@@ -9,7 +9,7 @@
       "Bachelor_programs": "بكالوريوس",
       "facebookLink": "https://www.facebook.com/medicine.iug/",
       "basic_info": "عدد اقسام الكلية: 1",
-      "name": "كلية الطب",
+      "name": "الطب",
       "Id": "1"
     },
     {
@@ -21,7 +21,7 @@
       "Bachelor_programs": "بكالوريوس",
       "facebookLink": "https://www.facebook.com/engineering.iug/",
       "basic_info": "معلومات عامة",
-      "name": "كلية الهندسة",
+      "name": "الهندسة",
       "Id": "2"
     },
     {
@@ -33,7 +33,7 @@
       "Bachelor_programs": "بكالوريوس",
       "facebookLink": "https://www.facebook.com/fit.iug/",
       "basic_info": "معلومات عامة",
-      "name": "كلية تكنلوجيا المعلومات",
+      "name": "تكنولوجيا المعلومات",
       "Id": "3"
     },
     {
@@ -45,7 +45,7 @@
       "Bachelor_programs": "بكالوريوس",
       "facebookLink": "https://www.facebook.com/FacultyofNursingIUG/",
       "basic_info": "معلومات عامة",
-      "name": "كلية التمريض",
+      "name": "التمريض",
       "Id": "4"
     },
     {
@@ -57,7 +57,7 @@
       "Bachelor_programs": "بكالوريوس",
       "facebookLink": "https://www.facebook.com/iug.health.sciences/",
       "basic_info": "معلومات عامة",
-      "name": "كلية العلوم الصحية",
+      "name": "العلوم الصحية",
       "Id": "5"
     },
     {
@@ -69,7 +69,7 @@
       "Bachelor_programs": "بكالوريوس",
       "facebookLink": "https://www.facebook.com/science.iugaza/",
       "basic_info": "معلومات عامة",
-      "name": "كلية العلوم",
+      "name": "العلوم",
       "Id": "6"
     },
     {
@@ -81,7 +81,7 @@
       "Bachelor_programs": "بكالوريوس",
       "facebookLink": "https://www.facebook.com/IugArts/",
       "basic_info": "معلومات عامة",
-      "name": "كلية الآداب",
+      "name": "الآداب",
       "Id": "7"
     },
     {
@@ -93,7 +93,7 @@
       "Bachelor_programs": "بكالوريوس",
       "facebookLink": "https://www.facebook.com/sharea.iugaza/",
       "basic_info": "معلومات عامة",
-      "name": "كلية الشريعة والقانون",
+      "name": "الشريعة والقانون",
       "Id": "8"
     },
     {
@@ -105,7 +105,7 @@
       "Bachelor_programs": "بكالوريوس",
       "facebookLink": "https://www.facebook.com/ossol2017/",
       "basic_info": "معلومات عامة",
-      "name": "كلية أصول الدين",
+      "name": "أصول الدين",
       "Id": "9"
     },
     {
@@ -117,7 +117,7 @@
       "Bachelor_programs": "بكالوريوس",
       "facebookLink": "https://www.facebook.com/iug.educ/",
       "basic_info": "معلومات عامة",
-      "name": "كلية التربية",
+      "name": "التربية",
       "Id": "10"
     },
     {
@@ -129,7 +129,7 @@
       "Bachelor_programs": "بكالوريوس",
       "facebookLink": "https://www.facebook.com/commerceiug/",
       "basic_info": "معلومات عامة",
-      "name": "كلية الاقتصاد والعلوم الإدارية",
+      "name": "الإقتصاد والعلوم الإدارية",
       "Id": "11"
     }
   ]

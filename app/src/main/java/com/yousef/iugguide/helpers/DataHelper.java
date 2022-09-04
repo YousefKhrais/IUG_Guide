@@ -55,6 +55,7 @@ public class DataHelper {
                 college.setBachelorDepartments(new ArrayList<>());
                 college.setMasterDepartments(new ArrayList<>());
                 college.setDoctorateDepartments(new ArrayList<>());
+                college.setProfessors(new ArrayList<>());
 
                 AppClass.collegesArrayList.add(college);
                 System.out.println("College: " + college);
@@ -153,12 +154,41 @@ public class DataHelper {
     }
 
     public void readProfessorsData(Context context) {
-        AppClass.doctorsArrayList.add(new Doctor(1, "يوسف خريس", 3, "دكتوراة", "mo123456@gmail.com", "تطوير برمجيات", "I204"));
-        AppClass.doctorsArrayList.add(new Doctor(1, "مصلح النجار", 3, "ماجستير", "mo123456@gmail.com", "علم حاسوب", "I204"));
-        AppClass.doctorsArrayList.add(new Doctor(1, "موسى ريحان", 3, "معيد", "mo123456@gmail.com", "هندسة مدنية", "I204"));
-        AppClass.doctorsArrayList.add(new Doctor(1, "محمد ثاري", 3, "دكتوراة", "mo123456@gmail.com", "هندسة نظم التشغيل", "I204"));
-        AppClass.doctorsArrayList.add(new Doctor(1, "أحمد الأسيوطي", 3, "معيد", "mo123456@gmail.com", "تكنولوجيا المعلومات", "I204"));
-        AppClass.doctorsArrayList.add(new Doctor(1, "عبدالله حسونة", 3, "ماجستير", "mo123456@gmail.com", "تطوير برمجيات", "I204"));
+        try {
+            InputStream inputStream = context.getResources().openRawResource(R.raw.professor);
+            String jsonString = new Scanner(inputStream).useDelimiter("\\A").next();
+
+            JSONObject root = new JSONObject(jsonString);
+
+            JSONArray array = root.getJSONArray("professors");
+
+            for (int i = 0; i < array.length(); i++) {
+                JSONObject object = array.getJSONObject(i);
+
+                System.out.println(object.toString());
+                Doctor doctor = new Doctor();
+                doctor.setId(object.getInt("id"));
+                doctor.setName(object.getString("fullName"));
+                doctor.setCollege(object.getString("college"));
+                doctor.setDepartment(object.getString("department"));
+                doctor.setDegree(object.getString("degre"));
+                doctor.setInsidePhone(object.getString("insidePhone"));
+                doctor.setEmail(object.getString("email"));
+
+                for (int j = 0; j < AppClass.collegesArrayList.size(); j++) {
+                    if (AppClass.collegesArrayList.get(j).getName().equals(doctor.getCollege())) {
+                        doctor.setCollegeId(AppClass.collegesArrayList.get(j).getId());
+                        AppClass.collegesArrayList.get(j).getProfessors().add(doctor);
+                    }
+                }
+
+                AppClass.doctorsArrayList.add(doctor);
+            }
+        } catch (
+                Exception e) {
+            e.printStackTrace();
+        }
+
     }
 
     public void readFaqData(Context context) {

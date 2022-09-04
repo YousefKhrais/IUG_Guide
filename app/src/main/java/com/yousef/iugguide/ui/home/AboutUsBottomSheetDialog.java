@@ -1,6 +1,8 @@
 package com.yousef.iugguide.ui.home;
 
 import android.app.Dialog;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
@@ -16,12 +18,17 @@ import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 import com.yousef.iugguide.R;
 
-public class AboutUsBottomSheetDialog extends BottomSheetDialogFragment {
+public class AboutUsBottomSheetDialog extends BottomSheetDialogFragment implements View.OnClickListener {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.bottomsheet_about_us, container, false);
+
+        rootView.findViewById(R.id.developer_one_layout).setOnClickListener(this::onClick);
+        rootView.findViewById(R.id.developer_two_layout).setOnClickListener(this::onClick);
+        rootView.findViewById(R.id.super_layout).setOnClickListener(this::onClick);
+
         return rootView;
     }
 
@@ -61,5 +68,28 @@ public class AboutUsBottomSheetDialog extends BottomSheetDialogFragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+    }
+
+    private void openWebPageFromUrl(String url) {
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.developer_one_layout:
+                openWebPageFromUrl("https://Github.com/YousefKhrais");
+                break;
+
+            case R.id.developer_two_layout:
+                openWebPageFromUrl("https://Github.com/MohammedThary");
+                break;
+
+            case R.id.super_layout:
+                openWebPageFromUrl("https://qdev.iugaza.edu.ps/");
+                break;
+        }
     }
 }

@@ -20,32 +20,9 @@ public class College {
     private ArrayList<Department> MasterDepartments;
     private ArrayList<Department> DoctorateDepartments;
 
+    private ArrayList<Doctor> professors;
+
     public College() {
-    }
-
-    public College(int id, int studentsCount, String name, String imageUrl, String location, String facebookPageLink, String description) {
-        this.id = id;
-        this.studentsCount = studentsCount;
-        this.name = name;
-        this.imageUrl = imageUrl;
-        this.location = location;
-        this.facebookPageLink = facebookPageLink;
-        this.description = description;
-    }
-
-    public College(int id, int studentsCount, String name, String imageUrl, String location, String facebookPageLink, String description, String backGroundImageUrl, String iconUrl, ArrayList<Department> bachelorDepartments, ArrayList<Department> masterDepartments, ArrayList<Department> doctorateDepartments) {
-        this.id = id;
-        this.studentsCount = studentsCount;
-        this.name = name;
-        this.imageUrl = imageUrl;
-        this.location = location;
-        this.facebookPageLink = facebookPageLink;
-        this.description = description;
-        this.backGroundImageUrl = backGroundImageUrl;
-        this.iconUrl = iconUrl;
-        BachelorDepartments = bachelorDepartments;
-        MasterDepartments = masterDepartments;
-        DoctorateDepartments = doctorateDepartments;
     }
 
     public int getId() {
@@ -144,6 +121,14 @@ public class College {
         this.iconUrl = iconUrl;
     }
 
+    public ArrayList<Doctor> getProfessors() {
+        return professors;
+    }
+
+    public void setProfessors(ArrayList<Doctor> professors) {
+        this.professors = professors;
+    }
+
     @Override
     public String toString() {
         return "College{" +
@@ -159,6 +144,7 @@ public class College {
                 ", BachelorDepartments=" + BachelorDepartments +
                 ", MasterDepartments=" + MasterDepartments +
                 ", DoctorateDepartments=" + DoctorateDepartments +
+                ", professors=" + professors +
                 '}';
     }
 }
