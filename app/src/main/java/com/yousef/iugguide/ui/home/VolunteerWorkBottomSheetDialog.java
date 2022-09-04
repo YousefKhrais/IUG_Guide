@@ -40,13 +40,14 @@ public class VolunteerWorkBottomSheetDialog extends BottomSheetDialogFragment {
     private void setupFullHeight(BottomSheetDialog bottomSheetDialog) {
         FrameLayout bottomSheet = bottomSheetDialog.findViewById(com.google.android.material.R.id.design_bottom_sheet);
         BottomSheetBehavior behavior = BottomSheetBehavior.from(bottomSheet);
-//        ViewGroup.LayoutParams layoutParams = bottomSheet.getLayoutParams();
-//
-//        int windowHeight = getWindowHeight();
-//        if (layoutParams != null) {
-//            layoutParams.height = windowHeight;
-//        }
-//        bottomSheet.setLayoutParams(layoutParams);
+        ViewGroup.LayoutParams layoutParams = bottomSheet.getLayoutParams();
+
+        int windowHeight = getWindowHeight();
+        if (layoutParams != null) {
+            layoutParams.height = windowHeight;
+        }
+
+        bottomSheet.setLayoutParams(layoutParams);
         behavior.setState(BottomSheetBehavior.STATE_EXPANDED);
         behavior.setSkipCollapsed(true);
         behavior.setDraggable(false);

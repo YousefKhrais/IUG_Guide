@@ -131,8 +131,9 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     }
 
     private void openRegistrationGuide() {
-        Intent intent = new Intent(getActivity(), RegistrationGuide.class);
-        getActivity().startActivity(intent);
+        RegistrationGuideBottomSheetDialog registrationGuideBottomSheetDialog = new RegistrationGuideBottomSheetDialog();
+        registrationGuideBottomSheetDialog.setCancelable(true);
+        registrationGuideBottomSheetDialog.show(getChildFragmentManager(), "registrationGuideBottomSheetDialog");
     }
 
     private void openVolunteerWorkGuide() {

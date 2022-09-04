@@ -48,7 +48,8 @@
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/bottomsheet_about_iug.xml" value="0.16576086956521738" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/bottomsheet_about_us.xml" value="0.1" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/bottomsheet_cover_page.xml" value="0.3614583333333333" />
-        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/bottomsheet_faq.xml" value="0.16576086956521738" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/bottomsheet_faq.xml" value="0.25" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/bottomsheet_registration_guide.xml" value="0.21557971014492755" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/bottomsheet_volunteer_work.xml" value="0.3278985507246377" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/building_item.xml" value="0.33" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/college_item.xml" value="0.5" />
@@ -82,6 +83,7 @@
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_7_pay_tuition_fees_layout.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_days_of_week_layout.xml" value="0.23777173913043478" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_registration_guide_1_go_to_university_layout.xml" value="0.3278985507246377" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_registration_guide_5_complete_registration_form_layout.xml" value="0.21557971014492755" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_registration_guide_6_pay_tuition_fees_layout.xml" value="0.3278985507246377" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_registration_guide_7_admission_registration_layout.xml" value="0.3278985507246377" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_volunteer_guide_1_go_to_university_layout.xml" value="0.1" />
