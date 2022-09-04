@@ -2,6 +2,7 @@ package com.yousef.iugguide.adapters;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -9,7 +10,6 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.squareup.picasso.Picasso;
 import com.yousef.iugguide.AppClass;
 import com.yousef.iugguide.databinding.ItemBuildingBinding;
 import com.yousef.iugguide.models.Building;
@@ -40,7 +40,12 @@ public class BuildingAdapter extends RecyclerView.Adapter<BuildingAdapter.MyView
         holder.binding.cardViewImageTitle.setText(data.get(position).getName());
         holder.binding.cardViceTitle.setText(data.get(position).getKey());
 
-        Picasso.get().load(data.get(position).getMainImageUrl()).into(holder.binding.buildingImage);
+//        Picasso.get().load(data.get(position).getMainImageUrl()).into(holder.binding.buildingImage);
+
+        Resources resources = context.getResources();
+        final int resourceId = resources.getIdentifier(data.get(position).getMainImageUrl(), "drawable", context.getPackageName());
+        holder.binding.buildingImage.setImageDrawable(resources.getDrawable(resourceId));
+
         imageView.setOnClickListener(v -> {
             AppClass.chosenBuilding = data.get(position);
             Intent intent = new Intent(context, BuildingDetails.class);

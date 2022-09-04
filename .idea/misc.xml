@@ -16,16 +16,24 @@
         <entry key="..\:/Users/MoThary/AndroidStudioProjects/IUG_Guide/app/src/main/res/menu/bottom_nav_menu.xml" value="0.209375" />
         <entry key="..\:/Users/MoThary/AndroidStudioProjects/IUG_Guide/app/src/main/res/menu/department_nav_menu.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/bg_button.xml" value="0.1" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/doctor_details_icon.xml" value="0.1" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/ic_email.xml" value="0.1" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/ic_facilities.xml" value="0.3025" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/ic_faq1.xml" value="0.114" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/ic_faq2.xml" value="0.114" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/ic_faq3.xml" value="0.114" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/ic_faq4.xml" value="0.114" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/ic_headphone.xml" value="0.1" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/ic_home.xml" value="0.1" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/ic_icons8_instagram.xml" value="0.1345" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/ic_info.xml" value="0.213" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/ic_instagram.xml" value="0.1" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/ic_library1.xml" value="0.1155" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/ic_library2.xml" value="0.1155" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/ic_library3.xml" value="0.1155" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/ic_scholarships.xml" value="0.213" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/shape_rounded_bottom_sheet.xml" value="0.3025" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/drawable/shape_rounded_button.xml" value="0.273" />
@@ -80,6 +88,7 @@
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_volunteer_guide_1_layout.xml" value="0.264" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/layout/step_volunteer_guide_2_layout.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Yousef/AndroidStudioProjects/IUGGuide/app/src/main/res/menu/department_nav_menu.xml" value="0.13425925925925927" />
       </map>
     </option>
   </component>
