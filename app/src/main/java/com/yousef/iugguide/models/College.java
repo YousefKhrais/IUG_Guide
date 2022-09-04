@@ -15,6 +15,7 @@ public class College {
 
     private String backGroundImageUrl;
     private String iconUrl;
+    private String infoLink;
 
     private ArrayList<Department> BachelorDepartments;
     private ArrayList<Department> MasterDepartments;
@@ -43,6 +44,22 @@ public class College {
         this.description = description;
         this.backGroundImageUrl = backGroundImageUrl;
         this.iconUrl = iconUrl;
+        BachelorDepartments = bachelorDepartments;
+        MasterDepartments = masterDepartments;
+        DoctorateDepartments = doctorateDepartments;
+    }
+
+    public College(int id, int studentsCount, String name, String imageUrl, String location, String facebookPageLink, String description, String backGroundImageUrl, String iconUrl, String infoLink, ArrayList<Department> bachelorDepartments, ArrayList<Department> masterDepartments, ArrayList<Department> doctorateDepartments) {
+        this.id = id;
+        this.studentsCount = studentsCount;
+        this.name = name;
+        this.imageUrl = imageUrl;
+        this.location = location;
+        this.facebookPageLink = facebookPageLink;
+        this.description = description;
+        this.backGroundImageUrl = backGroundImageUrl;
+        this.iconUrl = iconUrl;
+        this.infoLink = infoLink;
         BachelorDepartments = bachelorDepartments;
         MasterDepartments = masterDepartments;
         DoctorateDepartments = doctorateDepartments;
@@ -142,6 +159,14 @@ public class College {
 
     public void setIconUrl(String iconUrl) {
         this.iconUrl = iconUrl;
+    }
+
+    public String getInfoLink() {
+        return infoLink;
+    }
+
+    public void setInfoLink(String infoLink) {
+        this.infoLink = infoLink;
     }
 
     @Override

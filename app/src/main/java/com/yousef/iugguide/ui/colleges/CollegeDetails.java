@@ -82,6 +82,9 @@ public class CollegeDetails extends AppCompatActivity {
                     }
                     break;
                 case R.id.nav_doctors:
+                    params.height = 1200;
+                    binding.departmentRv.setLayoutParams(params);
+                    binding.departmentRv.setVisibility(View.VISIBLE);
                     binding.departmentRv.setLayoutManager(new LinearLayoutManager(this));
                     doctorsAdapter = new DoctorsAdapter(this, AppClass.doctorsArrayList);
                     binding.departmentRv.setAdapter(doctorsAdapter);

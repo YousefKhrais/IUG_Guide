@@ -51,7 +51,7 @@ public class DataHelper {
                 college.setFacebookPageLink(object.getString("facebookLink"));
                 college.setDescription(object.getString("basic_info"));
                 college.setName(object.getString("name"));
-
+                college.setInfoLink(object.getString("infoLink"));
                 college.setBachelorDepartments(new ArrayList<>());
                 college.setMasterDepartments(new ArrayList<>());
                 college.setDoctorateDepartments(new ArrayList<>());

@@ -24,16 +24,32 @@
             android:textSize="32sp"
             android:textStyle="bold" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="right"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal">
+
         <TextView
-            android:id="@+id/college_info_textview"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="@string/temp_college_info"
+            android:text="تعرف على الكلية "
             android:textColor="@color/black"
             android:textDirection="rtl"
             android:textSize="20sp" />
-
+        <TextView
+            android:id="@+id/college_info_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="تعرف على الكلية "
+            android:textColor="@color/black"
+            android:textDirection="rtl"
+            android:textSize="20sp" />
+    </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
