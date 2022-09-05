@@ -39,7 +39,7 @@ public class BuildingsFragment extends Fragment {
 if (!isNetworkConnected()){
     InterntDialogBinding binding = InterntDialogBinding.inflate(getLayoutInflater());
     AlertDialog.Builder alBuilder = new AlertDialog.Builder(this.getContext());
-    alBuilder.setTitle("انتباه");
+    alBuilder.setTitle("alert");
 
     alBuilder.setView(binding.getRoot());
     final AlertDialog ad = alBuilder.show();
