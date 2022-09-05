@@ -88,5 +88,14 @@
       "building_key": "I",
       "location": "gaza"
     }
+  ,
+    {
+      "building_name": "كلية الطب",
+      "main_image": "building_13",
+      "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmTTARAP5uZuxYaOlSyU0XhzlMW7MGZ8CBigoiLYqzpQ2UPrCOoEamb-e9781UXMxaKm_TtuTds=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmR4739P6q5Ql9pfCd0EyklqqeYMifz-s4BaldjbyiljflhUtf-LyVUndeDoGW6E8p7VrZ8iQVs=w1366-h697",
+      "main_info": "كلية الطب",
+      "building_key": " ",
+      "location": "حانيونس"
+    }
   ]
 }

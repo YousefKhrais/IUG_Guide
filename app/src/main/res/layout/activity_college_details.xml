@@ -46,7 +46,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:text="تعرف على الكلية "
-            android:textColor="@color/black"
+            android:textColor="#0000FF"
+
             android:textDirection="rtl"
             android:textSize="20sp" />
     </LinearLayout>

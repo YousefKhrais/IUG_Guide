@@ -1,5 +1,7 @@
 package com.yousef.iugguide.ui.colleges;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
@@ -29,7 +31,9 @@ public class CollegeDetails extends AppCompatActivity {
         binding.collegeInfoTextview.setText(AppClass.chosenCollege.getDescription());
         binding.collegeLocationTextview.setText(AppClass.chosenCollege.getLocation());
         binding.departmentRv.setLayoutManager(new LinearLayoutManager(this));
-
+binding.collegeInfoTextview.setOnClickListener(v->{
+    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(AppClass.chosenCollege.getInfoLink())));
+});
         departmentAdapter = new DepartmentAdapter(this, AppClass.chosenCollege.getBachelorDepartments());
         binding.departmentRv.setAdapter(departmentAdapter);
 
