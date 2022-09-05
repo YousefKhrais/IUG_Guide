@@ -12,7 +12,7 @@ import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.yousef.iugguide.databinding.FaqItemBinding;
+import com.yousef.iugguide.databinding.ItemFaqBinding;
 import com.yousef.iugguide.models.FAQ;
 
 import java.util.ArrayList;
@@ -30,7 +30,7 @@ public class FAQAdapter extends RecyclerView.Adapter<FAQAdapter.MyViewHolder> {
     @NonNull
     @Override
     public FAQAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        FaqItemBinding binding = FaqItemBinding.inflate(LayoutInflater.from(context), parent, false);
+        ItemFaqBinding binding = ItemFaqBinding.inflate(LayoutInflater.from(context), parent, false);
         return new FAQAdapter.MyViewHolder(binding);
     }
 
@@ -58,9 +58,9 @@ public class FAQAdapter extends RecyclerView.Adapter<FAQAdapter.MyViewHolder> {
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
-        FaqItemBinding binding;
+        ItemFaqBinding binding;
 
-        public MyViewHolder(@NonNull FaqItemBinding binding) {
+        public MyViewHolder(@NonNull ItemFaqBinding binding) {
             super(binding.getRoot());
             this.binding = binding;
         }

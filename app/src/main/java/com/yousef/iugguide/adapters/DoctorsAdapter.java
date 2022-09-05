@@ -13,7 +13,7 @@ import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.yousef.iugguide.databinding.DoctorItemBinding;
+import com.yousef.iugguide.databinding.ItemDoctorBinding;
 import com.yousef.iugguide.models.Doctor;
 
 import java.util.ArrayList;
@@ -31,7 +31,7 @@ public class DoctorsAdapter extends RecyclerView.Adapter<DoctorsAdapter.MyViewHo
     @NonNull
     @Override
     public DoctorsAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        DoctorItemBinding binding = DoctorItemBinding.inflate(LayoutInflater.from(context), parent, false);
+        ItemDoctorBinding binding = ItemDoctorBinding.inflate(LayoutInflater.from(context), parent, false);
         return new DoctorsAdapter.MyViewHolder(binding);
     }
 
@@ -60,9 +60,9 @@ public class DoctorsAdapter extends RecyclerView.Adapter<DoctorsAdapter.MyViewHo
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
-        DoctorItemBinding binding;
+        ItemDoctorBinding binding;
 
-        public MyViewHolder(@NonNull DoctorItemBinding binding) {
+        public MyViewHolder(@NonNull ItemDoctorBinding binding) {
             super(binding.getRoot());
             this.binding = binding;
         }
