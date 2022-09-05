@@ -43,15 +43,11 @@ binding.collegeInfoTextview.setOnClickListener(v->{
             switch (item.getItemId()) {
                 case R.id.nav_bachelor:
                     if (AppClass.chosenCollege.getBachelorDepartments().size() == 0) {
-                        params.height = 1;
-                        binding.departmentRv.setLayoutParams(params);
-                        binding.departmentRv.setVisibility(View.INVISIBLE);
+                        binding.departmentRv.setVisibility(View.GONE);
                         binding.infoText.setVisibility(View.VISIBLE);
                     } else {
-                        params.height = 1200;
-                        binding.departmentRv.setLayoutParams(params);
                         binding.departmentRv.setVisibility(View.VISIBLE);
-                        binding.infoText.setVisibility(View.INVISIBLE);
+                        binding.infoText.setVisibility(View.GONE);
                         binding.departmentRv.setLayoutManager(new LinearLayoutManager(this));
                         departmentAdapter = new DepartmentAdapter(this, AppClass.chosenCollege.getBachelorDepartments());
                         binding.departmentRv.setAdapter(departmentAdapter);
@@ -60,15 +56,12 @@ binding.collegeInfoTextview.setOnClickListener(v->{
 
                 case R.id.nav_master:
                     if (AppClass.chosenCollege.getMasterDepartments().size() == 0) {
-                        params.height = 1;
-                        binding.departmentRv.setLayoutParams(params);
-                        binding.departmentRv.setVisibility(View.INVISIBLE);
+                        binding.departmentRv.setVisibility(View.GONE);
                         binding.infoText.setVisibility(View.VISIBLE);
                     } else {
-                        params.height = 1200;
-                        binding.departmentRv.setLayoutParams(params);
+
                         binding.departmentRv.setVisibility(View.VISIBLE);
-                        binding.infoText.setVisibility(View.INVISIBLE);
+                        binding.infoText.setVisibility(View.GONE);
                         binding.departmentRv.setLayoutManager(new LinearLayoutManager(this));
                         departmentAdapter = new DepartmentAdapter(this, AppClass.chosenCollege.getMasterDepartments());
                         binding.departmentRv.setAdapter(departmentAdapter);
@@ -77,15 +70,12 @@ binding.collegeInfoTextview.setOnClickListener(v->{
 
                 case R.id.nav_phd:
                     if (AppClass.chosenCollege.getDoctorateDepartments().size() == 0) {
-                        params.height = 1;
-                        binding.departmentRv.setLayoutParams(params);
-                        binding.departmentRv.setVisibility(View.INVISIBLE);
+                        binding.departmentRv.setVisibility(View.GONE);
                         binding.infoText.setVisibility(View.VISIBLE);
                     } else {
-                        params.height = 1200;
-                        binding.departmentRv.setLayoutParams(params);
+
                         binding.departmentRv.setVisibility(View.VISIBLE);
-                        binding.infoText.setVisibility(View.INVISIBLE);
+                        binding.infoText.setVisibility(View.GONE);
                         binding.departmentRv.setLayoutManager(new LinearLayoutManager(this));
                         departmentAdapter = new DepartmentAdapter(this, AppClass.chosenCollege.getDoctorateDepartments());
                         binding.departmentRv.setAdapter(departmentAdapter);
@@ -93,8 +83,7 @@ binding.collegeInfoTextview.setOnClickListener(v->{
                     break;
 
                 case R.id.nav_doctors:
-                    params.height = 1200;
-                    binding.departmentRv.setLayoutParams(params);
+                    binding.infoText.setVisibility(View.GONE);
                     binding.departmentRv.setVisibility(View.VISIBLE);
                     binding.departmentRv.setLayoutManager(new LinearLayoutManager(this));
                     doctorsAdapter = new DoctorsAdapter(this, AppClass.chosenCollege.getProfessors());
