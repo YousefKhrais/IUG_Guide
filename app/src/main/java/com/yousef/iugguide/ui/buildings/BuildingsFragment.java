@@ -44,7 +44,6 @@ public class BuildingsFragment extends Fragment {
             binding.close.setOnClickListener(v -> {
                 ad.dismiss();
             });
-
         }
 
         return root;

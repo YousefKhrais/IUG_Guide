@@ -90,6 +90,30 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
+                    android:text="الدرجة العلمية:"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/degree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="الدرجة العلمية"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
                     android:text="هاتف داخلي:"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
@@ -124,7 +148,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     android:text="www.mohammed8261812@gmail.com"
-                    android:textColor="@color/black"
+                    android:textColor="#0000ff"
                     android:textSize="16sp" />
             </LinearLayout>
         </LinearLayout>
