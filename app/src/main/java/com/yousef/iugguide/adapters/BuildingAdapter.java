@@ -38,7 +38,7 @@ public class BuildingAdapter extends RecyclerView.Adapter<BuildingAdapter.MyView
     @Override
     public void onBindViewHolder(@NonNull BuildingAdapter.MyViewHolder holder, int position) {
         final ImageView imageView = holder.binding.buildingImage;
-        holder.binding.cardViewImageTitle.setText(data.get(position).getName());
+        holder.binding.cardViewImageTitle.setText("مبنى "+data.get(position).getName());
         holder.binding.cardViceTitle.setText(data.get(position).getKey());
 
         Resources resources = context.getResources();
