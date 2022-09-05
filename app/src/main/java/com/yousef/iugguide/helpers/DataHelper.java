@@ -132,8 +132,7 @@ public class DataHelper {
                 building.setMainImageUrl(object.getString("main_image"));
                 building.setDescription(object.getString("main_info"));
                 building.setLocation(object.getString("location"));
-//                building.setKey(object.getString("building_keysss"));
-                building.setKey("K");
+                building.setKey(object.getString("building_key"));
 
                 ArrayList<String> imagesArrayList = new ArrayList<>();
                 String[] other_images = object.getString("other_images").split("\r\n");
