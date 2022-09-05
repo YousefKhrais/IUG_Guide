@@ -212,4 +212,40 @@ public class DataHelper {
         AppClass.faqArrayList.add(new FAQ(23, "25. كم مرة يسمح للطالب بالتحويل داخل الجامعة ؟", "مرتان برغبته."));
         AppClass.faqArrayList.add(new FAQ(24, "26. أنا طالب لم أحصل على معدل جيد في السنة الدراسية الأولى، و أرغب بالالتحاق برقم جديد، هل يمكنني ذلك؟ و كم عدد الساعات التي يمكن معادلتها ؟", "– نعم يمكنك الالتحاق برقم جديد ولمرة واحدة فقط حسب النظام .\n– الحد الأقصى من الساعات المسموح معادلتها 30 ساعة معتمدة فقط و بعلامة لا تقل عن 70 لكل مساق يمكن معادلته."));
     }
+
+    public void readFacilitiesData(Context context) {
+        try {
+            InputStream inputStream = context.getResources().openRawResource(R.raw.facilities);
+            String jsonString = new Scanner(inputStream).useDelimiter("\\A").next();
+
+            JSONObject root = new JSONObject(jsonString);
+
+            JSONArray array = root.getJSONArray("facilities");
+
+            for (int i = 0; i < array.length(); i++) {
+                JSONObject object = array.getJSONObject(i);
+
+                Building building = new Building();
+
+                building.setId(i);
+                building.setName(object.getString("building_name"));
+                building.setMainImageUrl(object.getString("main_image"));
+                building.setDescription(object.getString("main_info"));
+                building.setLocation(object.getString("location"));
+                building.setKey(object.getString("building_key"));
+
+                ArrayList<String> imagesArrayList = new ArrayList<>();
+                String[] other_images = object.getString("other_images").split("\r\n");
+
+                Collections.addAll(imagesArrayList, other_images);
+
+                building.setImagesArrayList(imagesArrayList);
+
+                AppClass.facilitiesArrayList.add(building);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
 }

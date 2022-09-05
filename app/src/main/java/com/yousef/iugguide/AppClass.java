@@ -20,6 +20,7 @@ public class AppClass extends Application {
     public static ArrayList<Building> buildingArrayList = new ArrayList<>();
     public static ArrayList<Doctor> doctorsArrayList = new ArrayList<>();
     public static ArrayList<FAQ> faqArrayList = new ArrayList<>();
+    public static ArrayList<Building> facilitiesArrayList = new ArrayList<>();
 
     public static College chosenCollege;
     public static Department chosenDepartment;
@@ -37,5 +38,6 @@ public class AppClass extends Application {
         DataHelper.getInstance().readBuildingsData(this);
         DataHelper.getInstance().readProfessorsData(this);
         DataHelper.getInstance().readFaqData(this);
+        DataHelper.getInstance().readFacilitiesData(this);
     }
 }

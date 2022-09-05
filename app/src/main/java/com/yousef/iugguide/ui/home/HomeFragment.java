@@ -96,6 +96,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/iugaza.ps")));
             }
         });
+
         facebookFab.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/IUGAZA"))));
         twitterFab.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/iugaza"))));
         telegramFab.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/iugaza1"))));
@@ -185,6 +186,12 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         faqBottomSheetDialog.show(getChildFragmentManager(), "faqBottomSheetDialog");
     }
 
+    private void openFacilitiesPage() {
+        FacilitiesBottomSheetDialog facilitiesBottomSheetDialog = new FacilitiesBottomSheetDialog();
+        facilitiesBottomSheetDialog.setCancelable(true);
+        facilitiesBottomSheetDialog.show(getChildFragmentManager(), "facilitiesBottomSheetDialog");
+    }
+
     private void openWebPageFromUrl(String url) {
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
@@ -203,7 +210,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                 break;
 
             case "button_university_facilities":
-                System.out.println("button_university_facilities");
+                openFacilitiesPage();
                 break;
 
             case "button_map":
