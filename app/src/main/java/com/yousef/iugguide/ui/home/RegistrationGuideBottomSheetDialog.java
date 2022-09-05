@@ -89,9 +89,8 @@ public class RegistrationGuideBottomSheetDialog extends BottomSheetDialogFragmen
         ViewGroup.LayoutParams layoutParams = bottomSheet.getLayoutParams();
 
         int windowHeight = getWindowHeight();
-        if (layoutParams != null) {
+        if (layoutParams != null)
             layoutParams.height = windowHeight;
-        }
 
         bottomSheet.setLayoutParams(layoutParams);
         behavior.setState(BottomSheetBehavior.STATE_EXPANDED);
@@ -121,10 +120,8 @@ public class RegistrationGuideBottomSheetDialog extends BottomSheetDialogFragmen
     }
 
     @Override
-    public void onStepAdded(int index, Step<?> addedStep) {
-    }
+    public void onStepAdded(int index, Step<?> addedStep) {}
 
     @Override
-    public void onStepRemoved(int index) {
-    }
+    public void onStepRemoved(int index) {}
 }

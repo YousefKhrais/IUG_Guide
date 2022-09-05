@@ -26,10 +26,12 @@ import java.util.List;
 
 
 public class HomeFragment extends Fragment implements View.OnClickListener {
-    FloatingActionButton mainFab, instagramFab, facebookFab, twitterFab, telegramFab, youtubeFab, gmailFab;
-    Animation fabOpen, fabClose, rotateForward, rotateBackward;
-    boolean isOpen = false;
+
     private FragmentHomeBinding binding;
+
+    private FloatingActionButton mainFab, instagramFab, facebookFab, twitterFab, telegramFab, youtubeFab, gmailFab;
+    private Animation fabOpen, fabClose, rotateForward, rotateBackward;
+    boolean isOpen = false;
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,7 +49,6 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         homeItems.add(new HomeItem("button_faq", "أسئلة شائعة", R.drawable.ic_faq3));
         homeItems.add(new HomeItem("button_about_iug", "عن الجامعة", R.drawable.ic_faq1));
 
-        //Web-based
         homeItems.add(new HomeItem("button_student_services", "خدمات الطالب", R.drawable.ic_bachelor_icon));
         homeItems.add(new HomeItem("button_library", "المكتبة المركزية", R.drawable.ic_library2));
         homeItems.add(new HomeItem("button_alumni_affairs", "شؤون الخريجين", R.drawable.ic_graduate3));
@@ -77,51 +78,71 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         telegramFab = binding.telegramFab;
         youtubeFab = binding.youtubeFab;
         gmailFab = binding.gmailFab;
-        ////animation
+
+        //animation
         fabOpen = AnimationUtils.loadAnimation(this.getContext(), R.anim.tap_open);
         fabClose = AnimationUtils.loadAnimation(this.getContext(), R.anim.tap_close);
         rotateBackward = AnimationUtils.loadAnimation(this.getContext(), R.anim.rotate_backwawrd);
         rotateForward = AnimationUtils.loadAnimation(this.getContext(), R.anim.rotate_forward);
-        mainFab.setOnClickListener(v -> {
 
-            animateFab();
-        });
+        mainFab.setOnClickListener(v -> animateFab());
 
         instagramFab.setOnClickListener(v -> {
-            Uri uri = Uri.parse("https://www.instagram.com/iugaza.ps");
-            Intent likeIng = new Intent(Intent.ACTION_VIEW, uri);
-
-            likeIng.setPackage("com.instagram.android");
-
             try {
+                Intent likeIng = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/iugaza.ps"));
+                likeIng.setPackage("com.instagram.android");
                 startActivity(likeIng);
             } catch (ActivityNotFoundException e) {
-                startActivity(new Intent(Intent.ACTION_VIEW,
-                        Uri.parse("https://www.instagram.com/iugaza.ps")));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/iugaza.ps")));
             }
         });
-        facebookFab.setOnClickListener(v -> {
+        facebookFab.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/IUGAZA"))));
+        twitterFab.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/iugaza"))));
+        telegramFab.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/iugaza1"))));
+        gmailFab.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("mailto:http://public@iugaza.edu.ps"))));
+        youtubeFab.setOnClickListener(v -> startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/user/mediaiug/featured"))));
 
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/IUGAZA"));
-            startActivity(intent);
-        });
-        twitterFab.setOnClickListener(v -> {
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/iugaza"));
-            startActivity(intent);
-        });
-        telegramFab.setOnClickListener(v -> {
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/iugaza1"));
-            startActivity(intent);
-        });
-        gmailFab.setOnClickListener(v -> {
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("mailto:http://public@iugaza.edu.ps"));
-            startActivity(intent);
-        });
-        youtubeFab.setOnClickListener(v -> {
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/user/mediaiug/featured"));
-            startActivity(intent);
-        });
         return root;
+    }
+
+    private void animateFab() {
+        if (isOpen) {
+            mainFab.startAnimation(rotateBackward);
+
+            instagramFab.startAnimation(fabClose);
+            facebookFab.startAnimation(fabClose);
+            twitterFab.startAnimation(fabClose);
+            telegramFab.startAnimation(fabClose);
+            youtubeFab.startAnimation(fabClose);
+            gmailFab.startAnimation(fabClose);
+
+            instagramFab.setClickable(false);
+            facebookFab.setClickable(false);
+            twitterFab.setClickable(false);
+            telegramFab.setClickable(false);
+            youtubeFab.setClickable(false);
+            gmailFab.setClickable(false);
+
+            isOpen = false;
+        } else {
+            mainFab.startAnimation(rotateForward);
+
+            instagramFab.startAnimation(fabOpen);
+            facebookFab.startAnimation(fabOpen);
+            twitterFab.startAnimation(fabOpen);
+            telegramFab.startAnimation(fabOpen);
+            youtubeFab.startAnimation(fabOpen);
+            gmailFab.startAnimation(fabOpen);
+
+            instagramFab.setClickable(true);
+            facebookFab.setClickable(true);
+            twitterFab.setClickable(true);
+            telegramFab.setClickable(true);
+            youtubeFab.setClickable(true);
+            gmailFab.setClickable(true);
+
+            isOpen = true;
+        }
     }
 
     @Override
@@ -143,8 +164,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     }
 
     private void openAcceptanceKeyPage() {
-        Intent intent = new Intent(getActivity(), AcceptanceKeys.class);
-        getActivity().startActivity(intent);
+        startActivity(new Intent(getActivity(), AcceptanceKeys.class));
     }
 
     private void openAboutIUGPage() {
@@ -249,40 +269,6 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
             case "button_announcements":
                 openWebPageFromUrl("https://www.iugaza.edu.ps/e3lan");
                 break;
-        }
-    }
-
-    private void animateFab() {
-        if (isOpen) {
-            mainFab.startAnimation(rotateBackward);
-            instagramFab.startAnimation(fabClose);
-            facebookFab.startAnimation(fabClose);
-            twitterFab.startAnimation(fabClose);
-            telegramFab.startAnimation(fabClose);
-            youtubeFab.startAnimation(fabClose);
-            gmailFab.startAnimation(fabClose);
-            instagramFab.setClickable(false);
-            facebookFab.setClickable(false);
-            twitterFab.setClickable(false);
-            telegramFab.setClickable(false);
-            youtubeFab.setClickable(false);
-            gmailFab.setClickable(false);
-            isOpen = false;
-        } else {
-            mainFab.startAnimation(rotateForward);
-            instagramFab.startAnimation(fabOpen);
-            facebookFab.startAnimation(fabOpen);
-            twitterFab.startAnimation(fabOpen);
-            telegramFab.startAnimation(fabOpen);
-            youtubeFab.startAnimation(fabOpen);
-            gmailFab.startAnimation(fabOpen);
-            instagramFab.setClickable(true);
-            facebookFab.setClickable(true);
-            twitterFab.setClickable(true);
-            telegramFab.setClickable(true);
-            youtubeFab.setClickable(true);
-            gmailFab.setClickable(true);
-            isOpen = true;
         }
     }
 }

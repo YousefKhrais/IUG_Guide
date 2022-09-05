@@ -52,14 +52,6 @@ public class DoctorsAdapter extends RecyclerView.Adapter<DoctorsAdapter.MyViewHo
         holder.binding.specialty.setText(data.get(position).getDepartment());
         holder.binding.roomNumber.setText(data.get(position).getInsidePhone());
         holder.binding.email.setText(data.get(position).getEmail());
-
-//        private String department;
-//        private String degree;
-//        private String insidePhone;
-//        private String email;
-
-//        holder.binding.roomNumber.setText(data.get(position).getRoomNumber());
-//        holder.binding.specialty.setText(data.get(position).getSpecialty());
     }
 
     @Override

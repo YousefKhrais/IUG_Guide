@@ -51,9 +51,8 @@ public class FaqBottomSheetDialog extends BottomSheetDialogFragment {
         ViewGroup.LayoutParams layoutParams = bottomSheet.getLayoutParams();
 
         int windowHeight = getWindowHeight();
-        if (layoutParams != null) {
+        if (layoutParams != null)
             layoutParams.height = windowHeight;
-        }
 
         bottomSheet.setLayoutParams(layoutParams);
         behavior.setState(BottomSheetBehavior.STATE_EXPANDED);

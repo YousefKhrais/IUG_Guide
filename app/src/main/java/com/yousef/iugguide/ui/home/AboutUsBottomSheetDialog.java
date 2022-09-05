@@ -25,9 +25,9 @@ public class AboutUsBottomSheetDialog extends BottomSheetDialogFragment implemen
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.bottomsheet_about_us, container, false);
 
-        rootView.findViewById(R.id.developer_one_layout).setOnClickListener(this::onClick);
-        rootView.findViewById(R.id.developer_two_layout).setOnClickListener(this::onClick);
-        rootView.findViewById(R.id.super_layout).setOnClickListener(this::onClick);
+        rootView.findViewById(R.id.developer_one_layout).setOnClickListener(this);
+        rootView.findViewById(R.id.developer_two_layout).setOnClickListener(this);
+        rootView.findViewById(R.id.super_layout).setOnClickListener(this);
 
         return rootView;
     }
@@ -49,9 +49,8 @@ public class AboutUsBottomSheetDialog extends BottomSheetDialogFragment implemen
         ViewGroup.LayoutParams layoutParams = bottomSheet.getLayoutParams();
 
         int windowHeight = getWindowHeight();
-        if (layoutParams != null) {
+        if (layoutParams != null)
             layoutParams.height = windowHeight;
-        }
 
         bottomSheet.setLayoutParams(layoutParams);
         behavior.setState(BottomSheetBehavior.STATE_EXPANDED);

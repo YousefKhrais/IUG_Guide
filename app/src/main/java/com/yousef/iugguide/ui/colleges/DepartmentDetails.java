@@ -11,7 +11,8 @@ import com.yousef.iugguide.AppClass;
 import com.yousef.iugguide.databinding.ActivityDepartmentDetailsBinding;
 
 public class DepartmentDetails extends AppCompatActivity {
-    ActivityDepartmentDetailsBinding binding;
+
+    private ActivityDepartmentDetailsBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
