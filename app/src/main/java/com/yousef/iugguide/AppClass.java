@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatDelegate;
 import com.yousef.iugguide.helpers.DataHelper;
 import com.yousef.iugguide.models.Building;
 import com.yousef.iugguide.models.College;
+import com.yousef.iugguide.models.Contact;
 import com.yousef.iugguide.models.Department;
 import com.yousef.iugguide.models.Doctor;
 import com.yousef.iugguide.models.FAQ;
@@ -21,6 +22,7 @@ public class AppClass extends Application {
     public static ArrayList<Doctor> doctorsArrayList = new ArrayList<>();
     public static ArrayList<FAQ> faqArrayList = new ArrayList<>();
     public static ArrayList<Building> facilitiesArrayList = new ArrayList<>();
+    public static ArrayList<Contact> contactsArrayList = new ArrayList<>();
 
     public static College chosenCollege;
     public static Department chosenDepartment;
@@ -39,5 +41,6 @@ public class AppClass extends Application {
         DataHelper.getInstance().readProfessorsData(this);
         DataHelper.getInstance().readFaqData(this);
         DataHelper.getInstance().readFacilitiesData(this);
+        DataHelper.getInstance().readContactsData(this);
     }
 }

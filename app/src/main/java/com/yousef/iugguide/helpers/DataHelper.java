@@ -6,6 +6,7 @@ import com.yousef.iugguide.AppClass;
 import com.yousef.iugguide.R;
 import com.yousef.iugguide.models.Building;
 import com.yousef.iugguide.models.College;
+import com.yousef.iugguide.models.Contact;
 import com.yousef.iugguide.models.Department;
 import com.yousef.iugguide.models.Doctor;
 import com.yousef.iugguide.models.FAQ;
@@ -242,6 +243,34 @@ public class DataHelper {
                 building.setImagesArrayList(imagesArrayList);
 
                 AppClass.facilitiesArrayList.add(building);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void readContactsData(Context context) {
+        try {
+            InputStream inputStream = context.getResources().openRawResource(R.raw.contacts);
+            String jsonString = new Scanner(inputStream).useDelimiter("\\A").next();
+
+            JSONObject root = new JSONObject(jsonString);
+
+            JSONArray array = root.getJSONArray("contacts");
+
+            for (int i = 0; i < array.length(); i++) {
+                JSONObject object = array.getJSONObject(i);
+
+                Contact contact = new Contact();
+
+                contact.setId(i);
+                contact.setTitle(object.getString("title"));
+                contact.setType(object.getString("type"));
+                contact.setUrl(object.getString("url"));
+                contact.setEmail(object.getString("email"));
+                contact.setAbout(object.getString("about"));
+
+                AppClass.contactsArrayList.add(contact);
             }
         } catch (Exception e) {
             e.printStackTrace();

@@ -61,8 +61,8 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         homeItems.add(new HomeItem("button_admission_application", "طلب الالتحاق", R.drawable.ic_admission_application));
         homeItems.add(new HomeItem("button_university_website", "موقع الجامعة", R.drawable.ic_website));
 
-        homeItems.add(new HomeItem("button_about_us", "تواصل معنا", R.drawable.ic_headphone));
-        homeItems.add(new HomeItem("button_about_us", "انترنت الجامعة", R.drawable.ic_wifi));
+        homeItems.add(new HomeItem("button_contact_us", "تواصل معنا", R.drawable.ic_headphone));
+        homeItems.add(new HomeItem("button_internet_guide", "انترنت الجامعة", R.drawable.ic_wifi));
         homeItems.add(new HomeItem("button_about_us", "عن التطبيق", R.drawable.ic_info));
 
         HomeAdapter homeAdapter = new HomeAdapter(getActivity(), homeItems, this);
@@ -192,6 +192,24 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         facilitiesBottomSheetDialog.show(getChildFragmentManager(), "facilitiesBottomSheetDialog");
     }
 
+    private void openInternetGuidePage() {
+        InternetGuideBottomSheetDialog internetGuideBottomSheetDialog = new InternetGuideBottomSheetDialog();
+        internetGuideBottomSheetDialog.setCancelable(true);
+        internetGuideBottomSheetDialog.show(getChildFragmentManager(), "internetGuideBottomSheetDialog");
+    }
+
+    private void openContactUsPage() {
+        ContactUsBottomSheetDialog contactUsBottomSheetDialog = new ContactUsBottomSheetDialog();
+        contactUsBottomSheetDialog.setCancelable(true);
+        contactUsBottomSheetDialog.show(getChildFragmentManager(), "contactUsBottomSheetDialog");
+    }
+
+    private void openUniversityMapPage() {
+        UniversityMapiBottomSheetDialog universityMapiBottomSheetDialog = new UniversityMapiBottomSheetDialog();
+        universityMapiBottomSheetDialog.setCancelable(true);
+        universityMapiBottomSheetDialog.show(getChildFragmentManager(), "universityMapiBottomSheetDialog");
+    }
+
     private void openWebPageFromUrl(String url) {
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
@@ -214,7 +232,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                 break;
 
             case "button_map":
-                System.out.println("button_map");
+                openUniversityMapPage();
                 break;
 
             case "button_volunteer_work":
@@ -231,6 +249,14 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 
             case "button_about_us":
                 openAboutUsPage();
+                break;
+
+            case "button_contact_us":
+                openContactUsPage();
+                break;
+
+            case "button_internet_guide":
+                openInternetGuidePage();
                 break;
 
             case "button_moodle":

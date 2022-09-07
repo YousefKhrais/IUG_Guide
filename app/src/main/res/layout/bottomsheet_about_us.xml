@@ -131,7 +131,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Version"
+                                android:text="رقم الاصدار"
                                 android:textColor="@color/black"
                                 android:textStyle="bold" />
 
@@ -170,7 +170,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Date"
+                                android:text="تاريخ الاصدار"
                                 android:textColor="@color/black"
                                 android:textStyle="bold" />
 

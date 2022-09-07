@@ -4,23 +4,22 @@
     android:layout_height="match_parent"
     android:layoutDirection="rtl"
     android:orientation="vertical"
-    android:padding="5dp">
+    android:padding="8dp">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:padding="5dp"
+        android:padding="8dp"
         android:text="من أجل تجربة أفضل يرجى الاتصال بالانترنت"
         android:textColor="@color/black"
         android:textDirection="rtl"
-        android:textSize="20dp" />
+        android:textSize="18sp" />
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-
         android:layoutDirection="rtl"
         android:orientation="horizontal">
 
@@ -28,19 +27,18 @@
             android:id="@+id/close"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_margin="8dp"
             android:background="@drawable/shape_rounded_button"
             android:text="اغلاق"
-            android:textSize="20dp" />
+            android:textSize="16sp" />
 
         <Button
             android:id="@+id/show"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_margin="8dp"
             android:background="@drawable/shape_rounded_button"
             android:text="كيفية الاتصال بالانترنت"
-            android:textSize="20dp" />
-
+            android:textSize="16sp" />
     </LinearLayout>
 </LinearLayout>

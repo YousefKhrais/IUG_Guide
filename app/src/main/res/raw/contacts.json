@@ -1,0 +1,298 @@
+﻿{
+  "contacts": [
+    {
+      "title": "الشؤون الأكاديمية",
+      "type": "deanship",
+      "url": "https://academic.iugaza.edu.ps/",
+      "email": "academic@iugaza.edu.ps",
+      "about": "كل ما يخص الدراسة الأكاديمية في الجامعة"
+    },
+    {
+      "title": "الشؤون الإدارية",
+      "type": "deanship",
+      "url": "https://administ.iugaza.edu.ps/",
+      "email": "administ@iugaza.edu.ps",
+      "about": "كل ما يخص الأمور الإدارية وموظفي الجامعة"
+    },
+    {
+      "title": "الشؤون الخارجية",
+      "type": "deanship",
+      "url": "https://exrelation.iugaza.edu.ps/",
+      "email": "extr@iugaza.edu.ps",
+      "about": "العلاقات الخارجية من مشاريع ومنح وتعاون دولي"
+    },
+    {
+      "title": "عمادة فرع الجنوب",
+      "type": "deanship",
+      "url": "https://south.iugaza.edu.ps/",
+      "email": "iugsb@iugaza.edu.ps",
+      "about": "فرع الجامعة الإسلامية في الجنوب"
+    },
+    {
+      "title": "عمادة القبول والتسجيل",
+      "type": "deanship",
+      "url": "https://admission.iugaza.edu.ps/",
+      "email": "regist@iugaza.edu.ps",
+      "about": "التحاق الطلبة بالجامعة والتسجيل الفصلي"
+    },
+    {
+      "title": "شؤون الطلبة",
+      "type": "deanship",
+      "url": "https://staffairs.iugaza.edu.ps/",
+      "email": "staffairs@iugaza.edu.ps",
+      "about": "ما يخص القضايا الطلابية والأنشطة اللامنهجية"
+    },
+    {
+      "title": "عمادة البحث العلمي والدراسات العليا",
+      "type": "deanship",
+      "url": "https://research.iugaza.edu.ps/",
+      "email": "research@iugaza.edu.ps",
+      "about": "دراسة الماجستير والدكتوراة والأبحاث العلمية"
+    },
+    {
+      "title": "عمادة التعليم المستمر",
+      "type": "deanship",
+      "url": "https://csced.iugaza.edu.ps/",
+      "email": "cscec@iugaza.edu.ps",
+      "about": "خدمات للمجتمع بما يشمل الدورات والمشاريع والتعلم المستمر"
+    },
+    {
+      "title": "عمادة الجودة والتطوير",
+      "type": "deanship",
+      "url": "https://qdev.iugaza.edu.ps/",
+      "email": "public@iugaza.edu.ps",
+      "about": "مراقبة أداء الدوائر والعمادات وموظفي الجامعة"
+    },
+    {
+      "title": "المكتبة المركزية",
+      "type": "deanship",
+      "url": "https://library.iugaza.edu.ps/",
+      "email": "library@iugaza.edu.ps",
+      "about": "مستودع للمكتبة المركزية الجامعية"
+    },
+    {
+      "title": "مركز التميز والتعليم الالكتروني",
+      "type": "center",
+      "url": "http://elearning.iugaza.edu.ps/",
+      "email": "elearning@iugaza.edu.ps",
+      "about": "0"
+    },
+    {
+      "title": "معهد التنمية المجتمعية",
+      "type": "center",
+      "url": "https://cdi.iugaza.edu.ps/",
+      "email": "cdi@iugaza.edu.ps",
+      "about": "0"
+    },
+    {
+      "title": "مختبرات المـواد و التـربة",
+      "type": "center",
+      "url": "https://mlab.iugaza.edu.ps/",
+      "email": "0",
+      "about": "0"
+    },
+    {
+      "title": "حاضنة الأعمال والتكنولوجيا",
+      "type": "center",
+      "url": "https://bti.ps/",
+      "email": "bti@iugaza.edu.ps",
+      "about": "0"
+    },
+    {
+      "title": "إذاعة القرآن الكريم التعليمية",
+      "type": "center",
+      "url": "http://qvoice.iugaza.edu.ps/",
+      "email": "qvoice@iugaza.edu.ps",
+      "about": "0"
+    },
+    {
+      "title": "مركز القران الكريم والدعوة الإسلامية",
+      "type": "center",
+      "url": "https://quran.iugaza.edu.ps/",
+      "email": "0",
+      "about": "0"
+    },
+    {
+      "title": "لجنة الإفتاء",
+      "type": "center",
+      "url": "https://eftaa.iugaza.edu.ps/",
+      "email": " iftaa@iugaza.edu.ps",
+      "about": "0"
+    },
+    {
+      "title": "مركز الأبحاث والمشاريع",
+      "type": "center",
+      "url": "https://prl.iugaza.edu.ps/",
+      "email": " prl@iugaza.edu.ps",
+      "about": "0"
+    },
+    {
+      "title": "مركز عمارة التراث – إيوان",
+      "type": "center",
+      "url": "https://iwan.iugaza.edu.ps/",
+      "email": " iwan@iugaza.edu.ps",
+      "about": "0"
+    },
+    {
+      "title": "مركز تكنولوجيا التعليم",
+      "type": "center",
+      "url": "https://educenter.iugaza.edu.ps/",
+      "email": "ETC@iugaza.edu.ps ",
+      "about": "0"
+    },
+    {
+      "title": "مركز الإرشاد النفسي",
+      "type": "center",
+      "url": "https://psycho.iugaza.edu.ps/",
+      "email": " psycho@iugaza.edu.ps",
+      "about": "0"
+    },
+    {
+      "title": "مركز الدراسات البيئية والريفية",
+      "type": "center",
+      "url": "https://ruralcenter.iugaza.edu.ps/",
+      "email": " errc@iugaza.edu.ps",
+      "about": "0"
+    },
+    {
+      "title": "مركز التميز في تطوير تعليم الرياضيات والعلوم",
+      "type": "center",
+      "url": "https://emse.iugaza.edu.ps/",
+      "email": " emse@iugaza.edu.ps",
+      "about": "0"
+    },
+    {
+      "title": "مركز التأصيل الإسلامي لعلم النفس",
+      "type": "center",
+      "url": "https://irp.iugaza.edu.ps/",
+      "email": " ahams@iugaza.edu.ps",
+      "about": "0"
+    },
+    {
+      "title": "مركز التاريخ الشفوي والتراث الفلسطيني",
+      "type": "center",
+      "url": "https://ohc.iugaza.edu.ps/",
+      "email": " ohc@iugaza.edu.ps",
+      "about": "0"
+    },
+    {
+      "title": "مختبرات الجامعة للتحاليل الطبية والوراثية",
+      "type": "center",
+      "url": "https://gen.iugaza.edu.ps/",
+      "email": "0",
+      "about": "0"
+    },
+    {
+      "title": "مركز دراسات المرأة",
+      "type": "center",
+      "url": "https://wsc.iugaza.edu.ps/",
+      "email": "she@iugaza.edu.ps",
+      "about": "0"
+    },
+    {
+      "title": "مركز خدمات الإعاقة والدمج",
+      "type": "center",
+      "url": "http://dsc.iugaza.edu.ps/en/",
+      "email": "0",
+      "about": "0"
+    },
+    {
+      "title": "مركز تقصي الأمراض السارية",
+      "type": "center",
+      "url": "http://site.iugaza.edu.ps/cdsc/",
+      "email": "0",
+      "about": "0"
+    },
+    {
+      "title": "مركز التميز للطاقة المتجددة",
+      "type": "center",
+      "url": "https://cere.iugaza.edu.ps/en/",
+      "email": "cere@iugaza.edu.ps",
+      "about": "0"
+    },
+    {
+      "title": "مركز اللغة العربية لغير الناطقين بها",
+      "type": "center",
+      "url": "http://arabic.iugaza.edu.ps/",
+      "email": "arabic@iugaza.edu.ps",
+      "about": "0"
+    },
+    {
+      "title": "كلية الطب",
+      "type": "faculty",
+      "url": "https://medicine.iugaza.edu.ps/",
+      "email": "medicine@iugaza.edu.ps",
+      "about": "الطب وعلومه وطبيبٌ للمستقبل"
+    },
+    {
+      "title": "كلية الهندسة",
+      "type": "faculty",
+      "url": "https://eng.iugaza.edu.ps/",
+      "email": " deaneng@iugaza.edu.ps",
+      "about": "هندسة المستقبل بكافة مجالات الحياة"
+    },
+    {
+      "title": "كلية تكنولوجيا المعلومات",
+      "type": "faculty",
+      "url": "https://fit.iugaza.edu.ps/",
+      "email": " itc@iugaza.edu.ps",
+      "about": "عصر التكنولوجيا والمعلوماتية وأمن المعلومات والبيانات"
+    },
+    {
+      "title": "كلية التمريض",
+      "type": "faculty",
+      "url": "https://nursing.iugaza.edu.ps/",
+      "email": " nursing@iugaza.edu.ps",
+      "about": "بذلٌ وعطاءٌ وتفانٍ لكل مريض وفي كل مكان"
+    },
+    {
+      "title": "كلية العلوم الصحية",
+      "type": "faculty",
+      "url": "https://healthscience.iugaza.edu.ps/",
+      "email": " healthsci@iugaza.edu.ps",
+      "about": "العلاج السليم يبدأ من هنا"
+    },
+    {
+      "title": "كلية العلوم",
+      "type": "faculty",
+      "url": "https://science.iugaza.edu.ps/",
+      "email": " science@iugaza.edu.ps",
+      "about": "علوم الطبيعة وأسرار الكون"
+    },
+    {
+      "title": "كلية الآداب",
+      "type": "faculty",
+      "url": "https://arts.iugaza.edu.ps/",
+      "email": " art@iugaza.edu.ps",
+      "about": "علمٌ ولغاتٌ وأدبٌ وثقافة الأمم المختلفة قديماً وحديثاً"
+    },
+    {
+      "title": "كلية الشريعة والقانون",
+      "type": "faculty",
+      "url": "https://sharea.iugaza.edu.ps/",
+      "email": " shareya@iugaza.edu.ps",
+      "about": "دراسة للشريعة الاسلامية والمحاماة على مبادئ الشريعة السمحة"
+    },
+    {
+      "title": "كلية أصول الدين",
+      "type": "faculty",
+      "url": "https://osool.iugaza.edu.ps/",
+      "email": " ossoul@iugaza.edu.ps",
+      "about": "الدين الإسلامي ، أصوله وأحكامه"
+    },
+    {
+      "title": "كلية التربية",
+      "type": "faculty",
+      "url": "https://education.iugaza.edu.ps/",
+      "email": " educ@iugaza.edu.ps",
+      "about": "معلمٌ .. يربي أجيال المستقبل المستنيرة"
+    },
+    {
+      "title": "كلية الاقتصاد والعلوم الإدارية",
+      "type": "faculty",
+      "url": "https://commerce.iugaza.edu.ps/",
+      "email": " commerce@iugaza.edu.ps",
+      "about": "بناء الاقتصاد والإدارة السليمة والمال"
+    }
+  ]
+}
