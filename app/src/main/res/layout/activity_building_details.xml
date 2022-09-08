@@ -98,9 +98,5 @@
             android:textColor="@color/black"
             android:textDirection="rtl"
             android:textSize="16sp" />
-
-
-
-
     </LinearLayout>
 </RelativeLayout>

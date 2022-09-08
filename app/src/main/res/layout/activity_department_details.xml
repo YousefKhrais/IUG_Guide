@@ -143,6 +143,5 @@
             android:textDirection="rtl"
             android:textSize="22sp" />
     </LinearLayout>
-
     </LinearLayout>
 </androidx.cardview.widget.CardView>

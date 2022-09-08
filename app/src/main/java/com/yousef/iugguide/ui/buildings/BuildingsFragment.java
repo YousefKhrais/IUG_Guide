@@ -14,8 +14,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.yousef.iugguide.AppClass;
 import com.yousef.iugguide.adapters.BuildingAdapter;
+import com.yousef.iugguide.databinding.DialogNoInternetBinding;
 import com.yousef.iugguide.databinding.FragmentBuildingsBinding;
-import com.yousef.iugguide.databinding.InterntDialogBinding;
 import com.yousef.iugguide.ui.home.InternetGuideBottomSheetDialog;
 
 public class BuildingsFragment extends Fragment {
@@ -32,7 +32,7 @@ public class BuildingsFragment extends Fragment {
         binding.collegeRv.setAdapter(buildingAdapter);
 
         if (!isNetworkConnected()) {
-            InterntDialogBinding binding = InterntDialogBinding.inflate(getLayoutInflater());
+            DialogNoInternetBinding binding = DialogNoInternetBinding.inflate(getLayoutInflater());
             AlertDialog.Builder alBuilder = new AlertDialog.Builder(this.getContext());
             alBuilder.setTitle("alert");
 

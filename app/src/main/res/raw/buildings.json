@@ -81,14 +81,21 @@
       "location": "gaza"
     },
     {
+      "building_name": "الإدارة القديم",
+      "main_image": "building_13",
+      "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmTht7WQfD9jFeO3XCMVhquOcYhOl-fGVhTLDsviOAt_kCqSrOh_SQzMLNCQcN157bgiu-DYCEo=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmQr6Ya1MmiSOGROQiHIRGJu5dn5VHVWuTFd2lygf_L8S2x0sCBGUQiykVjSNbZnA3Iow0gf2K4=w1366-h697",
+      "building_key": "A",
+      "main_info": "الإدارة القديم",
+      "location": "gaza"
+    },
+    {
       "building_name": "تكنولوجيا المعلومات",
       "main_image": "building_13",
       "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmTTARAP5uZuxYaOlSyU0XhzlMW7MGZ8CBigoiLYqzpQ2UPrCOoEamb-e9781UXMxaKm_TtuTds=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmR4739P6q5Ql9pfCd0EyklqqeYMifz-s4BaldjbyiljflhUtf-LyVUndeDoGW6E8p7VrZ8iQVs=w1366-h697",
       "main_info": "تكنولوجيا المعلومات",
       "building_key": "I",
       "location": "gaza"
-    }
-  ,
+    },
     {
       "building_name": "كلية الطب",
       "main_image": "building_13",

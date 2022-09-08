@@ -5,7 +5,7 @@
       "main_image": "building_4",
       "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmQ1gCGmsAVv8d8nqjChZhLtw43UetqVTPhvBwRf7KNaT_65BQxJ6WnNldAiHUqYWVZrXb20-VI=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmQ1gCGmsAVv8d8nqjChZhLtw43UetqVTPhvBwRf7KNaT_65BQxJ6WnNldAiHUqYWVZrXb20-VI=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmQ1gCGmsAVv8d8nqjChZhLtw43UetqVTPhvBwRf7KNaT_65BQxJ6WnNldAiHUqYWVZrXb20-VI=w1366-h697",
       "main_info": "المؤتمرات",
-      "building_key": "!",
+      "building_key": " ",
       "location": "gaza"
     },
     {
@@ -13,7 +13,7 @@
       "main_image": "building_5",
       "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmQGlvSh_QU428G6r7PIpuAM3U3i5l2W-QWvcke0QkI5savIZk1PrPgwvWGb8VN3fk4Ut-Pwgn8=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmSeG55y5KQukCh-MMfnuUUdKfUKSD-o1Y_2j-6B29q7-xnO5Meb8-GpAZAWmtB-E0aU1Dajd_8=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmRQyPTP7b3hrL3DRBrJg4edv4V6lkEzhac5hbWojFM-MVuDJZiRYCkOiBWWNyp-7oRiF-0gllo=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmR9z-PsnGZUGw7R55f7IsqOlrOe-CetVuREdVoHK09xC48WPnTJ_RxnqZl-6XWb0jFs44BkWqI=w1366-h697",
       "main_info": "المسجد",
-      "building_key": "!",
+      "building_key": " ",
       "location": "gaza"
     },
     {
@@ -21,15 +21,7 @@
       "main_image": "building_6",
       "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmRJ_MWIBXdcBRwxhHnGE2ElySqPKmeUb5-SDZ637q9x9fdjEMeD_Uz8q1NZoMo-6Rpleood2uc=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmRaGKqT6XvMlSEIO1PCU6E4ovOu0pT5Rt3Gcjl2srOfvNEnWvl5dTmYJBABk2sR0M1yIGl8Hfg=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmSU2HdvJTinfJ6bzH_FQAq7Gjp5yoA1zGlU2nYjDE88gtryvqwxR9EjPRvqM-OBa3Y2Z8s_kGU=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmRZZi7c5UOfNabpOHyL7pMsRS8WhZ-K5VwmKknG1fbn7FjN68DfVhjZyKP3ril9pTEPKk-v-5g=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmT26RLhDTyO5PVuXh5YC7SYYVvIIubXzoNg4G1Yvd-ud0k89NPB2w9yB0P8YvTO7_u-GndEnbc=w1366-h697",
       "main_info": "المكتبة المركزية",
-      "building_key": "!",
-      "location": "gaza"
-    },
-    {
-      "building_name": "الإدارة القديم",
-      "main_image": "building_13",
-      "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmTht7WQfD9jFeO3XCMVhquOcYhOl-fGVhTLDsviOAt_kCqSrOh_SQzMLNCQcN157bgiu-DYCEo=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmQr6Ya1MmiSOGROQiHIRGJu5dn5VHVWuTFd2lygf_L8S2x0sCBGUQiykVjSNbZnA3Iow0gf2K4=w1366-h697",
-      "building_key": "!",
-      "main_info": "الإدارة القديم",
+      "building_key": " ",
       "location": "gaza"
     }
   ]

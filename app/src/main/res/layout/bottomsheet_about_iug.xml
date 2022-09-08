@@ -31,129 +31,141 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-           <LinearLayout
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:layout_gravity="center"
-               android:layoutDirection="rtl"
-               android:orientation="vertical"
-               >
-               <LinearLayout
-                   android:layout_width="match_parent"
-                   android:layout_height="match_parent"
-                   android:orientation="horizontal"
-                   android:layoutDirection="rtl"
-                   android:gravity="center"
-                   >
-                   <LinearLayout
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:orientation="vertical"
-                       android:gravity="center"
-                       android:layoutDirection="rtl"
-                       >
-                       <TextView
-                           android:id="@+id/academic_program"
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:text="161"
-                           android:textColor="@color/black"
-                           android:textSize="24sp"
-                           android:textStyle="bold" />
-                       <TextView
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:padding="5dp"
-                           android:text="برنامجاً أكاديميا"
-                           android:textColor="@color/black"
-                           android:textSize="18sp"
-                           android:textStyle="bold" />
-                   </LinearLayout>
-                   <LinearLayout
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:orientation="vertical"
-                       android:layoutDirection="rtl"
-                       android:gravity="center"
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
 
-                       >
-                       <TextView
-                           android:id="@+id/International_Partners"
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:text="166"
-                           android:textColor="@color/black"
-                           android:textSize="24sp"
-                           android:textStyle="bold" />
-                       <TextView
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:padding="5dp"
-                           android:text="شريكاً خارجياً"
-                           android:textColor="@color/black"
-                           android:textSize="18sp"
-                           android:textStyle="bold" />
-                   </LinearLayout>
-               </LinearLayout>
-               <LinearLayout
-                   android:layout_width="match_parent"
-                   android:layout_height="match_parent"
-                   android:orientation="horizontal"
-                   android:layoutDirection="rtl"
-                   android:gravity="center"
-                   >
-                   <LinearLayout
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:orientation="vertical"
-                       android:gravity="center"
-                       android:layoutDirection="rtl"
-                       >
-                       <TextView
-                           android:id="@+id/coperataion_agreement"
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:text="89"
-                           android:textColor="@color/black"
-                           android:textSize="24sp"
-                           android:textStyle="bold" />
-                       <TextView
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:padding="5dp"
-                           android:text="اتفاقية تعاون مشترك"
-                           android:textColor="@color/black"
-                           android:textSize="18sp"
-                           android:textStyle="bold" />
-                   </LinearLayout>
-                   <LinearLayout
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:orientation="vertical"
-                       android:layoutDirection="rtl"
-                       android:gravity="center"
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layoutDirection="rtl"
+                    android:orientation="horizontal">
 
-                       >
-                       <TextView
-                           android:id="@+id/research_center"
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:text="33"
-                           android:textColor="@color/black"
-                           android:textSize="24sp"
-                           android:textStyle="bold" />
-                       <TextView
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-                           android:padding="5dp"
-                           android:text="مركزاً علمياً وبحثياً"
-                           android:textColor="@color/black"
-                           android:textSize="18sp"
-                           android:textStyle="bold" />
-                   </LinearLayout>
-               </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layoutDirection="rtl"
+                        android:orientation="vertical">
 
-           </LinearLayout>
+                        <TextView
+                            android:id="@+id/academic_program"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="161"
+                            android:textColor="@color/secondary_accent"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="برنامجاً أكاديميا"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="32dp"
+                        android:gravity="center"
+                        android:layoutDirection="rtl"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/International_Partners"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="166"
+                            android:textColor="@color/secondary_accent"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="شريكاً خارجياً"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layoutDirection="rtl"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layoutDirection="rtl"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/coperataion_agreement"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="89"
+                            android:textColor="@color/secondary_accent"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="اتفاقية تعاون مشترك"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layoutDirection="rtl"
+                        android:orientation="vertical"
+
+                        >
+
+                        <TextView
+                            android:id="@+id/research_center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="33"
+                            android:textColor="@color/secondary_accent"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="مركزاً علمياً وبحثياً"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

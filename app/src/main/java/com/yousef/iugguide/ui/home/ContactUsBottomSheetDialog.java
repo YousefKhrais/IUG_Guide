@@ -33,8 +33,9 @@ public class ContactUsBottomSheetDialog extends BottomSheetDialogFragment {
         AutoCompleteTextView spinner1 = rootView.findViewById(R.id.spinner1);
         spinner1.setAdapter(new ArrayAdapter<>(getContext(), android.R.layout.simple_spinner_dropdown_item, new String[]{"الكليات", "العمادات", "المراكز"}));
 
+        ArrayList<String> emails = new ArrayList<>();
+
         spinner1.setOnItemClickListener((parent, arg1, pos, id) -> {
-            ArrayList<String> emails = new ArrayList<>();
             for (int j = 0; j < AppClass.contactsArrayList.size(); j++) {
                 switch (pos) {
                     case 0:
@@ -56,16 +57,20 @@ public class ContactUsBottomSheetDialog extends BottomSheetDialogFragment {
                         emails.clear();
                         break;
                 }
-
-                AutoCompleteTextView spinner2 = rootView.findViewById(R.id.spinner2);
-                spinner2.setAdapter(new ArrayAdapter<>(getContext(), android.R.layout.simple_spinner_dropdown_item, emails));
             }
         });
+        AutoCompleteTextView spinner2 = rootView.findViewById(R.id.spinner2);
+        spinner2.setAdapter(new ArrayAdapter<>(getContext(), android.R.layout.simple_spinner_dropdown_item, emails));
 
-        AutoCompleteTextView spinner3 = rootView.findViewById(R.id.spinner3);
-        spinner3.setAdapter(new ArrayAdapter<>(getContext(), android.R.layout.simple_spinner_dropdown_item, new String[]{"شكوى", "اقتراح", "ملاحظة", "استفسار"}));
+        spinner2.setOnItemClickListener((adapterView, view, i, l) -> {
+            showContactInfo(emails.get(i));
+        });
 
         return rootView;
+    }
+
+    private void showContactInfo(String s) {
+
     }
 
     @NonNull
