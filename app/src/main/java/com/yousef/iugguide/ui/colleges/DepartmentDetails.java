@@ -23,7 +23,6 @@ public class DepartmentDetails extends AppCompatActivity {
         final int resourceId = resources.getIdentifier("logo_" + AppClass.chosenCollege.getImageUrl(), "drawable", this.getPackageName());
         binding.collegeIcon.setImageDrawable(resources.getDrawable(resourceId));
 
-        binding.collegeName.setText(AppClass.chosenCollege.getName());
         binding.departmentName.setText(AppClass.chosenDepartment.getName());
         binding.departmentInfo.setText(AppClass.chosenDepartment.getDescription());
         binding.departmentKey.setText(AppClass.chosenDepartment.getFormatKey() + " " + AppClass.chosenDepartment.getSection());
@@ -33,7 +32,6 @@ public class DepartmentDetails extends AppCompatActivity {
             startActivity(i);
         });
 
-        binding.numberOfStudent.setText(String.valueOf(AppClass.chosenDepartment.getStudentsCount()));
 
     }
 }

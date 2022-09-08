@@ -27,8 +27,8 @@
     <string name="previous">السابق</string>
 
     <string name="temp_building_name">مبنى القدس</string>
-    <string name="temp_building_info">اشبشبشصثب</string>
-    <string name="temp_building_location">مقابل المقابل</string>
+    <string name="temp_building_info">معلومات عامة عن المبنى</string>
+    <string name="temp_building_location">مكان المبنى</string>
     <string name="temp_building_key">K</string>
     <string name="temp_college_title">كلية تكنلوجيا المعلومات</string>
     <string name="temp_college_info">كلية تكنلوجيا المعلومات</string>

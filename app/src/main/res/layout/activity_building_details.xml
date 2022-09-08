@@ -9,9 +9,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_margin="8dp"
         android:layoutDirection="rtl"
-        android:orientation="vertical"
-        android:padding="16dp">
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -19,16 +19,45 @@
             android:layout_marginBottom="24dp"
             android:gravity="center">
 
-            <TextView
-                android:id="@+id/building_name"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:text="@string/temp_building_name"
-                android:textColor="@color/black"
-                android:textDirection="rtl"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+                android:gravity="center"
+                android:layoutDirection="rtl"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="مبنى"
+                    android:textColor="@color/black"
+                    android:textDirection="rtl"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/building_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="@string/temp_building_name"
+                    android:textColor="@color/black"
+                    android:textDirection="rtl"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/building_key"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/temp_building_key"
+                    android:textColor="@color/black"
+                    android:textDirection="rtl"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
 
         </LinearLayout>
 
@@ -49,18 +78,6 @@
                 app:iss_period="1000"
                 app:iss_title_background="@drawable/ic_master_degree_icon" />
         </androidx.cardview.widget.CardView>
-
-        <TextView
-            android:id="@+id/building_info"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="24dp"
-            android:text="@string/temp_building_info"
-            android:textColor="@color/black"
-            android:textDirection="rtl"
-            android:textSize="16sp" />
-
         <TextView
             android:id="@+id/building_location"
             android:layout_width="match_parent"
@@ -70,34 +87,20 @@
             android:textColor="@color/black"
             android:textDirection="rtl"
             android:textSize="16sp" />
-
-        <LinearLayout
+        <TextView
+            android:id="@+id/building_info"
+            android:padding="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:layoutDirection="rtl"
-            android:orientation="horizontal"
-            android:padding="8dp">
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/temp_building_info"
+            android:textColor="@color/black"
+            android:textDirection="rtl"
+            android:textSize="16sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/building_key"
-                android:textColor="@color/black"
-                android:textDirection="rtl"
-                android:textSize="16sp"
-                android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/building_key"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="8dp"
-                android:text="@string/temp_building_key"
-                android:textColor="@color/black"
-                android:textDirection="rtl"
-                android:textSize="16sp"
-                android:textStyle="bold" />
-        </LinearLayout>
+
+
     </LinearLayout>
 </RelativeLayout>
