@@ -33,6 +33,14 @@ public class DataHelper {
         return INSTANCE;
     }
 
+    public static Contact findContactByTitle(String title) {
+        for (int i = 0; i < AppClass.contactsArrayList.size(); i++) {
+            if (AppClass.contactsArrayList.get(i).getTitle().equals(title))
+                return AppClass.contactsArrayList.get(i);
+        }
+        return null;
+    }
+
     public void readCollegesData(Context context) {
         try {
             InputStream inputStream = context.getResources().openRawResource(R.raw.colleges);

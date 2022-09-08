@@ -54,7 +54,7 @@
             android:layout_marginBottom="20dp"
             android:layoutDirection="rtl"
             android:orientation="vertical"
-            android:visibility="visible">
+            android:visibility="gone">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -66,7 +66,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
-                    android:drawableRight="@drawable/ic_email"
+                    android:drawableRight="@drawable/ic_book"
                     android:drawablePadding="8dp"
                     android:text="التخصص:"
                     android:textColor="@color/black"
@@ -92,7 +92,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
-                    android:drawableRight="@drawable/ic_master_degree_icon"
+                    android:drawableRight="@drawable/ic_graduate3"
                     android:drawablePadding="8dp"
                     android:text="الدرجة العلمية:"
                     android:textColor="@color/black"
@@ -118,7 +118,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
-                    android:drawableRight="@drawable/ic_email"
+                    android:drawableRight="@drawable/ic_phone"
                     android:drawablePadding="8dp"
                     android:text="هاتف داخلي:"
                     android:textColor="@color/black"

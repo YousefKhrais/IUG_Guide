@@ -28,12 +28,11 @@ public class CollegeDetails extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         binding.collegeNameTextview.setText(AppClass.chosenCollege.getName());
-        binding.collegeInfoTextview.setText(AppClass.chosenCollege.getDescription());
         binding.collegeLocationTextview.setText(AppClass.chosenCollege.getLocation());
         binding.departmentRv.setLayoutManager(new LinearLayoutManager(this));
-binding.collegeInfoTextview.setOnClickListener(v->{
-    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(AppClass.chosenCollege.getInfoLink())));
-});
+        binding.collegeInfoTextview.setOnClickListener(v -> {
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(AppClass.chosenCollege.getInfoLink())));
+        });
         departmentAdapter = new DepartmentAdapter(this, AppClass.chosenCollege.getBachelorDepartments());
         binding.departmentRv.setAdapter(departmentAdapter);
 

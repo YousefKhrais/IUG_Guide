@@ -11,7 +11,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/black"
+        android:background="@color/secondary_accent"
         android:minHeight="?android:attr/actionBarSize">
 
         <TextView
@@ -28,18 +28,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:text="كيف تتصل بانترنت الجامعة"
-        android:textAlignment="center"
-        android:textColor="#800000"
-        android:textSize="32sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:text="أولاً: قم بالاتصال بأحد شبكات الانترنت المتوفرة:"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="أولاً:\n قم بالاتصال بأحد شبكات الانترنت المتوفرة:"
         android:textColor="@color/black"
         android:textSize="18sp" />
 
@@ -65,7 +58,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:text="ثانياً:بعد الاتصال بشبكة الانترنت سيظهر لك إشعار لتسجيل الدخول إلى شبكة الجامعة."
+        android:text="ثانياً:\nبعد الاتصال بشبكة الانترنت سيظهر لك إشعار لتسجيل الدخول إلى شبكة الجامعة."
         android:textColor="@color/black"
         android:textSize="18sp" />
 
@@ -73,7 +66,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:text="ثالثاً:بعد النقر على الإشعار ستفتح لك صفحة ويب لتسجيل الدخول ويطلب منك إدخال اسم المستخدم وكلمة المرور."
+        android:text="ثالثاً:\nبعد النقر على الإشعار ستفتح لك صفحة ويب لتسجيل الدخول ويطلب منك إدخال اسم المستخدم وكلمة المرور."
         android:textColor="@color/black"
         android:textSize="18sp" />
 
@@ -81,7 +74,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:text="ملاحظة: في حال كنت طالب مسجل لدى الجامعة يكون اسم المستخدم رقمك الجامعي  وكلمة المرور هيا نفسها كلمة المرور الخاصة صفحتك الجامعية ويمكنك طلبها من عمادة القبول والتسجيل إذا كنت لا تعرفها أما إذا لم تكن مسجلا في الجامعة يمكنك التسجيل عن طريقالمعومات الآتية:"
+        android:text="ملاحظة:\n في حال كنت طالب مسجل لدى الجامعة يكون اسم المستخدم رقمك الجامعي  وكلمة المرور هيا نفسها كلمة المرور الخاصة صفحتك الجامعية ويمكنك طلبها من عمادة القبول والتسجيل إذا كنت لا تعرفها أما إذا لم تكن مسجلا في الجامعة يمكنك التسجيل عن طريقالمعومات الآتية:"
         android:textColor="@color/black"
         android:textSize="18sp" />
 
