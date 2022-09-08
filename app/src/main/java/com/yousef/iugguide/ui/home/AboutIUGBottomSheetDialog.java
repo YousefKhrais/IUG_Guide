@@ -17,7 +17,6 @@ import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 import com.yousef.iugguide.R;
-import com.yousef.iugguide.databinding.BottomsheetAboutIugBinding;
 
 
 public class AboutIUGBottomSheetDialog extends BottomSheetDialogFragment {
@@ -25,12 +24,26 @@ public class AboutIUGBottomSheetDialog extends BottomSheetDialogFragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        BottomsheetAboutIugBinding binding = BottomsheetAboutIugBinding.inflate(getLayoutInflater());
-        TextView academicProgram= binding.academicProgram;
-        TextView InternationalPartners=   binding.InternationalPartners;
-        TextView coperataionAgreement=   binding.coperataionAgreement;
-        TextView researchCenter=   binding.researchCenter;
-        return inflater.inflate(R.layout.bottomsheet_about_iug, container, false);
+        View rootView = inflater.inflate(R.layout.bottomsheet_about_iug, container, false);
+
+        TextView academicProgram = rootView.findViewById(R.id.academic_program);
+        academicProgram.setText("0");
+
+        TextView InternationalPartners = rootView.findViewById(R.id.International_Partners);
+        InternationalPartners.setText("0");
+
+        TextView coperataionAgreement = rootView.findViewById(R.id.coperataion_agreement);
+        coperataionAgreement.setText("0");
+
+        TextView researchCenter = rootView.findViewById(R.id.research_center);
+        researchCenter.setText("0");
+
+        startCountAnimation(academicProgram, 161);
+        startCountAnimation(InternationalPartners, 166);
+        startCountAnimation(coperataionAgreement, 89);
+        startCountAnimation(researchCenter, 33);
+
+        return rootView;
     }
 
     @NonNull
@@ -70,15 +83,10 @@ public class AboutIUGBottomSheetDialog extends BottomSheetDialogFragment {
         super.onViewCreated(view, savedInstanceState);
     }
 
-    private void startCountAnimation(int count,String name){
-        final ValueAnimator animator = ValueAnimator.ofInt(0,4000);
-        animator.setDuration(4000);
-        animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
-            @Override
-            public void onAnimationUpdate(ValueAnimator valueAnimator) {
-              //  researchCenter.setText(animator.getAnimatedValue().toString());
-            }
-        });
-    animator.start();
+    public void startCountAnimation(TextView textView, int count) {
+        ValueAnimator animator = ValueAnimator.ofInt(0, count);
+        animator.setDuration(2000);
+        animator.addUpdateListener(animation -> textView.setText(animation.getAnimatedValue().toString()));
+        animator.start();
     }
 }
