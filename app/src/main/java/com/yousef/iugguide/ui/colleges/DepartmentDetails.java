@@ -25,7 +25,8 @@ public class DepartmentDetails extends AppCompatActivity {
 
         binding.departmentName.setText(AppClass.chosenDepartment.getName());
         binding.departmentInfo.setText(AppClass.chosenDepartment.getDescription());
-        binding.departmentKey.setText(AppClass.chosenDepartment.getFormatKey() + " " + AppClass.chosenDepartment.getSection());
+        binding.average.setText(AppClass.chosenDepartment.getFormatKey());
+        binding.section.setText(AppClass.chosenDepartment.getSection());
         binding.departmentStudyLink.setOnClickListener(v -> {
             Intent i = new Intent(Intent.ACTION_VIEW);
             i.setData(Uri.parse(AppClass.chosenDepartment.getPlanUrl()));
