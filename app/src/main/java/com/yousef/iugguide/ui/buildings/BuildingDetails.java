@@ -32,7 +32,7 @@ public class BuildingDetails extends AppCompatActivity {
 
         imageSlider.setImageList(slideModels, ScaleTypes.FIT);
         binding.buildingName.setText(AppClass.chosenBuilding.getName());
-        binding.buildingInfo.setText("تاريخ المبنى : " + AppClass.chosenBuilding.getDescription());
+        binding.buildingInfo.setText("معلومات عامة عن المبنى : " + AppClass.chosenBuilding.getDescription());
         binding.buildingLocation.setText("مكان المبنى : " + AppClass.chosenBuilding.getLocation());
         binding.buildingKey.setText(AppClass.chosenBuilding.getKey());
     }
