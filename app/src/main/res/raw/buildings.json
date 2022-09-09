@@ -1,108 +1,108 @@
 ﻿{
   "buildings": [
     {
-      "building_name": "القدس",
+      "building_name": "مبنى القدس",
       "main_image": "building_0",
       "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmT9RNZHncld_lYaBYsgxCDkeKPTtI_DGVgx8usT_KjdJ-EuI6rY9XGq4v4SvOLLdnLMt54YsgE=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmR52FIBE4wjckZabXDAX5ZnUq2K4nnxLmF9FFAh-g-PxTVSNZegSMxoyCwnSvjWjpr1d_9XLAM=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmR5fAhZJez48q07Fdvn7RJNkR8WoPp2xbuV0xV83ydsXpJ3YMaTnRtzMhYse-QQXJ_R9GtK2f8=w1366-h697",
       "main_info": "مبنى القدس",
       "building_key": "K",
-      "location": "gaza"
+      "location": "الجامعة الاسلامية - غزة"
     },
     {
-      "building_name": "الادارة وهيئة التدريس",
+      "building_name": "مبنى الادارة وهيئة التدريس",
       "main_image": "building_1",
       "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmR54oG6ABpq14p3L6uTiGn0PkL-lg6cJa5np0vqdQiSnNKGnfdkVrOfntWAIWuWZ0TQlcmIwyY=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmRyDj41BCzCyfNeZtnBqJtqivc6m_6Q4To3Jjgbnwl_lsG0VxVPIfn4F99LUZkjdVSIbnWKrAk=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmSZUB9_YST4_ve9mb5FAkSEVaGH5sk1SjCjTeMQl-tm2dqHO7EkmpWq22hdsYHEjjr_MzkbXyM=w1366-h697",
       "main_info": "الإدارة",
       "building_key": "B",
-      "location": "gaza"
+      "location": "الجامعة الاسلامية - غزة"
     },
     {
-      "building_name": "التعليم المستمر",
+      "building_name": "مبنى التعليم المستمر",
       "main_image": "building_2",
       "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmR9Ye6WJ16DS-9hJAXcvSR0sAFRnYAKvg-4mP-SkxHxQP_WZn-euBRkrhKC11bDPct-4DAc5qA=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmT-JO1lLGb7RzRUvxyq3W7BKrAc9EZ-eNqbxesUiUWu4cH6FYHeqeBg--hnaIpNBQCdBnFVcHQ=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmTFaJFTk75wNN4P0_EwIUo62rsBVJ6rvIzpkouq56oYlyd5j9jFxLFQ3ThfPpYPjZLZwKjstEM=w1366-h697",
       "main_info": "التعليم المستمر",
       "building_key": "J",
-      "location": "gaza"
+      "location": "الجامعة الاسلامية - غزة"
     },
     {
-      "building_name": "كلية العلوم (المختبرات)",
+      "building_name": "مبنى كلية العلوم (المختبرات)",
       "main_image": "building_3",
       "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmRPFkWvXgOlXx-L2yIH5wCQhLwyQSzfJ2Hk2FJXBhbcUWB9y5DezI1Oh90tFwnX748jblqOtNI=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmSHAapvzQtA0djhJEGaQtZViFPuHkIe7WFKIjQt6gO9UzCJhNGhfXJ-47PDpa2h8kL8aB2SAc4=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmRQnBJ1nuYFmFp8QaRLlljDWRFuBNTLU4kYuHyeVlopYRsfjjFDfVwKf1DvNJhcSuT28RDhCzk=w1366-h697",
       "main_info": "العلوم",
       "building_key": "C",
-      "location": "gaza"
+      "location": "الجامعة الاسلامية - غزة"
     },
     {
-      "building_name": "الأنشطة الطلابية",
+      "building_name": "مبنى الأنشطة الطلابية",
       "main_image": "building_8",
       "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmSvSh4dJOeJ6mVd8dImXN-tznP8l-HWlk_gXvZZgor8itXdd76JQBV2VnEp4pfeCSLxZICx8Hw=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmRDazl80FnCAD9sRrwvnNtvbovfTjHFcc-Kw-D1gfFVKYBtSv-WMlYbdwSYO1hSaEq2QpJzFAU=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmS9POB9McrkjKpEeG81LCpAeymTfiel6mAI73YNbJcMfD3G8UmHBXwsGh1P6WZOCwrf0fpV25M=w1366-h697",
       "main_info": "الأنشطة الطلابية",
       "building_key": "Q",
-      "location": "gaza"
+      "location": "الجامعة الاسلامية - غزة"
     },
     {
-      "building_name": "اللحيدان",
+      "building_name": "مبنى اللحيدان",
       "main_image": "building_9",
       "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmTloANyCHLRPGcY0NacwxhC-AzH0ksRTkxMWJMDm1ZB4b7nGV9oVOlckR-HTMWoKUYCtTBy6Qg=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmTloANyCHLRPGcY0NacwxhC-AzH0ksRTkxMWJMDm1ZB4b7nGV9oVOlckR-HTMWoKUYCtTBy6Qg=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmSBIg9BJk3_qBXOqFByUh9WF3-jxptuQkY6ezpfU--lJK3J4gTtgpyCQQCBcxHvCGjdskZdqZU=w1366-h697",
       "main_info": "اللحيدان",
       "building_key": "L",
-      "location": "gaza"
+      "location": "الجامعة الاسلامية - غزة"
     },
     {
-      "building_name": "المدينة المنورة",
+      "building_name": "مبنى المدينة المنورة",
       "main_image": "building_10",
       "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmTsgwo2Ts5FK0UKokeCGQPIFmNBxLdovdeDS26hNRlh8Vk2AdSmshTLfcWmsqbys4P6Srbvv90=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmQ-9NitQR2tWvCmFcynH_u5-bzlMNCI0IXXAiYSqO6dhGdEL8uM9ON-ouRrg5Tkl69rVmzfrDo=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmSj0EJaT12PzSP_l1LM23KxuL23wkdiPorsKvSjFJ6G6EIM5rCIb3JdHVLd0LsJnjSIaiQpX-M=w1366-h697",
       "main_info": "المدينة المنورة",
       "building_key": "N",
-      "location": "gaza"
+      "location": "الجامعة الاسلامية - غزة"
     },
     {
-      "building_name": "طيبة",
+      "building_name": "مبنى طيبة",
       "main_image": "building_11",
       "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmQyNMGBXOuNBzZJtuon5G21r6EjWuT9tzkQk3j5fSo9MdPAdzjGVkip8dyDZ5n3hh83jls2IGE=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmQyNMGBXOuNBzZJtuon5G21r6EjWuT9tzkQk3j5fSo9MdPAdzjGVkip8dyDZ5n3hh83jls2IGE=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmQyNMGBXOuNBzZJtuon5G21r6EjWuT9tzkQk3j5fSo9MdPAdzjGVkip8dyDZ5n3hh83jls2IGE=w1366-h697",
       "main_info": "طيبة",
       "building_key": "M",
-      "location": "gaza"
+      "location": "الجامعة الاسلامية - غزة"
     },
     {
-      "building_name": "القاعات المدرجة (فلسطين)",
+      "building_name": "مبنى القاعات المدرجة (فلسطين)",
       "main_image": "building_12",
       "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmTpB8MZB0a3oZ_ThlbBE7hh0Gxy1IBgAafd4KZ83-T62gjJa3ISTv8_KUQ31WUlsGYNY3m-JKo=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmSVgD0gTQDqdUP4GN7QbWFTErU2aLLDBU84MpUlm17mrBoARnxhctgx92ZXl0xAkbk10Vo5YyE=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmSBDx-NYzaBU7ZI3mGnXuWeBFU34jDnEjPsrFhL9HSe52Mks3I1lEBJ9ZtCJ8XPKoAkTp2UUR8=w1366-h697",
       "main_info": "فلسطين",
       "building_key": "P",
-      "location": "gaza"
+      "location": "الجامعة الاسلامية - غزة"
     },
     {
-      "building_name": "إرادة",
+      "building_name": "مبنى إرادة",
       "main_image": "building_7",
       "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmTTARAP5uZuxYaOlSyU0XhzlMW7MGZ8CBigoiLYqzpQ2UPrCOoEamb-e9781UXMxaKm_TtuTds=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmR4739P6q5Ql9pfCd0EyklqqeYMifz-s4BaldjbyiljflhUtf-LyVUndeDoGW6E8p7VrZ8iQVs=w1366-h697",
       "main_info": "إرادة لتأهيل المعاقين",
       "building_key": "R",
-      "location": "gaza"
+      "location": "الجامعة الاسلامية - غزة"
     },
     {
-      "building_name": "الإدارة القديم",
+      "building_name": "مبنى الإدارة القديم",
       "main_image": "building_13",
       "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmTht7WQfD9jFeO3XCMVhquOcYhOl-fGVhTLDsviOAt_kCqSrOh_SQzMLNCQcN157bgiu-DYCEo=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmQr6Ya1MmiSOGROQiHIRGJu5dn5VHVWuTFd2lygf_L8S2x0sCBGUQiykVjSNbZnA3Iow0gf2K4=w1366-h697",
       "building_key": "A",
       "main_info": "الإدارة القديم",
-      "location": "gaza"
+      "location": "الجامعة الاسلامية - غزة"
     },
     {
-      "building_name": "تكنولوجيا المعلومات",
+      "building_name": "مبنى تكنولوجيا المعلومات",
       "main_image": "building_13",
       "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmTTARAP5uZuxYaOlSyU0XhzlMW7MGZ8CBigoiLYqzpQ2UPrCOoEamb-e9781UXMxaKm_TtuTds=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmR4739P6q5Ql9pfCd0EyklqqeYMifz-s4BaldjbyiljflhUtf-LyVUndeDoGW6E8p7VrZ8iQVs=w1366-h697",
       "main_info": "تكنولوجيا المعلومات",
       "building_key": "I",
-      "location": "gaza"
+      "location": "الجامعة الاسلامية - غزة"
     },
     {
-      "building_name": "كلية الطب",
+      "building_name": "مبنى كلية الطب",
       "main_image": "building_13",
       "other_images": "https://lh3.googleusercontent.com/drive-viewer/AJc5JmTTARAP5uZuxYaOlSyU0XhzlMW7MGZ8CBigoiLYqzpQ2UPrCOoEamb-e9781UXMxaKm_TtuTds=w1366-h697\r\nhttps://lh3.googleusercontent.com/drive-viewer/AJc5JmR4739P6q5Ql9pfCd0EyklqqeYMifz-s4BaldjbyiljflhUtf-LyVUndeDoGW6E8p7VrZ8iQVs=w1366-h697",
       "main_info": "كلية الطب",
       "building_key": " ",
-      "location": "حانيونس"
+      "location": "الجامعة الاسلامية - حانيونس"
     }
   ]
 }

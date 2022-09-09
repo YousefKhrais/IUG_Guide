@@ -98,18 +98,31 @@ public class ContactUsBottomSheetDialog extends BottomSheetDialogFragment {
         Contact contact = DataHelper.findContactByTitle(title);
         if (contact != null) {
             contactCard.setVisibility(View.VISIBLE);
-            titleTextView.setText(contact.getTitle());
-            urlTextView.setText("اضغط هنا");
-            emailTextView.setText(contact.getEmail());
-            aboutTextView.setText(contact.getAbout());
 
+            titleTextView.setText(contact.getTitle());
+
+            urlTextView.setText("اضغط هنا");
             urlTextView.setOnClickListener(view -> openWebPageFromUrl(contact.getUrl()));
 
-            emailTextView.setOnClickListener(view -> {
-                Intent email = new Intent(Intent.ACTION_SENDTO);
-                email.setData(Uri.parse("mailto:" + contact.getEmail()));
-                getContext().startActivity(email);
-            });
+            if (contact.getEmail().equals("0")) {
+                emailTextView.setText("لا يوجد");
+
+                emailTextView.setOnClickListener(view -> {});
+            } else {
+                emailTextView.setText(contact.getEmail());
+
+                emailTextView.setOnClickListener(view -> {
+                    Intent email = new Intent(Intent.ACTION_SENDTO);
+                    email.setData(Uri.parse("mailto:" + contact.getEmail()));
+                    getContext().startActivity(email);
+                });
+            }
+
+            if (contact.getAbout().equals("0")) {
+                aboutTextView.setText("لا يوجد");
+            } else {
+                aboutTextView.setText(contact.getAbout());
+            }
         }
     }
 

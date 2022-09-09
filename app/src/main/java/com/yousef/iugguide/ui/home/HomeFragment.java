@@ -64,6 +64,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         homeItems.add(new HomeItem("button_contact_us", "تواصل معنا", R.drawable.ic_headphone));
         homeItems.add(new HomeItem("button_internet_guide", "انترنت الجامعة", R.drawable.ic_wifi));
         homeItems.add(new HomeItem("button_about_us", "عن التطبيق", R.drawable.ic_info));
+        homeItems.add(new HomeItem("button_centers", "مراكز الجامعة", R.drawable.ic_center));
 
         HomeAdapter homeAdapter = new HomeAdapter(getActivity(), homeItems, this);
 
@@ -210,6 +211,12 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         universityMapiBottomSheetDialog.show(getChildFragmentManager(), "universityMapiBottomSheetDialog");
     }
 
+    private void openCentersPage() {
+        CentersBottomSheetDialog centersBottomSheetDialog = new CentersBottomSheetDialog();
+        centersBottomSheetDialog.setCancelable(true);
+        centersBottomSheetDialog.show(getChildFragmentManager(), "centersBottomSheetDialog");
+    }
+
     private void openWebPageFromUrl(String url) {
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
@@ -257,6 +264,10 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 
             case "button_internet_guide":
                 openInternetGuidePage();
+                break;
+
+            case "button_centers":
+                openCentersPage();
                 break;
 
             case "button_moodle":

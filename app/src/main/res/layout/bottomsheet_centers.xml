@@ -2,9 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coverPageFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/shape_rounded_bottom_sheet"
     android:orientation="vertical">
 
     <androidx.appcompat.widget.Toolbar
@@ -19,17 +19,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="دليل الالتحاق"
+            android:text="مراكز الجامعة"
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold" />
     </androidx.appcompat.widget.Toolbar>
 
-    <ernestoyaquello.com.verticalstepperform.VerticalStepperFormView
-        android:id="@+id/stepper_form"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/centers_rv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:form_circle_background_color="@color/primary"
-        app:form_next_button_background_color="@color/primary"
-        app:form_next_button_pressed_background_color="@color/primary" />
+        tools:itemCount="10"
+        tools:listitem="@layout/item_center" />
 </LinearLayout>

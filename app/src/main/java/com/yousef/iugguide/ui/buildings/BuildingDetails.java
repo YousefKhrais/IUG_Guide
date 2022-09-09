@@ -31,9 +31,11 @@ public class BuildingDetails extends AppCompatActivity {
             slideModels.add(new SlideModel(image, ScaleTypes.FIT));
 
         imageSlider.setImageList(slideModels, ScaleTypes.FIT);
-        binding.buildingName.setText(AppClass.chosenBuilding.getName());
+
         binding.buildingInfo.setText("معلومات عامة عن المبنى : " + AppClass.chosenBuilding.getDescription());
+
         binding.buildingLocation.setText("مكان المبنى : " + AppClass.chosenBuilding.getLocation());
-        binding.buildingKey.setText(AppClass.chosenBuilding.getKey());
+
+        binding.toolbarTitle.setText(AppClass.chosenBuilding.getKey() + "  " + AppClass.chosenBuilding.getName());
     }
 }

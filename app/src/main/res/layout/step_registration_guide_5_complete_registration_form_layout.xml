@@ -57,25 +57,29 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/day3" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/admissionVideoButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:background="@drawable/shape_rounded_button"
             android:text="فيديو توضيحي"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/secondary_accent"
             app:layout_constraintEnd_toStartOf="@+id/admissionApplicationButton"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/day4" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/admissionApplicationButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:background="@drawable/shape_rounded_button"
             android:text="طلب الالتحاق"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/secondary_accent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/admissionVideoButton"

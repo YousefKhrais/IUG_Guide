@@ -5,6 +5,7 @@ import android.content.Context;
 import com.yousef.iugguide.AppClass;
 import com.yousef.iugguide.R;
 import com.yousef.iugguide.models.Building;
+import com.yousef.iugguide.models.Center;
 import com.yousef.iugguide.models.College;
 import com.yousef.iugguide.models.Contact;
 import com.yousef.iugguide.models.Department;
@@ -285,4 +286,34 @@ public class DataHelper {
         }
     }
 
+    public void readCentersData(Context context) {
+        try {
+            InputStream inputStream = context.getResources().openRawResource(R.raw.centers);
+            String jsonString = new Scanner(inputStream).useDelimiter("\\A").next();
+
+            JSONObject root = new JSONObject(jsonString);
+
+            JSONArray array = root.getJSONArray("centers");
+
+            for (int i = 0; i < array.length(); i++) {
+                JSONObject object = array.getJSONObject(i);
+
+                Center center = new Center();
+
+                center.setId(i);
+                center.setTitle(object.getString("title"));
+                center.setImageUrl(object.getString("image"));
+                center.setUrl(object.getString("url"));
+                center.setEmail(object.getString("email"));
+                center.setAbout(object.getString("about"));
+
+                if (center.getImageUrl().equals("0"))
+                    center.setImageUrl("logo_iug");
+
+                AppClass.centersArrayList.add(center);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }

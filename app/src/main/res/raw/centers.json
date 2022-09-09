@@ -1,0 +1,151 @@
+{
+  "centers": [
+    {
+      "title": "مركز التميز والتعليم الالكتروني",
+      "url": "http://elearning.iugaza.edu.ps/",
+      "email": "elearning@iugaza.edu.ps",
+      "about": "0",
+      "image": "0"
+    },
+    {
+      "title": "معهد التنمية المجتمعية",
+      "url": "https://cdi.iugaza.edu.ps/",
+      "email": "cdi@iugaza.edu.ps",
+      "about": "0",
+      "image": "center_3"
+    },
+    {
+      "title": "مختبرات المـواد و التـربة",
+      "url": "https://mlab.iugaza.edu.ps/",
+      "email": "0",
+      "about": "0",
+      "image": "0"
+    },
+    {
+      "title": "حاضنة الأعمال والتكنولوجيا",
+      "url": "https://bti.ps/",
+      "email": "bti@iugaza.edu.ps",
+      "about": "0",
+      "image": "center_4"
+    },
+    {
+      "title": "إذاعة القرآن الكريم التعليمية",
+      "url": "http://qvoice.iugaza.edu.ps/",
+      "email": "qvoice@iugaza.edu.ps",
+      "about": "0",
+      "image": "center_6"
+    },
+    {
+      "title": "مركز القران الكريم والدعوة الإسلامية",
+      "url": "https://quran.iugaza.edu.ps/",
+      "email": "0",
+      "about": "0",
+      "image": "center_7"
+    },
+    {
+      "title": "لجنة الإفتاء",
+      "url": "https://eftaa.iugaza.edu.ps/",
+      "email": " iftaa@iugaza.edu.ps",
+      "about": "0",
+      "image": "0"
+    },
+    {
+      "title": "مركز الأبحاث والمشاريع",
+      "url": "https://prl.iugaza.edu.ps/",
+      "email": " prl@iugaza.edu.ps",
+      "about": "0",
+      "image": "center_8"
+    },
+    {
+      "title": "مركز عمارة التراث – إيوان",
+      "url": "https://iwan.iugaza.edu.ps/",
+      "email": " iwan@iugaza.edu.ps",
+      "about": "0",
+      "image": "0"
+    },
+    {
+      "title": "مركز تكنولوجيا التعليم",
+      "url": "https://educenter.iugaza.edu.ps/",
+      "email": "ETC@iugaza.edu.ps ",
+      "about": "0",
+      "image": "center_9"
+    },
+    {
+      "title": "مركز الإرشاد النفسي",
+      "url": "https://psycho.iugaza.edu.ps/",
+      "email": " psycho@iugaza.edu.ps",
+      "about": "0",
+      "image": "0"
+    },
+    {
+      "title": "مركز الدراسات البيئية والريفية",
+      "url": "https://ruralcenter.iugaza.edu.ps/",
+      "email": " errc@iugaza.edu.ps",
+      "about": "0",
+      "image": "0"
+    },
+    {
+      "title": "مركز التميز في تطوير تعليم الرياضيات والعلوم",
+      "url": "https://emse.iugaza.edu.ps/",
+      "email": " emse@iugaza.edu.ps",
+      "about": "0",
+      "image": "0"
+    },
+    {
+      "title": "مركز التأصيل الإسلامي لعلم النفس",
+      "url": "https://irp.iugaza.edu.ps/",
+      "email": " ahams@iugaza.edu.ps",
+      "about": "0",
+      "image": "center_10"
+    },
+    {
+      "title": "مركز التاريخ الشفوي والتراث الفلسطيني",
+      "url": "https://ohc.iugaza.edu.ps/",
+      "email": " ohc@iugaza.edu.ps",
+      "about": "0",
+      "image": "0"
+    },
+    {
+      "title": "مختبرات الجامعة للتحاليل الطبية والوراثية",
+      "url": "https://gen.iugaza.edu.ps/",
+      "email": "0",
+      "about": "0",
+      "image": "0"
+    },
+    {
+      "title": "مركز دراسات المرأة",
+      "url": "https://wsc.iugaza.edu.ps/",
+      "email": "she@iugaza.edu.ps",
+      "about": "0",
+      "image": "0"
+    },
+    {
+      "title": "مركز خدمات الإعاقة والدمج",
+      "url": "http://dsc.iugaza.edu.ps/en/",
+      "email": "0",
+      "about": "0",
+      "image": "center_11"
+    },
+    {
+      "title": "مركز تقصي الأمراض السارية",
+      "url": "http://site.iugaza.edu.ps/cdsc/",
+      "email": "0",
+      "about": "0",
+      "image": "center_12"
+    },
+    {
+      "title": "مركز التميز للطاقة المتجددة",
+      "url": "https://cere.iugaza.edu.ps/en/",
+      "email": "cere@iugaza.edu.ps",
+      "about": "0",
+      "image": "0"
+    },
+    {
+      "title": "مركز اللغة العربية لغير الناطقين بها",
+      "url": "http://arabic.iugaza.edu.ps/",
+      "email": "arabic@iugaza.edu.ps",
+      "about": "0",
+      "image": "center_14"
+    }
+  ]
+}
