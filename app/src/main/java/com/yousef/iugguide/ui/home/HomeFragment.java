@@ -65,6 +65,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         homeItems.add(new HomeItem("button_internet_guide", "انترنت الجامعة", R.drawable.ic_wifi));
         homeItems.add(new HomeItem("button_about_us", "عن التطبيق", R.drawable.ic_info));
         homeItems.add(new HomeItem("button_centers", "مراكز الجامعة", R.drawable.ic_center));
+        homeItems.add(new HomeItem("button_settings", "اعدادات التطبيق", R.drawable.ic_settings));
 
         HomeAdapter homeAdapter = new HomeAdapter(getActivity(), homeItems, this);
 
@@ -206,7 +207,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     }
 
     private void openUniversityMapPage() {
-        UniversityMapiBottomSheetDialog universityMapiBottomSheetDialog = new UniversityMapiBottomSheetDialog();
+        UniversityMapBottomSheetDialog universityMapiBottomSheetDialog = new UniversityMapBottomSheetDialog();
         universityMapiBottomSheetDialog.setCancelable(true);
         universityMapiBottomSheetDialog.show(getChildFragmentManager(), "universityMapiBottomSheetDialog");
     }
@@ -215,6 +216,12 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         CentersBottomSheetDialog centersBottomSheetDialog = new CentersBottomSheetDialog();
         centersBottomSheetDialog.setCancelable(true);
         centersBottomSheetDialog.show(getChildFragmentManager(), "centersBottomSheetDialog");
+    }
+
+    private void openSettingsPage() {
+        SettingsBottomSheetDialog settingsBottomSheetDialog = new SettingsBottomSheetDialog();
+        settingsBottomSheetDialog.setCancelable(true);
+        settingsBottomSheetDialog.show(getChildFragmentManager(), "settingsBottomSheetDialog");
     }
 
     private void openWebPageFromUrl(String url) {
@@ -268,6 +275,10 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 
             case "button_centers":
                 openCentersPage();
+                break;
+
+            case "button_settings":
+                openSettingsPage();
                 break;
 
             case "button_moodle":

@@ -18,12 +18,12 @@ import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 import com.yousef.iugguide.R;
 
-public class UniversityMapiBottomSheetDialog extends BottomSheetDialogFragment {
+public class SettingsBottomSheetDialog extends BottomSheetDialogFragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.bottomsheet_university_map, container, false);
+        View rootView = inflater.inflate(R.layout.bottomsheet_app_settings, container, false);
 
         return rootView;
     }
