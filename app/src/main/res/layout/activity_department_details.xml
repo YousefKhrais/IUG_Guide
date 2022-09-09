@@ -34,13 +34,13 @@
                 android:layout_weight="1" />
 
             <TextView
-                android:id="@+id/department_name"
+                android:id="@+id/collage_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="كلية تكنلوجيا المعلومات"
                 android:textColor="@color/black"
                 android:textDirection="rtl"
-                android:textSize="25dp" />
+                android:textSize="22dp" />
 
             <Space
                 android:layout_width="0dp"
@@ -54,6 +54,16 @@
                 android:src="@drawable/logo_art" />
         </LinearLayout>
 
+        <TextView
+            android:id="@+id/department_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="كلية تكنلوجيا المعلومات"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textDirection="rtl"
+            android:textSize="25dp" />
 
         <TextView
             android:id="@+id/department_info"
@@ -88,13 +98,14 @@
                 android:textColor="@color/black"
                 android:textDirection="rtl"
                 android:textSize="22sp" />
+
             <TextView
                 android:id="@+id/average"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="90"
                 android:layout_marginRight="2dp"
+                android:text="90"
                 android:textColor="@color/black"
                 android:textDirection="rtl"
                 android:textSize="22sp" />
@@ -107,6 +118,7 @@
                 android:textColor="@color/black"
                 android:textDirection="rtl"
                 android:textSize="22sp" />
+
             <TextView
                 android:id="@+id/section"
                 android:layout_width="wrap_content"
@@ -118,30 +130,31 @@
                 android:textSize="22sp" />
         </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layoutDirection="rtl"
-        android:orientation="horizontal"
-        >
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="رابط الخطة : "
-            android:textColor="@color/black"
-            android:textDirection="rtl"
-            android:textSize="22sp" />
-        <TextView
-            android:id="@+id/department_study_link"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="اضغط هنا"
-            android:textColor="#0000ff"
-            android:textStyle="italic"
-            android:textDirection="rtl"
-            android:textSize="22sp" />
-    </LinearLayout>
+            android:layoutDirection="rtl"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="رابط الخطة : "
+                android:textColor="@color/black"
+                android:textDirection="rtl"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/department_study_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="اضغط هنا"
+                android:textColor="#0000ff"
+                android:textDirection="rtl"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+        </LinearLayout>
     </LinearLayout>
 </androidx.cardview.widget.CardView>

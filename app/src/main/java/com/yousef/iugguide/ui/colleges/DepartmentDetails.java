@@ -23,7 +23,8 @@ public class DepartmentDetails extends AppCompatActivity {
         final int resourceId = resources.getIdentifier("logo_" + AppClass.chosenCollege.getImageUrl(), "drawable", this.getPackageName());
         binding.collegeIcon.setImageDrawable(resources.getDrawable(resourceId));
 
-        binding.departmentName.setText(AppClass.chosenDepartment.getName());
+        binding.collageName.setText(AppClass.chosenCollege.getName());
+        binding.departmentName.setText("قسم "+AppClass.chosenDepartment.getName());
         binding.departmentInfo.setText(AppClass.chosenDepartment.getDescription());
         binding.average.setText(AppClass.chosenDepartment.getFormatKey());
         binding.section.setText(AppClass.chosenDepartment.getSection());
