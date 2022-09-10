@@ -42,30 +42,34 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         List<HomeItem> homeItems = new ArrayList<>();
 
         homeItems.add(new HomeItem("button_registration_guide", "دليل الالتحاق", R.drawable.ic_guide));
-//        homeItems.add(new HomeItem("button_acceptance_key", "مفتاح القبول", R.drawable.ic_key));
-        homeItems.add(new HomeItem("button_university_facilities", "مرافق الجامعة", R.drawable.ic_facilities));
-        homeItems.add(new HomeItem("button_map", "تجول في الجامعة", R.drawable.ic_map));
-        homeItems.add(new HomeItem("button_volunteer_work", "العمل التطوعي", R.drawable.ic_volunteer));
-        homeItems.add(new HomeItem("button_faq", "أسئلة شائعة", R.drawable.ic_faq3));
+        homeItems.add(new HomeItem("button_admission_application", "طلب الالتحاق", R.drawable.ic_admission_application));
         homeItems.add(new HomeItem("button_about_iug", "عن الجامعة", R.drawable.ic_faq1));
 
+        homeItems.add(new HomeItem("button_university_facilities", "مرافق الجامعة", R.drawable.ic_facilities));
+        homeItems.add(new HomeItem("button_centers", "مراكز الجامعة", R.drawable.ic_center));
+        homeItems.add(new HomeItem("button_map", "تجول في الجامعة", R.drawable.ic_map));
+
+        homeItems.add(new HomeItem("button_volunteer_work", "العمل التطوعي", R.drawable.ic_volunteer));
+        homeItems.add(new HomeItem("button_faq", "أسئلة شائعة", R.drawable.ic_faq3));
+        homeItems.add(new HomeItem("button_contact_us", "تواصل معنا", R.drawable.ic_headphone));
+
+        homeItems.add(new HomeItem("button_university_website", "موقع الجامعة", R.drawable.ic_website));
         homeItems.add(new HomeItem("button_student_services", "خدمات الطالب", R.drawable.ic_bachelor_icon));
-        homeItems.add(new HomeItem("button_library", "المكتبة المركزية", R.drawable.ic_library2));
+        homeItems.add(new HomeItem("button_moodle", "مودل", R.drawable.ic_screen));
+
         homeItems.add(new HomeItem("button_alumni_affairs", "شؤون الخريجين", R.drawable.ic_graduate3));
-        homeItems.add(new HomeItem("button_complaints_box", "صندوق فضفضة", R.drawable.ic_complaints_box));
+        homeItems.add(new HomeItem("button_library", "المكتبة المركزية", R.drawable.ic_library2));
         homeItems.add(new HomeItem("button_business_incubator", "حاضنة الاعمال", R.drawable.ic_business_incubator));
+
+        homeItems.add(new HomeItem("button_scholarships", "المنح الدراسية", R.drawable.ic_money));
         homeItems.add(new HomeItem("button_events", "الفعاليات", R.drawable.ic_events));
         homeItems.add(new HomeItem("button_announcements", "الاعلانات", R.drawable.ic_announcement));
-        homeItems.add(new HomeItem("button_moodle", "مودل", R.drawable.ic_moodle));
-        homeItems.add(new HomeItem("button_scholarships", "المنح الدراسية", R.drawable.ic_scholarships));
-        homeItems.add(new HomeItem("button_admission_application", "طلب الالتحاق", R.drawable.ic_admission_application));
-        homeItems.add(new HomeItem("button_university_website", "موقع الجامعة", R.drawable.ic_website));
 
-        homeItems.add(new HomeItem("button_contact_us", "تواصل معنا", R.drawable.ic_headphone));
+        homeItems.add(new HomeItem("button_complaints_box", "صندوق فضفضة", R.drawable.ic_complaints_box));
         homeItems.add(new HomeItem("button_internet_guide", "انترنت الجامعة", R.drawable.ic_wifi));
-        homeItems.add(new HomeItem("button_about_us", "عن التطبيق", R.drawable.ic_info));
-        homeItems.add(new HomeItem("button_centers", "مراكز الجامعة", R.drawable.ic_center));
+
         homeItems.add(new HomeItem("button_settings", "اعدادات التطبيق", R.drawable.ic_settings));
+        homeItems.add(new HomeItem("button_about_us", "عن التطبيق", R.drawable.ic_info));
 
         HomeAdapter homeAdapter = new HomeAdapter(getActivity(), homeItems, this);
 

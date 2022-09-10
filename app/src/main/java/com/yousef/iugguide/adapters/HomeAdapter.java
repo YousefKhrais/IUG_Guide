@@ -1,6 +1,8 @@
 package com.yousef.iugguide.adapters;
 
 import android.content.Context;
+import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,6 +10,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.content.res.AppCompatResources;
+import androidx.core.graphics.drawable.DrawableCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.yousef.iugguide.R;
@@ -41,6 +45,12 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
         holder.title.setText(homeItems.get(position).getTitle());
         holder.gridIcon.setImageResource(homeItems.get(position).getImageResId());
         holder.itemView.setTag(homeItems.get(position).getTag());
+
+        Drawable unwrappedDrawable = AppCompatResources.getDrawable(ctx, homeItems.get(position).getImageResId());
+        Drawable wrappedDrawable = DrawableCompat.wrap(unwrappedDrawable);
+        DrawableCompat.setTint(wrappedDrawable, Color.GREEN);
+
+        holder.gridIcon.setImageDrawable(wrappedDrawable);
     }
 
     @Override

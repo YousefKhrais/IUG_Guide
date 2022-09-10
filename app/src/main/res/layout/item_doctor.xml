@@ -70,7 +70,8 @@
                     android:drawablePadding="8dp"
                     android:text="التخصص:"
                     android:textColor="@color/black"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    app:drawableTint="@color/secondary" />
 
                 <TextView
                     android:id="@+id/specialty"
@@ -96,7 +97,8 @@
                     android:drawablePadding="8dp"
                     android:text="الدرجة العلمية:"
                     android:textColor="@color/black"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    app:drawableTint="@color/secondary" />
 
                 <TextView
                     android:id="@+id/degree"
@@ -122,7 +124,8 @@
                     android:drawablePadding="8dp"
                     android:text="هاتف داخلي:"
                     android:textColor="@color/black"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    app:drawableTint="@color/secondary" />
 
                 <TextView
                     android:id="@+id/room_number"
@@ -148,7 +151,8 @@
                     android:drawablePadding="8dp"
                     android:text="الايميل :"
                     android:textColor="@color/black"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    app:drawableTint="@color/secondary" />
 
                 <TextView
                     android:id="@+id/email"
@@ -157,7 +161,8 @@
                     android:layout_margin="5dp"
                     android:text="mohammed8261812@gmail.com"
                     android:textColor="#0000ff"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    app:drawableTint="@color/secondary" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

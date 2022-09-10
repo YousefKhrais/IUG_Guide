@@ -121,7 +121,8 @@
                             android:drawablePadding="8dp"
                             android:text="رابط الصفحة:"
                             android:textColor="@color/black"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            app:drawableTint="@color/secondary" />
 
                         <TextView
                             android:id="@+id/url"
@@ -147,7 +148,8 @@
                             android:drawablePadding="8dp"
                             android:text="الايميل :"
                             android:textColor="@color/black"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            app:drawableTint="@color/secondary" />
 
                         <TextView
                             android:id="@+id/email"
@@ -174,7 +176,8 @@
                             android:drawablePadding="8dp"
                             android:text="تفاصيل :"
                             android:textColor="@color/black"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            app:drawableTint="@color/secondary" />
 
                         <TextView
                             android:id="@+id/about"
