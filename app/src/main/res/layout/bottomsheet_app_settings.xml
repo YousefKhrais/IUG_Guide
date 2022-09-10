@@ -33,25 +33,44 @@
         tools:context=".MainActivity"
         tools:ignore="HardcodedText">
 
-        <com.flask.colorpicker.ColorPickerView
-            android:id="@+id/color_picker_view"
+        <Button
+            android:id="@+id/icon_color_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:alphaSlider="true"
-            app:alphaSliderView="@+id/v_alpha_slider"
-            app:density="12"
-            app:lightnessSlider="true"
-            app:lightnessSliderView="@+id/v_lightness_slider"
-            app:wheelType="FLOWER" />
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_rounded_button"
+            android:text="تغير لون الايقونات"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/secondary_accent" />
 
-        <com.flask.colorpicker.slider.LightnessSlider
-            android:id="@+id/v_lightness_slider"
+        <Button
+            android:id="@+id/background_color_button"
             android:layout_width="match_parent"
-            android:layout_height="48dp" />
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_rounded_button"
+            android:text="تغير لون الازرار"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/secondary_accent" />
 
-        <com.flask.colorpicker.slider.AlphaSlider
-            android:id="@+id/v_alpha_slider"
+        <Button
+            android:id="@+id/font_color_button"
             android:layout_width="match_parent"
-            android:layout_height="48dp" />
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_rounded_button"
+            android:text="تغير لون الخط"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/secondary_accent" />
+
+        <Button
+            android:id="@+id/reset_settings_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_rounded_button"
+            android:text="استرجاع الاعدادات الافتراضية"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/secondary_accent" />
     </LinearLayout>
 </LinearLayout>

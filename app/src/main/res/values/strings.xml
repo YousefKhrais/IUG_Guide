@@ -1,15 +1,4 @@
 <resources>
-    <!--    <string name="title_home">Home</string>-->
-    <!--    <string name="title_dashboard">Dashboard</string>-->
-    <!--    <string name="title_notifications">Notifications</string>-->
-    <!--    <string name="title_buildings">Buildings</string>-->
-    <!--    <string name="title_colleges">Colleges</string>-->
-    <!--    <string name="title_guide">Student Guide</string>-->
-    <!--    <string name="title_bachelor">Bachelor </string>-->
-    <!--    <string name="title_master">Master</string>-->
-    <!--    <string name="title_phd">PHD</string>-->
-    <!-- Strings used for fragments for navigation -->
-
     <string name="app_name">دليل الجامعة الاسلامية</string>
 
     <string name="title_home">الرئيسية</string>
@@ -38,4 +27,6 @@
     <string name="building_key">رمز المبنى :</string>
     <string name="college_location">مقر العمادة:</string>
     <string name="empty_department_message">لا يوجد أقسام هنا</string>
+    <string name="confirm">تاكيد</string>
+    <string name="cancel">الغاء</string>
 </resources>
