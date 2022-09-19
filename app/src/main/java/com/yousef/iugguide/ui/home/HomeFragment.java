@@ -43,11 +43,12 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 
         homeItems.add(new HomeItem("button_registration_guide", "دليل الالتحاق", R.drawable.ic_guide));
         homeItems.add(new HomeItem("button_admission_application", "طلب الالتحاق", R.drawable.ic_admission_application));
-        homeItems.add(new HomeItem("button_about_iug", "عن الجامعة", R.drawable.ic_faq1));
+        homeItems.add(new HomeItem("button_acceptance_key", "مفتاح القبول", R.drawable.ic_key));
 
+        homeItems.add(new HomeItem("button_about_iug", "عن الجامعة", R.drawable.ic_faq1));
         homeItems.add(new HomeItem("button_university_facilities", "مرافق الجامعة", R.drawable.ic_facilities));
         homeItems.add(new HomeItem("button_centers", "مراكز الجامعة", R.drawable.ic_center));
-        homeItems.add(new HomeItem("button_map", "تجول في الجامعة", R.drawable.ic_map));
+//        homeItems.add(new HomeItem("button_map", "تجول في الجامعة", R.drawable.ic_map));
 
         homeItems.add(new HomeItem("button_volunteer_work", "العمل التطوعي", R.drawable.ic_volunteer));
         homeItems.add(new HomeItem("button_faq", "أسئلة شائعة", R.drawable.ic_faq3));
@@ -171,7 +172,9 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     }
 
     private void openAcceptanceKeyPage() {
-        startActivity(new Intent(getActivity(), AcceptanceKeys.class));
+        AcceptanceKeysSheetDialog acceptanceKeysSheetDialog = new AcceptanceKeysSheetDialog();
+        acceptanceKeysSheetDialog.setCancelable(true);
+        acceptanceKeysSheetDialog.show(getChildFragmentManager(), "acceptanceKeysSheetDialog");
     }
 
     private void openAboutIUGPage() {
